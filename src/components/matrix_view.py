@@ -2,54 +2,147 @@ import streamlit as st
 
 def render_matrix_view(indices):
     """
-    Renders One Health composite metric scorecards and status indicators.
+    Renders the primary dashboard metrics following data-dashboard skill standards:
+    - Band 1: Hero Lead Metric (Overall Ecosystem Vitality)
+    - Band 2: Three Distinct Composite Pillars with embedded meter tracks
+    - Band 3: Monospace telemetry readouts with directional context
     """
-    st.markdown("<div class='section-header'>🩺 One Health Composite Matrix</div>", unsafe_allow_html=True)
+    v = indices["vitality"]
+    v_status = indices["vitality_status"]
+    v_delta = indices["vitality_delta"]
+    delta_sign = "+" if v_delta >= 0 else ""
+    delta_color = "#10B981" if v_delta >= 0 else "#F43F5E"
+
+    # Band 1: Hero Lead Metric Card
+    v_chip_class = "chip-good" if v >= 70 else ("chip-warn" if v >= 48 else "chip-danger")
     
+    st.markdown(f"""
+    <div class="hero-lead-card">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+            <div>
+                <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94A3B8; margin-bottom: 6px;">
+                    🎯 Lead Indicator • Overall Freshwater Ecosystem Vitality
+                </div>
+                <div style="display: flex; align-items: baseline; gap: 16px;">
+                    <div class="hero-score-badge">{v}</div>
+                    <div style="font-size: 1.2rem; color: #64748B; font-weight: 600;">/ 100</div>
+                    <span class="{v_chip_class}">● {v_status}</span>
+                </div>
+                <div style="color: #94A3B8; font-size: 0.9rem; margin-top: 8px;">
+                    Baseline Delta: <span style="color: {delta_color}; font-weight: 700; font-family: 'JetBrains Mono', monospace;">{delta_sign}{v_delta} pts</span> vs. European Seasonal Norm
+                </div>
+            </div>
+            <div style="text-align: right; background: rgba(11, 14, 20, 0.6); padding: 12px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="color: #64748B; font-size: 0.75rem; text-transform: uppercase; font-weight: 600;">Data Reliability</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 1.3rem; font-weight: 700; color: #00F2FE;">
+                    {indices['metrics']['sampling_confidence']}% Conf.
+                </div>
+                <div style="font-size: 0.75rem; color: #10B981; font-weight: 500;">● {indices['metrics']['sensor_nodes_online']} Nodes Online</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Band 2: Three Composite Pillars
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        ehi_color_class = "kpi-status-good" if indices["EHI_status"] == "Good" else ("kpi-status-warning" if indices["EHI_status"] == "Moderate" else "kpi-status-critical")
+        ehi = indices["EHI"]
+        ehi_fill_class = "meter-fill-good" if ehi >= 68 else ("meter-fill-warn" if ehi >= 48 else "meter-fill-danger")
+        ehi_chip_class = "chip-good" if ehi >= 68 else ("chip-warn" if ehi >= 48 else "chip-danger")
         st.markdown(f"""
-        <div class="kpi-card">
-            <div class="kpi-title">Ecological Health (EHI)</div>
-            <div class="kpi-value">{indices['EHI']} <span style="font-size: 1rem; color: #8B949E;">/ 100</span></div>
-            <div class="{ehi_color_class}">● {indices['EHI_status']} Status</div>
+        <div class="pillar-card">
+            <div class="pillar-header">
+                <span>🌱 Ecological Health (EHI)</span>
+                <span class="{ehi_chip_class}">{indices['EHI_status']}</span>
+            </div>
+            <div class="pillar-value">{ehi} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
+            <div class="meter-track">
+                <div class="{ehi_fill_class}" style="width: {ehi}%;"></div>
+            </div>
+            <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
+                Oxygenation, benthic macroinvertebrates, & shoreline buffer.
+            </div>
         </div>
         """, unsafe_allow_html=True)
 
     with col2:
-        hhri_color_class = "kpi-status-good" if indices["HHRI_status"] == "Low Risk" else ("kpi-status-warning" if indices["HHRI_status"] == "Moderate Risk" else "kpi-status-critical")
+        hhri = indices["HHRI"]
+        hhri_fill_class = "meter-fill-good" if hhri < 35 else ("meter-fill-warn" if hhri < 60 else "meter-fill-danger")
+        hhri_chip_class = "chip-good" if hhri < 35 else ("chip-warn" if hhri < 60 else "chip-danger")
         st.markdown(f"""
-        <div class="kpi-card">
-            <div class="kpi-title">Human Health Risk (HHRI)</div>
-            <div class="kpi-value">{indices['HHRI']} <span style="font-size: 1rem; color: #8B949E;">/ 100</span></div>
-            <div class="{hhri_color_class}">● {indices['HHRI_status']}</div>
+        <div class="pillar-card">
+            <div class="pillar-header">
+                <span>🦠 Human Health Risk (HHRI)</span>
+                <span class="{hhri_chip_class}">{indices['HHRI_status']}</span>
+            </div>
+            <div class="pillar-value">{hhri} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
+            <div class="meter-track">
+                <div class="{hhri_fill_class}" style="width: {hhri}%;"></div>
+            </div>
+            <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
+                Pathogen loads, microbial runoff, & mosquito vector density.
+            </div>
         </div>
         """, unsafe_allow_html=True)
 
     with col3:
-        ucsi_color_class = "kpi-status-good" if indices["UCSI_status"] == "Low Stress" else ("kpi-status-warning" if indices["UCSI_status"] == "Moderate Stress" else "kpi-status-critical")
+        ucsi = indices["UCSI"]
+        ucsi_fill_class = "meter-fill-good" if ucsi < 38 else ("meter-fill-warn" if ucsi < 65 else "meter-fill-danger")
+        ucsi_chip_class = "chip-good" if ucsi < 38 else ("chip-warn" if ucsi < 65 else "chip-danger")
         st.markdown(f"""
-        <div class="kpi-card">
-            <div class="kpi-title">Urban Climate Stress (UCSI)</div>
-            <div class="kpi-value">{indices['UCSI']} <span style="font-size: 1rem; color: #8B949E;">/ 100</span></div>
-            <div class="{ucsi_color_class}">● {indices['UCSI_status']}</div>
+        <div class="pillar-card">
+            <div class="pillar-header">
+                <span>🌡️ Climate & Urban Stress (UCSI)</span>
+                <span class="{ucsi_chip_class}">{indices['UCSI_status']}</span>
+            </div>
+            <div class="pillar-value">{ucsi} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
+            <div class="meter-track">
+                <div class="{ucsi_fill_class}" style="width: {ucsi}%;"></div>
+            </div>
+            <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
+                Urban heat island delta & stormwater absorption capacity.
+            </div>
         </div>
         """, unsafe_allow_html=True)
 
+    # Band 3: Monospace telemetry metrics
     st.write("")
-    st.markdown("#### 🔬 Detailed Parameter Breakdown")
     m = indices["metrics"]
     bcol1, bcol2, bcol3, bcol4, bcol5 = st.columns(5)
     
     with bcol1:
-        st.metric("Dissolved Oxygen", f"{m['eff_do']} mg/L", delta="Optimal > 7.0")
+        st.metric(
+            label="Dissolved Oxygen",
+            value=f"{m['eff_do']} mg/L",
+            delta="Optimal > 7.0 mg/L",
+            delta_color="normal" if m['eff_do'] >= 7.0 else "inverse"
+        )
     with bcol2:
-        st.metric("Macroinvertebrate Index", f"{m['eff_macro']} / 10", delta="Bio-indicator")
+        st.metric(
+            label="Benthic Bio-Index",
+            value=f"{m['eff_macro']} / 10",
+            delta="Target > 6.5",
+            delta_color="normal" if m['eff_macro'] >= 6.5 else "inverse"
+        )
     with bcol3:
-        st.metric("Pathogen Load (E. coli)", f"{m['eff_e_coli']} CFU", delta="Risk > 500", delta_color="inverse")
+        st.metric(
+            label="Pathogen (E. coli)",
+            value=f"{m['eff_e_coli']} CFU",
+            delta="Warning > 400",
+            delta_color="inverse"
+        )
     with bcol4:
-        st.metric("Mosquito Vector Index", f"{m['eff_vector']} / 100", delta="Vector Risk", delta_color="inverse")
+        st.metric(
+            label="Vector Density",
+            value=f"{m['eff_vector']} / 100",
+            delta="Threshold > 50",
+            delta_color="inverse"
+        )
     with bcol5:
-        st.metric("Riparian Buffer Cover", f"{m['eff_riparian']}%", delta="Target > 65%")
+        st.metric(
+            label="Riparian Buffer",
+            value=f"{m['eff_riparian']}%",
+            delta="EU Goal > 60%",
+            delta_color="normal" if m['eff_riparian'] >= 60 else "inverse"
+        )
