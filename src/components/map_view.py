@@ -10,11 +10,12 @@ def render_map_view(city_data, segments, sensors_df, reports_df):
     coords = city_data["coords"]
     zoom = city_data["zoom"]
     
-    # Initialize Folium Map with CartoDB Dark Matter tile theme
+    # Initialize Folium Map with clean dark tile layer
     m = folium.Map(
         location=coords,
         zoom_start=zoom,
-        tiles="CartoDB dark_matter"
+        tiles="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+        attr="&copy; OpenStreetMap contributors &copy; CARTO"
     )
     
     # Add Stream Segments (Polylines)
