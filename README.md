@@ -1,97 +1,100 @@
-# 🌊 OneAqua Insight Hub
-> **IEEE OneAquaHealth Global Hackathon 2026 Submission**  
-> **Track 2: Data-to-Insight**
+# OneAqua Insight Hub
 
-![OneAquaHealth Alignment](https://img.shields.io/badge/IEEE%20Hackathon-OneAquaHealth-00F2FE?style=for-the-badge)
-![Track Alignment](https://img.shields.io/badge/Track-Data--to--Insight-blueviolet?style=for-the-badge)
-![Python Streamlit](https://img.shields.io/badge/Built%20With-Streamlit%20%7C%20Folium%20%7C%20Plotly-00C853?style=for-the-badge)
+A personal project built for the **IEEE OneAquaHealth Global Hackathon 2026 (Track 2: Data-to-Insight)**.
 
----
+The idea behind this dashboard is straightforward: connect urban stream health with public health and climate stress across European cities, rather than looking at water quality in isolation. It brings together open environmental datasets, in-situ sensor telemetry, and citizen science reports into a unified decision-support tool.
 
-## 📌 Executive Summary
-
-**OneAqua Insight Hub** is a decision-support and geospatial analytics platform built for the **IEEE OneAquaHealth Global Hackathon 2026**. It harmonizes citizen science observations, environmental sensor streams, and urban climate data into actionable **One Health insights** linking urban freshwater ecosystem health directly to human and community well-being.
-
-Aligned with the Horizon Europe [OneAquaHealth Project](https://www.oneaquahealth.eu/), the platform features empirical monitoring frameworks across **5 European Pilot Cities**:
-1. **Coimbra** (Portugal)
-2. **Toulouse** (France)
-3. **Benevento** (Italy)
-4. **Gent** (Belgium)
-5. **Oslo** (Norway)
+The app focuses on 5 official EU pilot catchments:
+- **Coimbra, Portugal** (Mondego Basin)
+- **Toulouse, France** (Garonne Basin)
+- **Benevento, Italy** (Calore Irpino Basin)
+- **Gent, Belgium** (Scheldt & Leie Confluence)
+- **Oslo, Norway** (Akerselva Basin)
 
 ---
 
-## 🎯 Key Features
+## What it does
 
-- 🗺️ **Geospatial Intelligence Map**: Multi-layer GIS rendering stream segment polylines, water quality sensor nodes, mosquito vector risk heatmaps, and citizen observation reports.
-- 🩺 **One Health Composite Matrix**: Real-time evaluation of:
-  - **Ecological Health Index (EHI)**: Dissolved oxygen, pH, benthic macroinvertebrates, and riparian buffer index.
-  - **Human Health Risk Index (HHRI)**: Pathogen/E. coli load, Diptera/Mosquito vector density, and cyanobacteria bloom alerts.
-  - **Urban Climate Stress Index (UCSI)**: Urban heat island delta and stormwater runoff capacity.
-- 🤖 **Automated AI Policy Synthesizer**: Generates plain-language executive summaries and threshold-triggered risk advisories for municipal authorities and researchers.
-- ⚡ **"What-If" Climate & Resilience Simulator**: Interactive scenario sandbox allowing users to model extreme rainfall, heatwave spikes, and green infrastructure restoration.
-- 📄 **Executive Policy Brief Exporter**: One-click downloadable One Health policy reports.
+- **Geospatial Map**: Folium-based map showing stream segments color-coded by water quality, along with IoT sensor stations and crowd-sourced citizen reports.
+- **One Health Vitality Score**: A composite metric combining:
+  - **Ecological Health Index (EHI)**: Dissolved oxygen, macroinvertebrate indicators, and riparian buffer coverage.
+  - **Human Health Risk Index (HHRI)**: Microbial pathogen counts (E. coli) and mosquito vector breeding risks.
+  - **Urban Climate Stress Index (UCSI)**: Urban heat island anomalies and stormwater runoff pressures.
+- **Scenario Sandbox**: Sliders to test "what-if" situations like summer heatwaves, heavy storm runoff, or adding riparian vegetation to see how the scores react.
+- **Time-Series Analytics**: Interactive multi-axis charts comparing temperature vs. dissolved oxygen and precipitation spikes vs. bacterial loads.
+- **Policy Brief Exporter**: Generates a clean markdown summary outlining current stream status and suggested mitigation steps.
 
 ---
 
-## 🏗️ Repository Architecture
+## Data Sources
 
-```text
-OneAqua-Insight-Hub/
-├── .streamlit/
-│   └── config.toml         # Dark slate theme & port settings
-├── src/
-│   ├── styles.py           # Custom CSS injection (glassmorphism UI)
-│   ├── data_loader.py      # Stream segments & sensor telemetry loader
-│   ├── engine.py           # Composite index models & narrative generator
-│   └── components/
-│       ├── map_view.py     # Interactive Folium map renderer
-│       ├── matrix_view.py  # One Health scorecards & KPI widgets
-│       ├── analytics_view.py # Plotly time-series analytics
-│       ├── simulator_view.py # "What-If" scenario sandbox
-│       └── policy_view.py  # Policy brief exporter
-├── app.py                  # Main Streamlit application entry point
-├── requirements.txt        # Python dependency manifest
-└── README.md               # Project documentation & setup guide
+The project pulls from real open-access European environmental portals:
+- **Toulouse**: Hub'Eau API / Naïades (French national water quality database)
+- **Gent**: GBIF & VMM (Flanders Environment Agency macroinvertebrate records)
+- **Benevento**: ARPAC Campania Open Data Portal (surface water monitoring)
+- **Coimbra**: SNIRH (Portuguese national water resources information system)
+- **Oslo**: NVE HydAPI (Akerselva Brekkefossen station)
+
+You can re-fetch or update the cached datasets anytime by running:
+```bash
+python scripts/fetch_all_cities_data.py
 ```
 
 ---
 
-## 🚀 Quick Start (Local Setup)
+## Project Structure
 
-### Prerequisites
-- Python 3.10 or higher
-- Git
+```text
+OneAqua-Insight-Hub/
+├── app.py                      # Main Streamlit dashboard
+├── src/
+│   ├── engine.py               # Composite scoring math and summary generator
+│   ├── data_loader.py          # Data loaders and city configurations
+│   ├── styles.py               # Custom UI styles (dark theme, cards)
+│   └── components/
+│       ├── map_view.py         # GIS map component
+│       ├── matrix_view.py      # Scorecards and telemetry badges
+│       ├── analytics_view.py   # Plotly charts and correlation matrix
+│       ├── simulator_view.py   # Sidebar scenario controls
+│       └── policy_view.py      # Policy summary and export
+├── data/                       # Cached open datasets for the 5 cities
+├── scripts/                    # Helper scripts for fetching open data
+├── requirements.txt            # Python dependencies
+└── README.md
+```
 
-### Installation
+---
+
+## Getting Started
+
+### 1. Clone & set up environment
 ```bash
-# 1. Clone repository
-git clone https://github.com/YOUR_USERNAME/oneaqua-insight-hub.git
+git clone https://github.com/aliirtaza58/oneaqua-insight-hub.git
 cd oneaqua-insight-hub
 
-# 2. Create and activate virtual environment
 python -m venv .venv
-# On Windows PowerShell:
-.venv\Scripts\Activate.ps1
-# On macOS/Linux:
+
+# On Windows:
+.venv\Scripts\activate
+# On Linux/macOS:
 source .venv/bin/activate
 
-# 3. Install dependencies
 pip install -r requirements.txt
+```
 
-# 4. Launch application
+### 2. Optional: Add a CARTO map key
+If you have a free CARTO basemaps API key, add it to `.streamlit/secrets.toml`:
+```toml
+MAP_API_KEY = "your_carto_key_here"
+```
+*(If omitted, the app will fall back to default dark basemaps.)*
+
+### 3. Run the app
+```bash
 streamlit run app.py
 ```
 
 ---
 
-## 📊 One Health Mathematical Framework
-
-$$EHI = 0.35 \cdot DO_{\text{norm}} + 0.25 \cdot \text{BioIndex} + 0.20 \cdot \text{pH}_{\text{norm}} + 0.20 \cdot \text{RiparianBuffer}$$
-
-$$HHRI = 0.40 \cdot \text{PathogenRisk} + 0.35 \cdot \text{VectorDensity} + 0.25 \cdot \text{CyanobacteriaAlert}$$
-
----
-
-## 📜 License
-This project is developed for the **IEEE OneAquaHealth Global Hackathon 2026** under the MIT License.
+## License
+MIT License.
