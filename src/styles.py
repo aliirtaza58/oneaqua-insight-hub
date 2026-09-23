@@ -253,10 +253,37 @@ def apply_custom_styles():
 
         /* Custom Streamlit Widgets */
         div[data-testid="stMetric"] {
-            background-color: rgba(18, 23, 33, 0.6);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            border-radius: 12px;
-            padding: 12px 16px;
+            background: linear-gradient(180deg, rgba(18, 23, 33, 0.85) 0%, rgba(14, 18, 26, 0.95) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 14px 16px;
+            transition: all 0.2s ease;
+        }
+
+        div[data-testid="stMetric"]:hover {
+            border-color: rgba(0, 242, 254, 0.3);
+            box-shadow: 0 4px 16px rgba(0, 242, 254, 0.08);
+        }
+
+        div[data-testid="stMetricLabel"] {
+            font-size: 0.8rem !important;
+            font-weight: 600 !important;
+            color: var(--text-secondary) !important;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        div[data-testid="stMetricValue"] {
+            font-family: 'JetBrains Mono', monospace !important;
+            font-size: 1.45rem !important;
+            font-weight: 700 !important;
+            color: #FFFFFF !important;
+            white-space: nowrap !important;
+        }
+
+        div[data-testid="stMetricDelta"] {
+            font-size: 0.78rem !important;
+            font-weight: 600 !important;
         }
 
         /* Tab Navigation Bar */

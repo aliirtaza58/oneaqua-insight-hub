@@ -14,8 +14,7 @@ def render_map_view(city_data, segments, sensors_df, reports_df):
     m = folium.Map(
         location=coords,
         zoom_start=zoom,
-        tiles="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-        attr="&copy; OpenStreetMap contributors &copy; CARTO"
+        tiles="CartoDB dark_matter",
     )
     
     # Feature Groups for Layer Control

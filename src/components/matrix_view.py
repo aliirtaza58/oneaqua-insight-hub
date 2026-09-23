@@ -107,15 +107,17 @@ def render_matrix_view(indices):
         """, unsafe_allow_html=True)
 
     # Band 3: Monospace telemetry metrics
-    st.write("")
+    # Band 3: Monospace telemetry metrics formatted as clean stat badges
+    st.markdown("<div style='margin-top: 14px;'></div>", unsafe_allow_html=True)
     m = indices["metrics"]
+    
     bcol1, bcol2, bcol3, bcol4, bcol5 = st.columns(5)
     
     with bcol1:
         st.metric(
             label="Dissolved Oxygen",
             value=f"{m['eff_do']} mg/L",
-            delta="Optimal > 7.0 mg/L",
+            delta="Optimal > 7.0",
             delta_color="normal" if m['eff_do'] >= 7.0 else "inverse"
         )
     with bcol2:
@@ -129,20 +131,20 @@ def render_matrix_view(indices):
         st.metric(
             label="Pathogen (E. coli)",
             value=f"{m['eff_e_coli']} CFU",
-            delta="Warning > 400",
-            delta_color="inverse"
+            delta="Safe < 400",
+            delta_color="normal" if m['eff_e_coli'] < 400 else "inverse"
         )
     with bcol4:
         st.metric(
             label="Vector Density",
             value=f"{m['eff_vector']} / 100",
-            delta="Threshold > 50",
-            delta_color="inverse"
+            delta="Safe < 50",
+            delta_color="normal" if m['eff_vector'] < 50 else "inverse"
         )
     with bcol5:
         st.metric(
             label="Riparian Buffer",
             value=f"{m['eff_riparian']}%",
-            delta="EU Goal > 60%",
+            delta="Goal > 60%",
             delta_color="normal" if m['eff_riparian'] >= 60 else "inverse"
         )
