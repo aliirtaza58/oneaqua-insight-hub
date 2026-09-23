@@ -55,13 +55,24 @@ st.sidebar.caption(city_info["description"])
 # Scenario simulator lives in sidebar — controls flow
 temp_delta, rain_delta, riparian_delta = render_simulator_sidebar()
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Track Alignment")
-st.sidebar.info(
-    "**Track 2: Data-to-Insight**\n\n"
-    "Harmonizing crowd-sourced citizen observations, in-situ IoT telemetry, "
-    "and climate stress indicators into actionable decision support for urban freshwater health."
-)
+# ── Header ───────────────────────────────────────────────────────────────────
+st.markdown("""
+<div class="brand-header">
+    <div class="brand-title-group">
+        <h1>OneAqua Insight Hub</h1>
+        <p>IEEE OneAquaHealth Global Hackathon 2026 — Track 2: Data-to-Insight<br>
+        Harmonizing Telemetry &amp; Citizen Science into One Health Intelligence</p>
+    </div>
+    <div class="live-beacon">
+        <span class="pulse-dot"></span> Telemetry Stream Active
+    </div>
+</div>
+
+<div style="background: rgba(18, 23, 33, 0.75); border: 1px solid rgba(0, 242, 254, 0.2); border-left: 4px solid #00F2FE; border-radius: 12px; padding: 12px 18px; margin-bottom: 20px; font-size: 0.88rem; color: #94A3B8; line-height: 1.5;">
+    <strong style="color: #F0F6FC;">Track 2 (Data-to-Insight) Alignment:</strong>
+    Harmonizing crowd-sourced citizen observations, in-situ IoT telemetry, and urban climate stress indicators into actionable decision support for freshwater ecosystem vitality and community health.
+</div>
+""", unsafe_allow_html=True)
 
 # ── Data ─────────────────────────────────────────────────────────────────────
 segments    = get_stream_segments(selected_city)
@@ -75,20 +86,6 @@ indices = calculate_one_health_indices(
     sim_rain_delta=rain_delta,
     sim_riparian_delta=riparian_delta
 )
-
-# ── Header ───────────────────────────────────────────────────────────────────
-st.markdown("""
-<div class="brand-header">
-    <div class="brand-title-group">
-        <h1>OneAqua Insight Hub</h1>
-        <p>IEEE OneAquaHealth Global Hackathon 2026 — Track 2: Data-to-Insight<br>
-        Harmonizing Telemetry &amp; Citizen Science into One Health Intelligence</p>
-    </div>
-    <div class="live-beacon">
-        <span class="pulse-dot"></span> Telemetry Stream Active
-    </div>
-</div>
-""", unsafe_allow_html=True)
 
 # ── Band 1 + 2: Hero metric & scorecards ─────────────────────────────────────
 render_matrix_view(indices)
