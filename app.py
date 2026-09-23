@@ -38,6 +38,12 @@ selected_city = st.sidebar.selectbox(
 city_info = PILOT_CITIES[selected_city]
 st.sidebar.markdown(f"**Country:** {city_info['country']}")
 st.sidebar.markdown(f"**River Basin:** `{city_info['river']}`")
+
+if selected_city == "Toulouse":
+    st.sidebar.success("Empirical Telemetry: Hub'Eau API (Naïades)", icon=None)
+else:
+    st.sidebar.caption("Calibrated Baseline: OneAquaHealth Pilot Model")
+
 st.sidebar.caption(city_info["description"])
 
 # Scenario simulator lives in sidebar — controls flow

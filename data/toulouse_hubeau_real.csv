@@ -1,0 +1,1001 @@
+code_station,libelle_station,date_prelevement,code_parametre,libelle_parametre,resultat,symbole_unite,longitude,latitude
+BF000003,CLAIRFONT,2021-01-12,1340,Nitrates,7.0,mg/L,1.401312906,43.530994507
+BF000003,CLAIRFONT,2021-01-12,1350,Phosphore total,0.0,mg(P2O5)/L,1.401312906,43.530994507
+BF000003,CLAIRFONT,2021-01-12,1303,Conductivité à 25°C,269.0,µS/cm,1.401312906,43.530994507
+BF000002,PECH DAVID,2021-01-19,1340,Nitrates,7.0,mg/L,1.419491118,43.60934733
+BF000002,PECH DAVID,2021-01-19,1303,Conductivité à 25°C,327.0,µS/cm,1.419491118,43.60934733
+BF000002,PECH DAVID,2021-01-19,1350,Phosphore total,0.0,mg(P2O5)/L,1.419491118,43.60934733
+05157620,L'Hers Mort à Baziège,2021-01-20,1301,Température de l'Eau,6.0,°C,1.626100838,43.440743027
+05157370,L'Hers-Mort à Escalquens (amont STEP),2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.525600828,43.521937863
+05157620,L'Hers Mort à Baziège,2021-01-20,1350,Phosphore total,0.07,mg(P)/L,1.626100838,43.440743027
+05157365,L'Hers-Mort à Labège,2021-01-20,1303,Conductivité à 25°C,739.0,µS/cm,1.520269008,43.526814586
+05157359,"L'Hers-Mort à Toulouse, au Palays (amont STEP)",2021-01-20,1340,Nitrates,39.0,mg(NO3)/L,1.495631746,43.554732351
+05157400,Le ruisseau des Rosiers au niveau de Deyme,2021-01-20,1301,Température de l'Eau,7.0,°C,1.547652354,43.492000071
+05157350,"L'Hers-Mort à Toulouse, au Palays (aval STEP)",2021-01-20,1350,Phosphore total,0.09,mg(P)/L,1.495375521,43.55553871
+05157365,L'Hers-Mort à Labège,2021-01-20,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.520269008,43.526814586
+05157365,L'Hers-Mort à Labège,2021-01-20,1340,Nitrates,38.0,mg(NO3)/L,1.520269008,43.526814586
+05157590,Le ruisseau des Mals au niveau de Baziège,2021-01-20,1350,Phosphore total,0.03,mg(P)/L,1.61585843,43.446101464
+05157590,Le ruisseau des Mals au niveau de Baziège,2021-01-20,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.61585843,43.446101464
+05157361,Le ruisseau du Tricou au niveau de Labège,2021-01-20,1301,Température de l'Eau,8.0,°C,1.527200635,43.53140827
+05157590,Le ruisseau des Mals au niveau de Baziège,2021-01-20,1301,Température de l'Eau,6.0,°C,1.61585843,43.446101464
+05157359,"L'Hers-Mort à Toulouse, au Palays (amont STEP)",2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.495631746,43.554732351
+05157620,L'Hers Mort à Baziège,2021-01-20,1303,Conductivité à 25°C,711.0,µS/cm,1.626100838,43.440743027
+05157369,L'Hers-Mort à Labège (aval STEP),2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.524675303,43.522825154
+05157620,L'Hers Mort à Baziège,2021-01-20,1340,Nitrates,41.0,mg(NO3)/L,1.626100838,43.440743027
+05157350,"L'Hers-Mort à Toulouse, au Palays (aval STEP)",2021-01-20,1301,Température de l'Eau,6.0,°C,1.495375521,43.55553871
+05157540,L'Hers-Mort au niveau de Montgiscard,2021-01-20,1303,Conductivité à 25°C,727.0,µS/cm,1.581341738,43.465091122
+05157362,Le ruisseau d'Escalquens au niveau d'Escalquens,2021-01-20,1303,Conductivité à 25°C,737.0,µS/cm,1.533741923,43.521778225
+05157350,"L'Hers-Mort à Toulouse, au Palays (aval STEP)",2021-01-20,1303,Conductivité à 25°C,757.0,µS/cm,1.495375521,43.55553871
+05157369,L'Hers-Mort à Labège (aval STEP),2021-01-20,1340,Nitrates,41.0,mg(NO3)/L,1.524675303,43.522825154
+05157369,L'Hers-Mort à Labège (aval STEP),2021-01-20,1350,Phosphore total,0.08,mg(P)/L,1.524675303,43.522825154
+05157359,"L'Hers-Mort à Toulouse, au Palays (amont STEP)",2021-01-20,1350,Phosphore total,0.1,mg(P)/L,1.495631746,43.554732351
+05157595,L'Hers Mort à Baziège (aval conf Rau Visenc),2021-01-20,1350,Phosphore total,0.07,mg(P)/L,1.62361137,43.442601011
+05157400,Le ruisseau des Rosiers au niveau de Deyme,2021-01-20,1303,Conductivité à 25°C,857.0,µS/cm,1.547652354,43.492000071
+05157362,Le ruisseau d'Escalquens au niveau d'Escalquens,2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.533741923,43.521778225
+05157540,L'Hers-Mort au niveau de Montgiscard,2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.581341738,43.465091122
+05157365,L'Hers-Mort à Labège,2021-01-20,1350,Phosphore total,0.1,mg(P)/L,1.520269008,43.526814586
+05157361,Le ruisseau du Tricou au niveau de Labège,2021-01-20,1302,Potentiel en Hydrogène (pH),8.5,unité pH,1.527200635,43.53140827
+05157370,L'Hers-Mort à Escalquens (amont STEP),2021-01-20,1303,Conductivité à 25°C,738.0,µS/cm,1.525600828,43.521937863
+05157369,L'Hers-Mort à Labège (aval STEP),2021-01-20,1301,Température de l'Eau,6.0,°C,1.524675303,43.522825154
+05157359,"L'Hers-Mort à Toulouse, au Palays (amont STEP)",2021-01-20,1301,Température de l'Eau,6.0,°C,1.495631746,43.554732351
+05157370,L'Hers-Mort à Escalquens (amont STEP),2021-01-20,1301,Température de l'Eau,6.0,°C,1.525600828,43.521937863
+05157359,"L'Hers-Mort à Toulouse, au Palays (amont STEP)",2021-01-20,1303,Conductivité à 25°C,443.0,µS/cm,1.495631746,43.554732351
+05157540,L'Hers-Mort au niveau de Montgiscard,2021-01-20,1301,Température de l'Eau,6.0,°C,1.581341738,43.465091122
+05157369,L'Hers-Mort à Labège (aval STEP),2021-01-20,1303,Conductivité à 25°C,727.0,µS/cm,1.524675303,43.522825154
+05157540,L'Hers-Mort au niveau de Montgiscard,2021-01-20,1340,Nitrates,40.0,mg(NO3)/L,1.581341738,43.465091122
+05157361,Le ruisseau du Tricou au niveau de Labège,2021-01-20,1340,Nitrates,22.0,mg(NO3)/L,1.527200635,43.53140827
+05157400,Le ruisseau des Rosiers au niveau de Deyme,2021-01-20,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.547652354,43.492000071
+05157361,Le ruisseau du Tricou au niveau de Labège,2021-01-20,1303,Conductivité à 25°C,855.0,µS/cm,1.527200635,43.53140827
+05157350,"L'Hers-Mort à Toulouse, au Palays (aval STEP)",2021-01-20,1340,Nitrates,39.0,mg(NO3)/L,1.495375521,43.55553871
+05157370,L'Hers-Mort à Escalquens (amont STEP),2021-01-20,1350,Phosphore total,0.06,mg(P)/L,1.525600828,43.521937863
+05157590,Le ruisseau des Mals au niveau de Baziège,2021-01-20,1303,Conductivité à 25°C,865.0,µS/cm,1.61585843,43.446101464
+05157595,L'Hers Mort à Baziège (aval conf Rau Visenc),2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.62361137,43.442601011
+05157365,L'Hers-Mort à Labège,2021-01-20,1301,Température de l'Eau,6.0,°C,1.520269008,43.526814586
+05157400,Le ruisseau des Rosiers au niveau de Deyme,2021-01-20,1340,Nitrates,27.0,mg(NO3)/L,1.547652354,43.492000071
+05157620,L'Hers Mort à Baziège,2021-01-20,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.626100838,43.440743027
+05157540,L'Hers-Mort au niveau de Montgiscard,2021-01-20,1350,Phosphore total,0.07,mg(P)/L,1.581341738,43.465091122
+05157595,L'Hers Mort à Baziège (aval conf Rau Visenc),2021-01-20,1340,Nitrates,41.0,mg(NO3)/L,1.62361137,43.442601011
+05157595,L'Hers Mort à Baziège (aval conf Rau Visenc),2021-01-20,1301,Température de l'Eau,6.0,°C,1.62361137,43.442601011
+05157590,Le ruisseau des Mals au niveau de Baziège,2021-01-20,1340,Nitrates,39.0,mg(NO3)/L,1.61585843,43.446101464
+05157362,Le ruisseau d'Escalquens au niveau d'Escalquens,2021-01-20,1350,Phosphore total,0.04,mg(P)/L,1.533741923,43.521778225
+05157362,Le ruisseau d'Escalquens au niveau d'Escalquens,2021-01-20,1340,Nitrates,27.0,mg(NO3)/L,1.533741923,43.521778225
+05157370,L'Hers-Mort à Escalquens (amont STEP),2021-01-20,1340,Nitrates,40.0,mg(NO3)/L,1.525600828,43.521937863
+05157362,Le ruisseau d'Escalquens au niveau d'Escalquens,2021-01-20,1301,Température de l'Eau,7.0,°C,1.533741923,43.521778225
+05157350,"L'Hers-Mort à Toulouse, au Palays (aval STEP)",2021-01-20,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.495375521,43.55553871
+05157361,Le ruisseau du Tricou au niveau de Labège,2021-01-20,1350,Phosphore total,0.06,mg(P)/L,1.527200635,43.53140827
+05157400,Le ruisseau des Rosiers au niveau de Deyme,2021-01-20,1350,Phosphore total,0.03,mg(P)/L,1.547652354,43.492000071
+05157595,L'Hers Mort à Baziège (aval conf Rau Visenc),2021-01-20,1303,Conductivité à 25°C,711.0,µS/cm,1.62361137,43.442601011
+05163910,Le Cossignol à Corronsac,2021-01-21,1301,Température de l'Eau,9.0,°C,1.49972711,43.470921033
+05157568,Le ruisseau d'Amadou au niveau d'Ayguesvives,2021-01-21,1340,Nitrates,30.0,mg(NO3)/L,1.599996657,43.441218713
+05157568,Le ruisseau d'Amadou au niveau d'Ayguesvives,2021-01-21,1350,Phosphore total,0.04,mg(P)/L,1.599996657,43.441218713
+05157561,Le Nostre Seigne à Montgiscard (Aval STEP),2021-01-21,1340,Nitrates,46.0,mg(NO3)/L,1.590440963,43.456751532
+05163910,Le Cossignol à Corronsac,2021-01-21,1350,Phosphore total,0.01,mg(P)/L,1.49972711,43.470921033
+05163860,Le Cossignol à Lacroix-Falgarde,2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.424421606,43.499728369
+05157568,Le ruisseau d'Amadou au niveau d'Ayguesvives,2021-01-21,1303,Conductivité à 25°C,865.0,µS/cm,1.599996657,43.441218713
+05157565,L'Amadou à Ayguesvives,2021-01-21,1350,Phosphore total,0.09,mg(P)/L,1.594239624,43.454461351
+05163860,Le Cossignol à Lacroix-Falgarde,2021-01-21,1350,Phosphore total,0.08,mg(P)/L,1.424421606,43.499728369
+05163860,Le Cossignol à Lacroix-Falgarde,2021-01-21,1303,Conductivité à 25°C,940.0,µS/cm,1.424421606,43.499728369
+05163910,Le Cossignol à Corronsac,2021-01-21,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.49972711,43.470921033
+05157561,Le Nostre Seigne à Montgiscard (Aval STEP),2021-01-21,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.590440963,43.456751532
+05157570,L'Amadou à Ayguevives,2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.597644467,43.437409124
+05157561,Le Nostre Seigne à Montgiscard (Aval STEP),2021-01-21,1301,Température de l'Eau,9.0,°C,1.590440963,43.456751532
+05163862,Le Cossignol au niveau de Lacroix-Falgarde,2021-01-21,1303,Conductivité à 25°C,928.0,µS/cm,1.435123729,43.493944135
+05157561,Le Nostre Seigne à Montgiscard (Aval STEP),2021-01-21,1303,Conductivité à 25°C,946.0,µS/cm,1.590440963,43.456751532
+05157562,Le Nostre Seigne à Montgiscard (Amont STEP),2021-01-21,1340,Nitrates,54.0,mg(NO3)/L,1.589775497,43.4546733
+05163905,Le Cossignol au niveau de Corronsac,2021-01-21,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.483661529,43.473397051
+05157610,Le ruisseau de Visenc à Labastide Beauvoir,2021-01-21,1301,Température de l'Eau,8.0,°C,1.667254364,43.470770461
+05157570,L'Amadou à Ayguevives,2021-01-21,1340,Nitrates,30.0,mg(NO3)/L,1.597644467,43.437409124
+05157610,Le ruisseau de Visenc à Labastide Beauvoir,2021-01-21,1350,Phosphore total,0.05,mg(P)/L,1.667254364,43.470770461
+05157568,Le ruisseau d'Amadou au niveau d'Ayguesvives,2021-01-21,1301,Température de l'Eau,8.0,°C,1.599996657,43.441218713
+05157610,Le ruisseau de Visenc à Labastide Beauvoir,2021-01-21,1340,Nitrates,32.0,mg(NO3)/L,1.667254364,43.470770461
+05157607,Le ruisseau de Visenc à Labastide-beauvoir (aval STEP),2021-01-21,1350,Phosphore total,0.56,mg(P)/L,1.664584926,43.469207935
+05157565,L'Amadou à Ayguesvives,2021-01-21,1301,Température de l'Eau,8.0,°C,1.594239624,43.454461351
+05157565,L'Amadou à Ayguesvives,2021-01-21,1303,Conductivité à 25°C,883.0,µS/cm,1.594239624,43.454461351
+05157562,Le Nostre Seigne à Montgiscard (Amont STEP),2021-01-21,1301,Température de l'Eau,9.0,°C,1.589775497,43.4546733
+05163910,Le Cossignol à Corronsac,2021-01-21,1303,Conductivité à 25°C,892.0,µS/cm,1.49972711,43.470921033
+05157607,Le ruisseau de Visenc à Labastide-beauvoir (aval STEP),2021-01-21,1340,Nitrates,32.0,mg(NO3)/L,1.664584926,43.469207935
+05163862,Le Cossignol au niveau de Lacroix-Falgarde,2021-01-21,1350,Phosphore total,0.1,mg(P)/L,1.435123729,43.493944135
+05157610,Le ruisseau de Visenc à Labastide Beauvoir,2021-01-21,1303,Conductivité à 25°C,809.0,µS/cm,1.667254364,43.470770461
+05163905,Le Cossignol au niveau de Corronsac,2021-01-21,1350,Phosphore total,0.29,mg(P)/L,1.483661529,43.473397051
+BF000320,PERIPHERIE SUD SUD EST,2021-01-21,1340,Nitrates,6.4,mg/L,1.436721106,43.522925386
+BF000320,PERIPHERIE SUD SUD EST,2021-01-21,1303,Conductivité à 25°C,300.0,µS/cm,1.436721106,43.522925386
+05157570,L'Amadou à Ayguevives,2021-01-21,1303,Conductivité à 25°C,871.0,µS/cm,1.597644467,43.437409124
+05163862,Le Cossignol au niveau de Lacroix-Falgarde,2021-01-21,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.435123729,43.493944135
+05163905,Le Cossignol au niveau de Corronsac,2021-01-21,1301,Température de l'Eau,9.0,°C,1.483661529,43.473397051
+05163905,Le Cossignol au niveau de Corronsac,2021-01-21,1340,Nitrates,31.0,mg(NO3)/L,1.483661529,43.473397051
+05157562,Le Nostre Seigne à Montgiscard (Amont STEP),2021-01-21,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.589775497,43.4546733
+05163862,Le Cossignol au niveau de Lacroix-Falgarde,2021-01-21,1340,Nitrates,25.0,mg(NO3)/L,1.435123729,43.493944135
+05163910,Le Cossignol à Corronsac,2021-01-21,1340,Nitrates,24.0,mg(NO3)/L,1.49972711,43.470921033
+05157565,L'Amadou à Ayguesvives,2021-01-21,1340,Nitrates,24.0,mg(NO3)/L,1.594239624,43.454461351
+05163860,Le Cossignol à Lacroix-Falgarde,2021-01-21,1301,Température de l'Eau,9.0,°C,1.424421606,43.499728369
+05163905,Le Cossignol au niveau de Corronsac,2021-01-21,1303,Conductivité à 25°C,904.0,µS/cm,1.483661529,43.473397051
+05157561,Le Nostre Seigne à Montgiscard (Aval STEP),2021-01-21,1350,Phosphore total,0.03,mg(P)/L,1.590440963,43.456751532
+05157570,L'Amadou à Ayguevives,2021-01-21,1301,Température de l'Eau,9.0,°C,1.597644467,43.437409124
+05157565,L'Amadou à Ayguesvives,2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.594239624,43.454461351
+05157562,Le Nostre Seigne à Montgiscard (Amont STEP),2021-01-21,1303,Conductivité à 25°C,908.0,µS/cm,1.589775497,43.4546733
+05157607,Le ruisseau de Visenc à Labastide-beauvoir (aval STEP),2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.664584926,43.469207935
+05157610,Le ruisseau de Visenc à Labastide Beauvoir,2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.667254364,43.470770461
+05163860,Le Cossignol à Lacroix-Falgarde,2021-01-21,1340,Nitrates,24.0,mg(NO3)/L,1.424421606,43.499728369
+05157607,Le ruisseau de Visenc à Labastide-beauvoir (aval STEP),2021-01-21,1301,Température de l'Eau,8.0,°C,1.664584926,43.469207935
+05157607,Le ruisseau de Visenc à Labastide-beauvoir (aval STEP),2021-01-21,1303,Conductivité à 25°C,799.0,µS/cm,1.664584926,43.469207935
+05163862,Le Cossignol au niveau de Lacroix-Falgarde,2021-01-21,1301,Température de l'Eau,9.0,°C,1.435123729,43.493944135
+05157568,Le ruisseau d'Amadou au niveau d'Ayguesvives,2021-01-21,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.599996657,43.441218713
+05157562,Le Nostre Seigne à Montgiscard (Amont STEP),2021-01-21,1350,Phosphore total,0.02,mg(P)/L,1.589775497,43.4546733
+05157570,L'Amadou à Ayguevives,2021-01-21,1350,Phosphore total,0.04,mg(P)/L,1.597644467,43.437409124
+BF000320,PERIPHERIE SUD SUD EST,2021-01-21,1350,Phosphore total,0.0,mg(P2O5)/L,1.436721106,43.522925386
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-01-25,1301,Température de l'Eau,8.0,°C,1.685830535,43.390466949
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-01-25,1340,Nitrates,4.0,mg(NO3)/L,1.195596911,43.405632365
+05175800,La Garonne à Marquefave,2021-01-25,1350,Phosphore total,0.045,mg/L,1.244433271,43.317081905
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-01-25,1350,Phosphore total,0.091,mg/L,1.350520249,43.380478349
+05157360,L'Hers Mort à l'aval de Castanet,2021-01-25,1303,Conductivité à 25°C,570.0,µS/cm,1.501887793,43.545909907
+05162600,Le Touch à Bérat,2021-01-25,1350,Phosphore total,0.33,mg(P)/L,1.17363407,43.38402718
+05176000,L'Arize à Rieux Volvestre,2021-01-25,1350,Phosphore total,0.087,mg/L,1.203811363,43.258288273
+05157360,L'Hers Mort à l'aval de Castanet,2021-01-25,1350,Phosphore total,0.35,mg(P)/L,1.501887793,43.545909907
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-01-25,1350,Phosphore total,0.12,mg(P)/L,1.685830535,43.390466949
+05166000,Le Grand Hers à Calmont,2021-01-25,1350,Phosphore total,0.063,mg/L,1.632038784,43.286062063
+05130100,Le Souet à Bondigoux,2021-01-25,1350,Phosphore total,0.257,mg(P)/L,1.552072489,43.850422136
+05157600,Le Visenc à Baziège,2021-01-25,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.626050795,43.449560442
+05176050,Le Ruisseau de Lazaou au niveau de Goutevernisse,2021-01-25,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.196394342,43.221454539
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-01-25,1303,Conductivité à 25°C,745.0,µS/cm,1.685830535,43.390466949
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-01-25,1303,Conductivité à 25°C,263.0,µS/cm,1.195596911,43.405632365
+05157750,L'Hers Mort à Renneville,2021-01-25,1301,Température de l'Eau,8.0,°C,1.714998187,43.377680817
+05162600,Le Touch à Bérat,2021-01-25,1340,Nitrates,18.0,mg(NO3)/L,1.17363407,43.38402718
+05176050,Le Ruisseau de Lazaou au niveau de Goutevernisse,2021-01-25,1301,Température de l'Eau,8.3,°C,1.196394342,43.221454539
+BF000337,CANAL ST MARTORY LASSERRE LHERM,2021-01-25,1340,Nitrates,4.0,mg/L,1.22754958,43.431338567
+05157600,Le Visenc à Baziège,2021-01-25,1350,Phosphore total,1.1,mg(P)/L,1.626050795,43.449560442
+05162620,Le Ruisseau de la Saverette au niveau de Savères,2021-01-25,1350,Phosphore total,0.5,mg(P)/L,1.116857563,43.368476345
+05163800,Le Canal du Midi au niveau de Castanet,2021-01-25,1301,Température de l'Eau,7.0,°C,1.515785139,43.526123434
+05129900,Ruisseau de Magnanac à Villemur-sur-Tarn,2021-01-25,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.493434415,43.875730514
+05157550,La Rivel à Baziège,2021-01-25,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.594926497,43.462748566
+05130100,Le Souet à Bondigoux,2021-01-25,1303,Conductivité à 25°C,443.0,µS/cm,1.552072489,43.850422136
+05175000,La Louge à St-Hilaire,2021-01-25,1350,Phosphore total,0.105,mg/L,1.283828555,43.41939468
+05157550,La Rivel à Baziège,2021-01-25,1340,Nitrates,54.0,mg(NO3)/L,1.594926497,43.462748566
+05175800,La Garonne à Marquefave,2021-01-25,1340,Nitrates,5.3,mg/L,1.244433271,43.317081905
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-01-25,1340,Nitrates,25.9,mg/L,1.350520249,43.380478349
+05175000,La Louge à St-Hilaire,2021-01-25,1301,Température de l'Eau,7.1,°C,1.283828555,43.41939468
+05157510,Le Tissier à Montlaur,2021-01-25,1350,Phosphore total,1.1,mg(P)/L,1.574851925,43.47472413
+05162605,Ruisseau des Feuillants à Bérat,2021-01-25,1303,Conductivité à 25°C,214.0,µS/cm,1.16818645,43.378805901
+05176000,L'Arize à Rieux Volvestre,2021-01-25,1303,Conductivité à 25°C,378.0,µS/cm,1.203811363,43.258288273
+05175000,La Louge à St-Hilaire,2021-01-25,1303,Conductivité à 25°C,324.0,µS/cm,1.283828555,43.41939468
+05175400,La Garonne au Pont vieux de Muret,2021-01-25,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.327566713,43.45805307
+05129900,Ruisseau de Magnanac à Villemur-sur-Tarn,2021-01-25,1303,Conductivité à 25°C,231.0,µS/cm,1.493434415,43.875730514
+05157625,La Tésauque au niveau de Montesquieu Lauragais,2021-01-25,1303,Conductivité à 25°C,524.0,µS/cm,1.653852654,43.408879154
+05129900,Ruisseau de Magnanac à Villemur-sur-Tarn,2021-01-25,1350,Phosphore total,0.437,mg(P)/L,1.493434415,43.875730514
+05162600,Le Touch à Bérat,2021-01-25,1301,Température de l'Eau,8.0,°C,1.17363407,43.38402718
+05129900,Ruisseau de Magnanac à Villemur-sur-Tarn,2021-01-25,1301,Température de l'Eau,7.5,°C,1.493434415,43.875730514
+05157510,Le Tissier à Montlaur,2021-01-25,1340,Nitrates,31.0,mg(NO3)/L,1.574851925,43.47472413
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-01-25,1301,Température de l'Eau,9.0,°C,1.774101034,43.379086096
+05162605,Ruisseau des Feuillants à Bérat,2021-01-25,1301,Température de l'Eau,7.0,°C,1.16818645,43.378805901
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-01-25,1350,Phosphore total,0.17,mg(P)/L,1.774101034,43.379086096
+05130000,Le Tarn à Villemur,2021-01-25,1301,Température de l'Eau,6.8,°C,1.499660287,43.867985532
+05175400,La Garonne au Pont vieux de Muret,2021-01-25,1301,Température de l'Eau,7.2,°C,1.327566713,43.45805307
+05157750,L'Hers Mort à Renneville,2021-01-25,1303,Conductivité à 25°C,596.0,µS/cm,1.714998187,43.377680817
+05157550,La Rivel à Baziège,2021-01-25,1301,Température de l'Eau,8.0,°C,1.594926497,43.462748566
+05157750,L'Hers Mort à Renneville,2021-01-25,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.714998187,43.377680817
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-01-25,1303,Conductivité à 25°C,657.0,µS/cm,1.774101034,43.379086096
+05154100,La Gimone à Boulogne sur Gesse,2021-01-25,1340,Nitrates,7.0,mg(NO3)/L,0.630919964,43.292238629
+05162620,Le Ruisseau de la Saverette au niveau de Savères,2021-01-25,1340,Nitrates,10.0,mg(NO3)/L,1.116857563,43.368476345
+05130000,Le Tarn à Villemur,2021-01-25,1340,Nitrates,13.8,mg(NO3)/L,1.499660287,43.867985532
+05129900,Ruisseau de Magnanac à Villemur-sur-Tarn,2021-01-25,1340,Nitrates,13.3,mg(NO3)/L,1.493434415,43.875730514
+05166000,Le Grand Hers à Calmont,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.632038784,43.286062063
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-01-25,1340,Nitrates,65.0,mg(NO3)/L,1.774101034,43.379086096
+05130000,Le Tarn à Villemur,2021-01-25,1303,Conductivité à 25°C,275.0,µS/cm,1.499660287,43.867985532
+05175800,La Garonne à Marquefave,2021-01-25,1303,Conductivité à 25°C,278.0,µS/cm,1.244433271,43.317081905
+05157625,La Tésauque au niveau de Montesquieu Lauragais,2021-01-25,1301,Température de l'Eau,8.0,°C,1.653852654,43.408879154
+05157360,L'Hers Mort à l'aval de Castanet,2021-01-25,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.501887793,43.545909907
+05157625,La Tésauque au niveau de Montesquieu Lauragais,2021-01-25,1340,Nitrates,15.0,mg(NO3)/L,1.653852654,43.408879154
+05155655,La Save au niveau de Montgaillard sur Save,2021-01-25,1302,Potentiel en Hydrogène (pH),7.7,unité pH,0.711917004,43.258616735
+05154100,La Gimone à Boulogne sur Gesse,2021-01-25,1303,Conductivité à 25°C,210.0,µS/cm,0.630919964,43.292238629
+BF000337,CANAL ST MARTORY LASSERRE LHERM,2021-01-25,1350,Phosphore total,0.0,mg(P2O5)/L,1.22754958,43.431338567
+05175400,La Garonne au Pont vieux de Muret,2021-01-25,1340,Nitrates,5.4,mg/L,1.327566713,43.45805307
+05157600,Le Visenc à Baziège,2021-01-25,1301,Température de l'Eau,8.0,°C,1.626050795,43.449560442
+05155655,La Save au niveau de Montgaillard sur Save,2021-01-25,1301,Température de l'Eau,8.0,°C,0.711917004,43.258616735
+05175000,La Louge à St-Hilaire,2021-01-25,1340,Nitrates,19.9,mg/L,1.283828555,43.41939468
+05157600,Le Visenc à Baziège,2021-01-25,1303,Conductivité à 25°C,449.0,µS/cm,1.626050795,43.449560442
+05176050,Le Ruisseau de Lazaou au niveau de Goutevernisse,2021-01-25,1303,Conductivité à 25°C,305.0,µS/cm,1.196394342,43.221454539
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-01-25,1301,Température de l'Eau,7.4,°C,1.350520249,43.380478349
+05157750,L'Hers Mort à Renneville,2021-01-25,1340,Nitrates,39.0,mg(NO3)/L,1.714998187,43.377680817
+05157360,L'Hers Mort à l'aval de Castanet,2021-01-25,1340,Nitrates,32.0,mg(NO3)/L,1.501887793,43.545909907
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-01-25,1302,Potentiel en Hydrogène (pH),8.5,unité pH,1.195596911,43.405632365
+05162605,Ruisseau des Feuillants à Bérat,2021-01-25,1340,Nitrates,7.0,mg(NO3)/L,1.16818645,43.378805901
+05157510,Le Tissier à Montlaur,2021-01-25,1301,Température de l'Eau,8.0,°C,1.574851925,43.47472413
+05176200,La Garonne à Carbonne,2021-01-25,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.216703022,43.290084066
+05163800,Le Canal du Midi au niveau de Castanet,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.515785139,43.526123434
+05166000,Le Grand Hers à Calmont,2021-01-25,1340,Nitrates,15.9,mg/L,1.632038784,43.286062063
+05162620,Le Ruisseau de la Saverette au niveau de Savères,2021-01-25,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.116857563,43.368476345
+05157625,La Tésauque au niveau de Montesquieu Lauragais,2021-01-25,1350,Phosphore total,0.42,mg(P)/L,1.653852654,43.408879154
+05130100,Le Souet à Bondigoux,2021-01-25,1340,Nitrates,20.6,mg(NO3)/L,1.552072489,43.850422136
+05175400,La Garonne au Pont vieux de Muret,2021-01-25,1350,Phosphore total,0.045,mg/L,1.327566713,43.45805307
+05162605,Ruisseau des Feuillants à Bérat,2021-01-25,1350,Phosphore total,0.45,mg(P)/L,1.16818645,43.378805901
+05155655,La Save au niveau de Montgaillard sur Save,2021-01-25,1350,Phosphore total,0.14,mg(P)/L,0.711917004,43.258616735
+05175800,La Garonne à Marquefave,2021-01-25,1301,Température de l'Eau,7.3,°C,1.244433271,43.317081905
+05175100,La Louge à l'aval du Fousseret,2021-01-25,1301,Température de l'Eau,7.2,°C,1.133384155,43.303074173
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-01-25,1303,Conductivité à 25°C,510.0,µS/cm,1.350520249,43.380478349
+05162605,Ruisseau des Feuillants à Bérat,2021-01-25,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.16818645,43.378805901
+05157650,Le Marès à Villefranche de Lauragais,2021-01-25,1301,Température de l'Eau,8.0,°C,1.711000782,43.399767063
+05175800,La Garonne à Marquefave,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.244433271,43.317081905
+05154100,La Gimone à Boulogne sur Gesse,2021-01-25,1350,Phosphore total,0.18,mg(P)/L,0.630919964,43.292238629
+05162620,Le Ruisseau de la Saverette au niveau de Savères,2021-01-25,1301,Température de l'Eau,7.0,°C,1.116857563,43.368476345
+05130100,Le Souet à Bondigoux,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.552072489,43.850422136
+05163800,Le Canal du Midi au niveau de Castanet,2021-01-25,1340,Nitrates,0.2,mg(NO3)/L,1.515785139,43.526123434
+05157550,La Rivel à Baziège,2021-01-25,1303,Conductivité à 25°C,515.0,µS/cm,1.594926497,43.462748566
+05162600,Le Touch à Bérat,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.17363407,43.38402718
+05157510,Le Tissier à Montlaur,2021-01-25,1303,Conductivité à 25°C,412.0,µS/cm,1.574851925,43.47472413
+05175100,La Louge à l'aval du Fousseret,2021-01-25,1303,Conductivité à 25°C,317.0,µS/cm,1.133384155,43.303074173
+05175100,La Louge à l'aval du Fousseret,2021-01-25,1340,Nitrates,16.6,mg/L,1.133384155,43.303074173
+05157600,Le Visenc à Baziège,2021-01-25,1340,Nitrates,37.0,mg(NO3)/L,1.626050795,43.449560442
+05157360,L'Hers Mort à l'aval de Castanet,2021-01-25,1301,Température de l'Eau,8.0,°C,1.501887793,43.545909907
+05163800,Le Canal du Midi au niveau de Castanet,2021-01-25,1303,Conductivité à 25°C,410.0,µS/cm,1.515785139,43.526123434
+05175100,La Louge à l'aval du Fousseret,2021-01-25,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.133384155,43.303074173
+05157650,Le Marès à Villefranche de Lauragais,2021-01-25,1303,Conductivité à 25°C,625.0,µS/cm,1.711000782,43.399767063
+05157650,Le Marès à Villefranche de Lauragais,2021-01-25,1340,Nitrates,50.0,mg(NO3)/L,1.711000782,43.399767063
+05176200,La Garonne à Carbonne,2021-01-25,1340,Nitrates,4.4,mg/L,1.216703022,43.290084066
+05130000,Le Tarn à Villemur,2021-01-25,1350,Phosphore total,0.098,mg(P)/L,1.499660287,43.867985532
+05130100,Le Souet à Bondigoux,2021-01-25,1301,Température de l'Eau,7.6,°C,1.552072489,43.850422136
+05176050,Le Ruisseau de Lazaou au niveau de Goutevernisse,2021-01-25,1340,Nitrates,6.5,mg/L,1.196394342,43.221454539
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-01-25,1301,Température de l'Eau,8.0,°C,1.195596911,43.405632365
+05175000,La Louge à St-Hilaire,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.283828555,43.41939468
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-01-25,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.685830535,43.390466949
+05176000,L'Arize à Rieux Volvestre,2021-01-25,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.203811363,43.258288273
+05157510,Le Tissier à Montlaur,2021-01-25,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.574851925,43.47472413
+05155655,La Save au niveau de Montgaillard sur Save,2021-01-25,1303,Conductivité à 25°C,205.0,µS/cm,0.711917004,43.258616735
+05176200,La Garonne à Carbonne,2021-01-25,1301,Température de l'Eau,7.4,°C,1.216703022,43.290084066
+BF000337,CANAL ST MARTORY LASSERRE LHERM,2021-01-25,1303,Conductivité à 25°C,258.0,µS/cm,1.22754958,43.431338567
+05162600,Le Touch à Bérat,2021-01-25,1303,Conductivité à 25°C,420.0,µS/cm,1.17363407,43.38402718
+05155655,La Save au niveau de Montgaillard sur Save,2021-01-25,1340,Nitrates,15.0,mg(NO3)/L,0.711917004,43.258616735
+05176200,La Garonne à Carbonne,2021-01-25,1303,Conductivité à 25°C,270.0,µS/cm,1.216703022,43.290084066
+05166000,Le Grand Hers à Calmont,2021-01-25,1303,Conductivité à 25°C,457.0,µS/cm,1.632038784,43.286062063
+05157650,Le Marès à Villefranche de Lauragais,2021-01-25,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.711000782,43.399767063
+05157650,Le Marès à Villefranche de Lauragais,2021-01-25,1350,Phosphore total,0.08,mg(P)/L,1.711000782,43.399767063
+05130000,Le Tarn à Villemur,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.499660287,43.867985532
+05162620,Le Ruisseau de la Saverette au niveau de Savères,2021-01-25,1303,Conductivité à 25°C,245.0,µS/cm,1.116857563,43.368476345
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-01-25,1350,Phosphore total,0.06,mg(P)/L,1.195596911,43.405632365
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-01-25,1340,Nitrates,36.0,mg(NO3)/L,1.685830535,43.390466949
+05157625,La Tésauque au niveau de Montesquieu Lauragais,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.653852654,43.408879154
+05154100,La Gimone à Boulogne sur Gesse,2021-01-25,1302,Potentiel en Hydrogène (pH),7.9,unité pH,0.630919964,43.292238629
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-01-25,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.350520249,43.380478349
+05176050,Le Ruisseau de Lazaou au niveau de Goutevernisse,2021-01-25,1350,Phosphore total,0.166,mg/L,1.196394342,43.221454539
+05176000,L'Arize à Rieux Volvestre,2021-01-25,1340,Nitrates,9.6,mg/L,1.203811363,43.258288273
+05175100,La Louge à l'aval du Fousseret,2021-01-25,1350,Phosphore total,0.103,mg/L,1.133384155,43.303074173
+05157550,La Rivel à Baziège,2021-01-25,1350,Phosphore total,0.93,mg(P)/L,1.594926497,43.462748566
+05175400,La Garonne au Pont vieux de Muret,2021-01-25,1303,Conductivité à 25°C,271.0,µS/cm,1.327566713,43.45805307
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-01-25,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.774101034,43.379086096
+05157750,L'Hers Mort à Renneville,2021-01-25,1350,Phosphore total,0.09,mg(P)/L,1.714998187,43.377680817
+05176000,L'Arize à Rieux Volvestre,2021-01-25,1301,Température de l'Eau,7.9,°C,1.203811363,43.258288273
+05154100,La Gimone à Boulogne sur Gesse,2021-01-25,1301,Température de l'Eau,7.0,°C,0.630919964,43.292238629
+05176200,La Garonne à Carbonne,2021-01-25,1350,Phosphore total,0.037,mg/L,1.216703022,43.290084066
+05166000,Le Grand Hers à Calmont,2021-01-25,1301,Température de l'Eau,8.2,°C,1.632038784,43.286062063
+05163800,Le Canal du Midi au niveau de Castanet,2021-01-25,1350,Phosphore total,0.02,mg(P)/L,1.515785139,43.526123434
+05134400,Le Sor en aval de Revel,2021-01-26,1350,Phosphore total,0.067,mg(P)/L,1.992900902,43.47464446
+05159000,L'Aussonnelle à Cornebarrieu,2021-01-26,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.327303391,43.653155467
+05161950,Le Touch à St-Michel du Touch,2021-01-26,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.395626096,43.62079603
+05158800,Le Ruisseau du Panariol à Aussonne,2021-01-26,1350,Phosphore total,0.38,mg(P)/L,1.318741736,43.679663671
+05184000,La Garonne au Pont du Roi,2021-01-26,1303,Conductivité à 25°C,191.0,µS/cm,0.735863431,42.849282942
+05134432,La Rigole de la Plaine au niveau de Revel,2021-01-26,1301,Température de l'Eau,4.8,°C,1.955308076,43.435689477
+05163440,La Saundrune en amont de la Garonne,2021-01-26,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.423091162,43.543713847
+05134400,Le Sor en aval de Revel,2021-01-26,1303,Conductivité à 25°C,255.0,µS/cm,1.992900902,43.47464446
+05181600,Le Ger à Boutx,2021-01-26,1303,Conductivité à 25°C,281.0,µS/cm,0.804923152,42.917018719
+05134400,Le Sor en aval de Revel,2021-01-26,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.992900902,43.47464446
+05183910,Le Ruisseau de Marignac à Marignac,2021-01-26,1340,Nitrates,2.27,mg/L,0.65364243,42.916159443
+05130500,Ruisseau de Palmola à Bessières,2021-01-26,1340,Nitrates,29.2,mg(NO3)/L,1.57670803,43.807094119
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-01-26,1301,Température de l'Eau,6.0,°C,1.608357511,43.682674019
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-01-26,1303,Conductivité à 25°C,301.0,µS/cm,1.430782683,43.570552789
+05183900,La Garonne en aval de la Pique,2021-01-26,1301,Température de l'Eau,5.7,°C,0.647410266,42.939145087
+05158160,Le Balerme à Teulat,2021-01-26,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.691168709,43.63708569
+05134432,La Rigole de la Plaine au niveau de Revel,2021-01-26,1302,Potentiel en Hydrogène (pH),7.7,unité pH,1.955308076,43.435689477
+05183940,La Pique au niveau de Bagnères de Luchon,2021-01-26,1301,Température de l'Eau,4.4,°C,0.603382512,42.773626904
+05161900,La Garonne à Blagnac,2021-01-26,1350,Phosphore total,0.16,mg(P)/L,1.400961721,43.624924498
+05163290,La Garonne à l'entrée dans Toulouse,2021-01-26,1350,Phosphore total,0.11,mg(P)/L,1.436897496,43.572350837
+05158200,La Vendinelle à Loubens-Lauragais,2021-01-26,1301,Température de l'Eau,7.0,°C,1.799080259,43.546455286
+05183935,La Neste D'oô au niveau de Bagnères de Luchon,2021-01-26,1301,Température de l'Eau,4.1,°C,0.578713318,42.793942877
+05159260,Le Courbet à Pibrac,2021-01-26,1340,Nitrates,13.0,mg(NO3)/L,1.286981282,43.622467745
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-01-26,1303,Conductivité à 25°C,734.0,µS/cm,1.658733821,43.671877492
+05134380,Le Laudot au niveau de Montegut Lauragais,2021-01-26,1350,Phosphore total,0.135,mg(P)/L,1.954108864,43.482645008
+05163000,La Garonne dans Toulouse (St-Pierre),2021-01-26,1340,Nitrates,12.0,mg(NO3)/L,1.435571267,43.601939515
+05158160,Le Balerme à Teulat,2021-01-26,1303,Conductivité à 25°C,589.0,µS/cm,1.691168709,43.63708569
+05184000,La Garonne au Pont du Roi,2021-01-26,1350,Phosphore total,0.01,mg/L,0.735863431,42.849282942
+05159260,Le Courbet à Pibrac,2021-01-26,1303,Conductivité à 25°C,300.0,µS/cm,1.286981282,43.622467745
+05163290,La Garonne à l'entrée dans Toulouse,2021-01-26,1303,Conductivité à 25°C,303.0,µS/cm,1.436897496,43.572350837
+05158160,Le Balerme à Teulat,2021-01-26,1340,Nitrates,20.0,mg(NO3)/L,1.691168709,43.63708569
+05163000,La Garonne dans Toulouse (St-Pierre),2021-01-26,1301,Température de l'Eau,7.0,°C,1.435571267,43.601939515
+05134380,Le Laudot au niveau de Montegut Lauragais,2021-01-26,1303,Conductivité à 25°C,529.0,µS/cm,1.954108864,43.482645008
+05163440,La Saundrune en amont de la Garonne,2021-01-26,1301,Température de l'Eau,8.0,°C,1.423091162,43.543713847
+05163000,La Garonne dans Toulouse (St-Pierre),2021-01-26,1350,Phosphore total,0.11,mg(P)/L,1.435571267,43.601939515
+05183930,La Pique à Cier de Luchon,2021-01-26,1340,Nitrates,1.75,mg/L,0.602333509,42.852679219
+05159000,L'Aussonnelle à Cornebarrieu,2021-01-26,1340,Nitrates,16.0,mg(NO3)/L,1.327303391,43.653155467
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-01-26,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.798080619,43.581808156
+05163700,La Saudrune à l'aval du Bois Vert,2021-01-26,1301,Température de l'Eau,9.0,°C,1.39332015,43.539047635
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-01-26,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.658733821,43.671877492
+05163700,La Saudrune à l'aval du Bois Vert,2021-01-26,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.39332015,43.539047635
+05183940,La Pique au niveau de Bagnères de Luchon,2021-01-26,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.603382512,42.773626904
+05183970,La Garonne au Plan d'Arem,2021-01-26,1350,Phosphore total,0.012,mg/L,0.742175301,42.857692252
+05183970,La Garonne au Plan d'Arem,2021-01-26,1301,Température de l'Eau,4.8,°C,0.742175301,42.857692252
+05163440,La Saundrune en amont de la Garonne,2021-01-26,1350,Phosphore total,0.21,mg(P)/L,1.423091162,43.543713847
+05158200,La Vendinelle à Loubens-Lauragais,2021-01-26,1340,Nitrates,57.0,mg(NO3)/L,1.799080259,43.546455286
+05162500,Le Touch en aval de Fonsorbes,2021-01-26,1340,Nitrates,19.0,mg(NO3)/L,1.260271198,43.524037222
+05162980,Le Canal du Midi dans Toulouse (Béarnais),2021-01-26,1340,Nitrates,17.0,mg(NO3)/L,1.423967794,43.611851219
+05181600,Le Ger à Boutx,2021-01-26,1340,Nitrates,2.3,mg/L,0.804923152,42.917018719
+05130500,Ruisseau de Palmola à Bessières,2021-01-26,1303,Conductivité à 25°C,487.0,µS/cm,1.57670803,43.807094119
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-01-26,1301,Température de l'Eau,8.0,°C,1.430782683,43.570552789
+05162500,Le Touch en aval de Fonsorbes,2021-01-26,1303,Conductivité à 25°C,385.0,µS/cm,1.260271198,43.524037222
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-01-26,1340,Nitrates,49.0,mg(NO3)/L,1.658733821,43.671877492
+05162980,Le Canal du Midi dans Toulouse (Béarnais),2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.423967794,43.611851219
+05162500,Le Touch en aval de Fonsorbes,2021-01-26,1301,Température de l'Eau,6.0,°C,1.260271198,43.524037222
+05183940,La Pique au niveau de Bagnères de Luchon,2021-01-26,1303,Conductivité à 25°C,74.0,µS/cm,0.603382512,42.773626904
+05183920,La Pique à Cier-Gaud,2021-01-26,1350,Phosphore total,0.011,mg/L,0.638599533,42.912231028
+05183920,La Pique à Cier-Gaud,2021-01-26,1340,Nitrates,1.86,mg/L,0.638599533,42.912231028
+05183910,Le Ruisseau de Marignac à Marignac,2021-01-26,1301,Température de l'Eau,3.5,°C,0.65364243,42.916159443
+05163290,La Garonne à l'entrée dans Toulouse,2021-01-26,1301,Température de l'Eau,7.0,°C,1.436897496,43.572350837
+05134540,Le Laudot au niveau de Revel,2021-01-26,1301,Température de l'Eau,4.6,°C,1.960507514,43.424672771
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-01-26,1350,Phosphore total,0.08,mg(P)/L,1.608357511,43.682674019
+05159260,Le Courbet à Pibrac,2021-01-26,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.286981282,43.622467745
+05130500,Ruisseau de Palmola à Bessières,2021-01-26,1301,Température de l'Eau,5.6,°C,1.57670803,43.807094119
+05158800,Le Ruisseau du Panariol à Aussonne,2021-01-26,1340,Nitrates,19.0,mg(NO3)/L,1.318741736,43.679663671
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-01-26,1303,Conductivité à 25°C,303.0,µS/cm,1.430186212,43.585122999
+05134540,Le Laudot au niveau de Revel,2021-01-26,1303,Conductivité à 25°C,234.0,µS/cm,1.960507514,43.424672771
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-01-26,1303,Conductivité à 25°C,725.0,µS/cm,1.798080619,43.581808156
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-01-26,1340,Nitrates,7.0,mg(NO3)/L,1.430186212,43.585122999
+05163290,La Garonne à l'entrée dans Toulouse,2021-01-26,1340,Nitrates,20.0,mg(NO3)/L,1.436897496,43.572350837
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.430186212,43.585122999
+05161900,La Garonne à Blagnac,2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.400961721,43.624924498
+05183910,Le Ruisseau de Marignac à Marignac,2021-01-26,1302,Potentiel en Hydrogène (pH),7.9,unité pH,0.65364243,42.916159443
+05163700,La Saudrune à l'aval du Bois Vert,2021-01-26,1340,Nitrates,15.0,mg(NO3)/L,1.39332015,43.539047635
+05130500,Ruisseau de Palmola à Bessières,2021-01-26,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.57670803,43.807094119
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-01-26,1350,Phosphore total,0.1,mg(P)/L,1.430186212,43.585122999
+05183930,La Pique à Cier de Luchon,2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,0.602333509,42.852679219
+05183900,La Garonne en aval de la Pique,2021-01-26,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.647410266,42.939145087
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-01-26,1350,Phosphore total,0.12,mg(P)/L,1.798080619,43.581808156
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-01-26,1350,Phosphore total,0.1,mg(P)/L,1.430782683,43.570552789
+05183930,La Pique à Cier de Luchon,2021-01-26,1303,Conductivité à 25°C,134.0,µS/cm,0.602333509,42.852679219
+05162520,La Saudrune à St Lys,2021-01-26,1340,Nitrates,27.0,mg(NO3)/L,1.211280264,43.490752918
+05134432,La Rigole de la Plaine au niveau de Revel,2021-01-26,1303,Conductivité à 25°C,417.0,µS/cm,1.955308076,43.435689477
+05163440,La Saundrune en amont de la Garonne,2021-01-26,1303,Conductivité à 25°C,443.0,µS/cm,1.423091162,43.543713847
+05183900,La Garonne en aval de la Pique,2021-01-26,1303,Conductivité à 25°C,166.0,µS/cm,0.647410266,42.939145087
+05134380,Le Laudot au niveau de Montegut Lauragais,2021-01-26,1301,Température de l'Eau,5.5,°C,1.954108864,43.482645008
+05159260,Le Courbet à Pibrac,2021-01-26,1350,Phosphore total,0.32,mg(P)/L,1.286981282,43.622467745
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-01-26,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.608357511,43.682674019
+05162520,La Saudrune à St Lys,2021-01-26,1301,Température de l'Eau,6.0,°C,1.211280264,43.490752918
+05134400,Le Sor en aval de Revel,2021-01-26,1340,Nitrates,11.0,mg(NO3)/L,1.992900902,43.47464446
+05134432,La Rigole de la Plaine au niveau de Revel,2021-01-26,1340,Nitrates,19.0,mg(NO3)/L,1.955308076,43.435689477
+05158800,Le Ruisseau du Panariol à Aussonne,2021-01-26,1303,Conductivité à 25°C,393.0,µS/cm,1.318741736,43.679663671
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-01-26,1340,Nitrates,56.0,mg(NO3)/L,1.798080619,43.581808156
+05134540,Le Laudot au niveau de Revel,2021-01-26,1350,Phosphore total,0.06,mg(P)/L,1.960507514,43.424672771
+05183970,La Garonne au Plan d'Arem,2021-01-26,1340,Nitrates,1.34,mg/L,0.742175301,42.857692252
+05134380,Le Laudot au niveau de Montegut Lauragais,2021-01-26,1340,Nitrates,42.2,mg(NO3)/L,1.954108864,43.482645008
+05162520,La Saudrune à St Lys,2021-01-26,1302,Potentiel en Hydrogène (pH),7.7,unité pH,1.211280264,43.490752918
+05161950,Le Touch à St-Michel du Touch,2021-01-26,1340,Nitrates,15.0,mg(NO3)/L,1.395626096,43.62079603
+05183930,La Pique à Cier de Luchon,2021-01-26,1301,Température de l'Eau,4.0,°C,0.602333509,42.852679219
+05183920,La Pique à Cier-Gaud,2021-01-26,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.638599533,42.912231028
+05183900,La Garonne en aval de la Pique,2021-01-26,1350,Phosphore total,0.01,mg/L,0.647410266,42.939145087
+05163700,La Saudrune à l'aval du Bois Vert,2021-01-26,1350,Phosphore total,0.26,mg(P)/L,1.39332015,43.539047635
+05162980,Le Canal du Midi dans Toulouse (Béarnais),2021-01-26,1303,Conductivité à 25°C,306.0,µS/cm,1.423967794,43.611851219
+05181600,Le Ger à Boutx,2021-01-26,1301,Température de l'Eau,6.6,°C,0.804923152,42.917018719
+05162980,Le Canal du Midi dans Toulouse (Béarnais),2021-01-26,1350,Phosphore total,0.04,mg(P)/L,1.423967794,43.611851219
+05158200,La Vendinelle à Loubens-Lauragais,2021-01-26,1303,Conductivité à 25°C,671.0,µS/cm,1.799080259,43.546455286
+05161900,La Garonne à Blagnac,2021-01-26,1301,Température de l'Eau,7.0,°C,1.400961721,43.624924498
+05183920,La Pique à Cier-Gaud,2021-01-26,1301,Température de l'Eau,5.4,°C,0.638599533,42.912231028
+05183940,La Pique au niveau de Bagnères de Luchon,2021-01-26,1340,Nitrates,1.19,mg/L,0.603382512,42.773626904
+05159000,L'Aussonnelle à Cornebarrieu,2021-01-26,1350,Phosphore total,0.34,mg(P)/L,1.327303391,43.653155467
+05181600,Le Ger à Boutx,2021-01-26,1350,Phosphore total,0.01,mg/L,0.804923152,42.917018719
+05183970,La Garonne au Plan d'Arem,2021-01-26,1303,Conductivité à 25°C,190.0,µS/cm,0.742175301,42.857692252
+05159000,L'Aussonnelle à Cornebarrieu,2021-01-26,1303,Conductivité à 25°C,325.0,µS/cm,1.327303391,43.653155467
+05134432,La Rigole de la Plaine au niveau de Revel,2021-01-26,1350,Phosphore total,0.11,mg(P)/L,1.955308076,43.435689477
+05161950,Le Touch à St-Michel du Touch,2021-01-26,1301,Température de l'Eau,7.0,°C,1.395626096,43.62079603
+05184000,La Garonne au Pont du Roi,2021-01-26,1340,Nitrates,1.42,mg/L,0.735863431,42.849282942
+05183930,La Pique à Cier de Luchon,2021-01-26,1350,Phosphore total,0.011,mg/L,0.602333509,42.852679219
+05161950,Le Touch à St-Michel du Touch,2021-01-26,1303,Conductivité à 25°C,337.0,µS/cm,1.395626096,43.62079603
+05162520,La Saudrune à St Lys,2021-01-26,1350,Phosphore total,0.29,mg(P)/L,1.211280264,43.490752918
+05158200,La Vendinelle à Loubens-Lauragais,2021-01-26,1350,Phosphore total,0.09,mg(P)/L,1.799080259,43.546455286
+05162520,La Saudrune à St Lys,2021-01-26,1303,Conductivité à 25°C,294.0,µS/cm,1.211280264,43.490752918
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.430782683,43.570552789
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-01-26,1350,Phosphore total,0.07,mg(P)/L,1.658733821,43.671877492
+05134540,Le Laudot au niveau de Revel,2021-01-26,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.960507514,43.424672771
+05159000,L'Aussonnelle à Cornebarrieu,2021-01-26,1301,Température de l'Eau,6.0,°C,1.327303391,43.653155467
+05184000,La Garonne au Pont du Roi,2021-01-26,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.735863431,42.849282942
+05161900,La Garonne à Blagnac,2021-01-26,1340,Nitrates,9.0,mg(NO3)/L,1.400961721,43.624924498
+05183910,Le Ruisseau de Marignac à Marignac,2021-01-26,1350,Phosphore total,0.01,mg/L,0.65364243,42.916159443
+05134400,Le Sor en aval de Revel,2021-01-26,1301,Température de l'Eau,5.4,°C,1.992900902,43.47464446
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-01-26,1303,Conductivité à 25°C,765.0,µS/cm,1.608357511,43.682674019
+05183935,La Neste D'oô au niveau de Bagnères de Luchon,2021-01-26,1340,Nitrates,2.39,mg/L,0.578713318,42.793942877
+05183935,La Neste D'oô au niveau de Bagnères de Luchon,2021-01-26,1303,Conductivité à 25°C,192.0,µS/cm,0.578713318,42.793942877
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-01-26,1340,Nitrates,7.0,mg(NO3)/L,1.430782683,43.570552789
+05161950,Le Touch à St-Michel du Touch,2021-01-26,1350,Phosphore total,0.29,mg(P)/L,1.395626096,43.62079603
+05183935,La Neste D'oô au niveau de Bagnères de Luchon,2021-01-26,1350,Phosphore total,0.016,mg/L,0.578713318,42.793942877
+05162500,Le Touch en aval de Fonsorbes,2021-01-26,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.260271198,43.524037222
+05163000,La Garonne dans Toulouse (St-Pierre),2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.435571267,43.601939515
+05162980,Le Canal du Midi dans Toulouse (Béarnais),2021-01-26,1301,Température de l'Eau,7.0,°C,1.423967794,43.611851219
+05158160,Le Balerme à Teulat,2021-01-26,1350,Phosphore total,0.05,mg(P)/L,1.691168709,43.63708569
+05130500,Ruisseau de Palmola à Bessières,2021-01-26,1350,Phosphore total,0.327,mg(P)/L,1.57670803,43.807094119
+05183910,Le Ruisseau de Marignac à Marignac,2021-01-26,1303,Conductivité à 25°C,135.0,µS/cm,0.65364243,42.916159443
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-01-26,1301,Température de l'Eau,7.0,°C,1.430186212,43.585122999
+05163000,La Garonne dans Toulouse (St-Pierre),2021-01-26,1303,Conductivité à 25°C,307.0,µS/cm,1.435571267,43.601939515
+05184000,La Garonne au Pont du Roi,2021-01-26,1301,Température de l'Eau,4.6,°C,0.735863431,42.849282942
+05158800,Le Ruisseau du Panariol à Aussonne,2021-01-26,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.318741736,43.679663671
+05183940,La Pique au niveau de Bagnères de Luchon,2021-01-26,1350,Phosphore total,0.01,mg/L,0.603382512,42.773626904
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-01-26,1301,Température de l'Eau,7.0,°C,1.798080619,43.581808156
+05163290,La Garonne à l'entrée dans Toulouse,2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.436897496,43.572350837
+05134540,Le Laudot au niveau de Revel,2021-01-26,1340,Nitrates,11.4,mg(NO3)/L,1.960507514,43.424672771
+05183970,La Garonne au Plan d'Arem,2021-01-26,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.742175301,42.857692252
+05159260,Le Courbet à Pibrac,2021-01-26,1301,Température de l'Eau,6.0,°C,1.286981282,43.622467745
+05161900,La Garonne à Blagnac,2021-01-26,1303,Conductivité à 25°C,304.0,µS/cm,1.400961721,43.624924498
+05183920,La Pique à Cier-Gaud,2021-01-26,1303,Conductivité à 25°C,153.0,µS/cm,0.638599533,42.912231028
+05162500,Le Touch en aval de Fonsorbes,2021-01-26,1350,Phosphore total,0.25,mg(P)/L,1.260271198,43.524037222
+05181600,Le Ger à Boutx,2021-01-26,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.804923152,42.917018719
+05183935,La Neste D'oô au niveau de Bagnères de Luchon,2021-01-26,1302,Potentiel en Hydrogène (pH),8.3,unité pH,0.578713318,42.793942877
+05134380,Le Laudot au niveau de Montegut Lauragais,2021-01-26,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.954108864,43.482645008
+05183900,La Garonne en aval de la Pique,2021-01-26,1340,Nitrates,2.04,mg/L,0.647410266,42.939145087
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-01-26,1301,Température de l'Eau,7.0,°C,1.658733821,43.671877492
+05158160,Le Balerme à Teulat,2021-01-26,1301,Température de l'Eau,6.0,°C,1.691168709,43.63708569
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-01-26,1340,Nitrates,41.0,mg(NO3)/L,1.608357511,43.682674019
+05163440,La Saundrune en amont de la Garonne,2021-01-26,1340,Nitrates,32.0,mg(NO3)/L,1.423091162,43.543713847
+05158800,Le Ruisseau du Panariol à Aussonne,2021-01-26,1301,Température de l'Eau,7.0,°C,1.318741736,43.679663671
+05163700,La Saudrune à l'aval du Bois Vert,2021-01-26,1303,Conductivité à 25°C,433.0,µS/cm,1.39332015,43.539047635
+05158200,La Vendinelle à Loubens-Lauragais,2021-01-26,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.799080259,43.546455286
+05181200,Le Job au droit de Juzet d'Izaut,2021-01-27,1303,Conductivité à 25°C,255.0,µS/cm,0.740996546,42.981999128
+05156700,La Garonne à Ondes,2021-01-27,1340,Nitrates,16.0,mg(NO3)/L,1.307128121,43.777678805
+05177000,La Garonne à Cazères,2021-01-27,1303,Conductivité à 25°C,280.0,µS/cm,1.087623838,43.203926486
+05181000,La Garonne à Labarthe Inard,2021-01-27,1301,Température de l'Eau,8.0,°C,0.841394789,43.094456213
+05177000,La Garonne à Cazères,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.087623838,43.203926486
+05165790,La Mouillonne au niveau de Miremont,2021-01-27,1340,Nitrates,44.1,mg/L,1.437602111,43.390948303
+05176850,Le Volp au Plan,2021-01-27,1303,Conductivité à 25°C,332.0,µS/cm,1.11771413,43.17017534
+05181800,La Garonne à Valentine,2021-01-27,1303,Conductivité à 25°C,214.0,µS/cm,0.706309886,43.097693069
+05175300,Le Canal de Franquevielle à Cardeilhac,2021-01-27,1301,Température de l'Eau,7.4,°C,0.65982253,43.193607051
+05164000,L'Ariège à Lacroix - Falgarde,2021-01-27,1340,Nitrates,8.97,mg/L,1.406872377,43.499561998
+05156950,L'Hers mort au niveau de St-Sauveur,2021-01-27,1350,Phosphore total,0.19,mg(P)/L,1.380556327,43.750443226
+05156700,La Garonne à Ondes,2021-01-27,1350,Phosphore total,0.11,mg(P)/L,1.307128121,43.777678805
+05165850,L'Ariège à Clermont-le-Fort,2021-01-27,1303,Conductivité à 25°C,284.0,µS/cm,1.420603568,43.460528595
+05181800,La Garonne à Valentine,2021-01-27,1301,Température de l'Eau,7.3,°C,0.706309886,43.097693069
+05174000,La Garonne en amont de l'Ariège,2021-01-27,1350,Phosphore total,0.037,mg/L,1.387766337,43.512148118
+05181000,La Garonne à Labarthe Inard,2021-01-27,1303,Conductivité à 25°C,273.0,µS/cm,0.841394789,43.094456213
+05164650,Ruisseau du Haumont à Pins-Justaret,2021-01-27,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.396729453,43.482944724
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-01-27,1301,Température de l'Eau,8.1,°C,1.247176815,43.104881447
+05164000,L'Ariège à Lacroix - Falgarde,2021-01-27,1350,Phosphore total,0.039,mg/L,1.406872377,43.499561998
+05181100,Le Job au niveau d'Encausse les thermes,2021-01-27,1350,Phosphore total,0.024,mg/L,0.751587141,43.064366285
+05165790,La Mouillonne au niveau de Miremont,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.437602111,43.390948303
+05165760,L'Aise à Issus,2021-01-27,1350,Phosphore total,0.09,mg/L,1.443832556,43.427030658
+05175200,La Nère au niveau de Francon,2021-01-27,1350,Phosphore total,0.103,mg/L,1.002349327,43.270767185
+05164000,L'Ariège à Lacroix - Falgarde,2021-01-27,1303,Conductivité à 25°C,300.0,µS/cm,1.406872377,43.499561998
+05181800,La Garonne à Valentine,2021-01-27,1350,Phosphore total,0.012,mg/L,0.706309886,43.097693069
+05176850,Le Volp au Plan,2021-01-27,1301,Température de l'Eau,8.7,°C,1.11771413,43.17017534
+05181130,Le Ruisseau de la Lose à Encausse-les-Thermes,2021-01-27,1301,Température de l'Eau,10.8,°C,0.742463252,43.053828138
+05181000,La Garonne à Labarthe Inard,2021-01-27,1350,Phosphore total,0.018,mg/L,0.841394789,43.094456213
+05156700,La Garonne à Ondes,2021-01-27,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.307128121,43.777678805
+05165000,La Lèze à Labarthe-sur-Lèze,2021-01-27,1340,Nitrates,25.5,mg/L,1.406575617,43.450964783
+05175200,La Nère au niveau de Francon,2021-01-27,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.002349327,43.270767185
+05181700,Le Canal de la Gentille,2021-01-27,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.748417491,43.102630456
+05155100,La Garenne (Cédat) au Castéra,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.134799933,43.651643675
+05175300,Le Canal de Franquevielle à Cardeilhac,2021-01-27,1303,Conductivité à 25°C,134.0,µS/cm,0.65982253,43.193607051
+05177000,La Garonne à Cazères,2021-01-27,1301,Température de l'Eau,9.8,°C,1.087623838,43.203926486
+05155000,La Save à Grenade,2021-01-27,1303,Conductivité à 25°C,461.0,µS/cm,1.275836646,43.783848791
+05165900,L'Ariège à Cintegabelle,2021-01-27,1301,Température de l'Eau,7.8,°C,1.532947423,43.310764293
+05165850,L'Ariège à Clermont-le-Fort,2021-01-27,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.420603568,43.460528595
+05181900,Le Lavet à Villeneuve de Rivière,2021-01-27,1302,Potentiel en Hydrogène (pH),7.7,unité pH,0.648543937,43.115973775
+05164650,Ruisseau du Haumont à Pins-Justaret,2021-01-27,1301,Température de l'Eau,8.6,°C,1.396729453,43.482944724
+05181000,La Garonne à Labarthe Inard,2021-01-27,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.841394789,43.094456213
+05155000,La Save à Grenade,2021-01-27,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.275836646,43.783848791
+05175300,Le Canal de Franquevielle à Cardeilhac,2021-01-27,1340,Nitrates,10.0,mg/L,0.65982253,43.193607051
+05181130,Le Ruisseau de la Lose à Encausse-les-Thermes,2021-01-27,1303,Conductivité à 25°C,397.0,µS/cm,0.742463252,43.053828138
+05165760,L'Aise à Issus,2021-01-27,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.443832556,43.427030658
+05181100,Le Job au niveau d'Encausse les thermes,2021-01-27,1301,Température de l'Eau,9.9,°C,0.751587141,43.064366285
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-01-27,1340,Nitrates,1.3,mg/L,1.247176815,43.104881447
+05156950,L'Hers mort au niveau de St-Sauveur,2021-01-27,1301,Température de l'Eau,7.0,°C,1.380556327,43.750443226
+05177000,La Garonne à Cazères,2021-01-27,1340,Nitrates,4.25,mg/L,1.087623838,43.203926486
+05165890,La Jade au niveau de Cintegabelle,2021-01-27,1350,Phosphore total,0.093,mg/L,1.517125403,43.303170666
+05174000,La Garonne en amont de l'Ariège,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.387766337,43.512148118
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-01-27,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.247176815,43.104881447
+05165890,La Jade au niveau de Cintegabelle,2021-01-27,1303,Conductivité à 25°C,558.0,µS/cm,1.517125403,43.303170666
+05158000,Le Girou à Cépet,2021-01-27,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.433921776,43.752663689
+05181200,Le Job au droit de Juzet d'Izaut,2021-01-27,1301,Température de l'Eau,9.0,°C,0.740996546,42.981999128
+05181700,Le Canal de la Gentille,2021-01-27,1303,Conductivité à 25°C,255.0,µS/cm,0.748417491,43.102630456
+05164650,Ruisseau du Haumont à Pins-Justaret,2021-01-27,1303,Conductivité à 25°C,512.0,µS/cm,1.396729453,43.482944724
+05181800,La Garonne à Valentine,2021-01-27,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.706309886,43.097693069
+05154600,Le Saint-Pierre à St Cézert,2021-01-27,1303,Conductivité à 25°C,660.0,µS/cm,1.186008879,43.784730775
+05175200,La Nère au niveau de Francon,2021-01-27,1301,Température de l'Eau,8.6,°C,1.002349327,43.270767185
+05164000,L'Ariège à Lacroix - Falgarde,2021-01-27,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.406872377,43.499561998
+05176850,Le Volp au Plan,2021-01-27,1340,Nitrates,3.62,mg/L,1.11771413,43.17017534
+05181100,Le Job au niveau d'Encausse les thermes,2021-01-27,1340,Nitrates,4.52,mg/L,0.751587141,43.064366285
+05165760,L'Aise à Issus,2021-01-27,1303,Conductivité à 25°C,751.0,µS/cm,1.443832556,43.427030658
+05165900,L'Ariège à Cintegabelle,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.532947423,43.310764293
+05165900,L'Ariège à Cintegabelle,2021-01-27,1350,Phosphore total,0.025,mg/L,1.532947423,43.310764293
+05155000,La Save à Grenade,2021-01-27,1301,Température de l'Eau,8.0,°C,1.275836646,43.783848791
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-01-27,1303,Conductivité à 25°C,300.0,µS/cm,1.247176815,43.104881447
+05181900,Le Lavet à Villeneuve de Rivière,2021-01-27,1301,Température de l'Eau,7.8,°C,0.648543937,43.115973775
+05181700,Le Canal de la Gentille,2021-01-27,1350,Phosphore total,0.018,mg/L,0.748417491,43.102630456
+05175200,La Nère au niveau de Francon,2021-01-27,1340,Nitrates,17.8,mg/L,1.002349327,43.270767185
+05175300,Le Canal de Franquevielle à Cardeilhac,2021-01-27,1350,Phosphore total,0.022,mg/L,0.65982253,43.193607051
+05156700,La Garonne à Ondes,2021-01-27,1303,Conductivité à 25°C,414.0,µS/cm,1.307128121,43.777678805
+05175300,Le Canal de Franquevielle à Cardeilhac,2021-01-27,1302,Potentiel en Hydrogène (pH),7.8,unité pH,0.65982253,43.193607051
+05181700,Le Canal de la Gentille,2021-01-27,1340,Nitrates,3.26,mg/L,0.748417491,43.102630456
+05165850,L'Ariège à Clermont-le-Fort,2021-01-27,1350,Phosphore total,0.04,mg/L,1.420603568,43.460528595
+05176850,Le Volp au Plan,2021-01-27,1350,Phosphore total,0.029,mg/L,1.11771413,43.17017534
+05165760,L'Aise à Issus,2021-01-27,1340,Nitrates,37.4,mg/L,1.443832556,43.427030658
+05165850,L'Ariège à Clermont-le-Fort,2021-01-27,1301,Température de l'Eau,7.8,°C,1.420603568,43.460528595
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-01-27,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.477223385,43.414637812
+05164000,L'Ariège à Lacroix - Falgarde,2021-01-27,1301,Température de l'Eau,7.8,°C,1.406872377,43.499561998
+05164650,Ruisseau du Haumont à Pins-Justaret,2021-01-27,1350,Phosphore total,0.115,mg/L,1.396729453,43.482944724
+05181100,Le Job au niveau d'Encausse les thermes,2021-01-27,1303,Conductivité à 25°C,324.0,µS/cm,0.751587141,43.064366285
+05174000,La Garonne en amont de l'Ariège,2021-01-27,1340,Nitrates,6.82,mg/L,1.387766337,43.512148118
+05181130,Le Ruisseau de la Lose à Encausse-les-Thermes,2021-01-27,1350,Phosphore total,0.045,mg/L,0.742463252,43.053828138
+05158000,Le Girou à Cépet,2021-01-27,1350,Phosphore total,0.17,mg(P)/L,1.433921776,43.752663689
+05165900,L'Ariège à Cintegabelle,2021-01-27,1340,Nitrates,6.08,mg/L,1.532947423,43.310764293
+05181800,La Garonne à Valentine,2021-01-27,1340,Nitrates,2.78,mg/L,0.706309886,43.097693069
+05154600,Le Saint-Pierre à St Cézert,2021-01-27,1340,Nitrates,31.0,mg(NO3)/L,1.186008879,43.784730775
+05181200,Le Job au droit de Juzet d'Izaut,2021-01-27,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.740996546,42.981999128
+05155100,La Garenne (Cédat) au Castéra,2021-01-27,1340,Nitrates,51.0,mg(NO3)/L,1.134799933,43.651643675
+05155100,La Garenne (Cédat) au Castéra,2021-01-27,1301,Température de l'Eau,8.0,°C,1.134799933,43.651643675
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-01-27,1350,Phosphore total,0.024,mg/L,1.247176815,43.104881447
+05165790,La Mouillonne au niveau de Miremont,2021-01-27,1350,Phosphore total,0.144,mg/L,1.437602111,43.390948303
+05165000,La Lèze à Labarthe-sur-Lèze,2021-01-27,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.406575617,43.450964783
+05155000,La Save à Grenade,2021-01-27,1350,Phosphore total,0.22,mg(P)/L,1.275836646,43.783848791
+05154600,Le Saint-Pierre à St Cézert,2021-01-27,1301,Température de l'Eau,8.0,°C,1.186008879,43.784730775
+05156950,L'Hers mort au niveau de St-Sauveur,2021-01-27,1340,Nitrates,41.0,mg(NO3)/L,1.380556327,43.750443226
+05155000,La Save à Grenade,2021-01-27,1340,Nitrates,23.0,mg(NO3)/L,1.275836646,43.783848791
+05181000,La Garonne à Labarthe Inard,2021-01-27,1340,Nitrates,3.67,mg/L,0.841394789,43.094456213
+05181900,Le Lavet à Villeneuve de Rivière,2021-01-27,1340,Nitrates,10.6,mg/L,0.648543937,43.115973775
+05165890,La Jade au niveau de Cintegabelle,2021-01-27,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.517125403,43.303170666
+05181200,Le Job au droit de Juzet d'Izaut,2021-01-27,1340,Nitrates,3.53,mg/L,0.740996546,42.981999128
+05181900,Le Lavet à Villeneuve de Rivière,2021-01-27,1350,Phosphore total,0.039,mg/L,0.648543937,43.115973775
+05181130,Le Ruisseau de la Lose à Encausse-les-Thermes,2021-01-27,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.742463252,43.053828138
+05154600,Le Saint-Pierre à St Cézert,2021-01-27,1350,Phosphore total,0.16,mg(P)/L,1.186008879,43.784730775
+05165890,La Jade au niveau de Cintegabelle,2021-01-27,1340,Nitrates,20.2,mg/L,1.517125403,43.303170666
+05176850,Le Volp au Plan,2021-01-27,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.11771413,43.17017534
+05165000,La Lèze à Labarthe-sur-Lèze,2021-01-27,1350,Phosphore total,0.065,mg/L,1.406575617,43.450964783
+05174000,La Garonne en amont de l'Ariège,2021-01-27,1303,Conductivité à 25°C,300.0,µS/cm,1.387766337,43.512148118
+05158000,Le Girou à Cépet,2021-01-27,1303,Conductivité à 25°C,706.0,µS/cm,1.433921776,43.752663689
+05165000,La Lèze à Labarthe-sur-Lèze,2021-01-27,1303,Conductivité à 25°C,555.0,µS/cm,1.406575617,43.450964783
+05177000,La Garonne à Cazères,2021-01-27,1350,Phosphore total,0.02,mg/L,1.087623838,43.203926486
+05165850,L'Ariège à Clermont-le-Fort,2021-01-27,1340,Nitrates,8.03,mg/L,1.420603568,43.460528595
+05181130,Le Ruisseau de la Lose à Encausse-les-Thermes,2021-01-27,1340,Nitrates,4.28,mg/L,0.742463252,43.053828138
+05164650,Ruisseau du Haumont à Pins-Justaret,2021-01-27,1340,Nitrates,30.6,mg/L,1.396729453,43.482944724
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-01-27,1340,Nitrates,39.0,mg/L,1.477223385,43.414637812
+05175200,La Nère au niveau de Francon,2021-01-27,1303,Conductivité à 25°C,394.0,µS/cm,1.002349327,43.270767185
+05165790,La Mouillonne au niveau de Miremont,2021-01-27,1301,Température de l'Eau,9.1,°C,1.437602111,43.390948303
+05156950,L'Hers mort au niveau de St-Sauveur,2021-01-27,1303,Conductivité à 25°C,692.0,µS/cm,1.380556327,43.750443226
+05158000,Le Girou à Cépet,2021-01-27,1301,Température de l'Eau,7.0,°C,1.433921776,43.752663689
+05181700,Le Canal de la Gentille,2021-01-27,1301,Température de l'Eau,8.0,°C,0.748417491,43.102630456
+05165790,La Mouillonne au niveau de Miremont,2021-01-27,1303,Conductivité à 25°C,662.0,µS/cm,1.437602111,43.390948303
+05156700,La Garonne à Ondes,2021-01-27,1301,Température de l'Eau,7.0,°C,1.307128121,43.777678805
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-01-27,1301,Température de l'Eau,9.0,°C,1.477223385,43.414637812
+05181900,Le Lavet à Villeneuve de Rivière,2021-01-27,1303,Conductivité à 25°C,137.0,µS/cm,0.648543937,43.115973775
+05165000,La Lèze à Labarthe-sur-Lèze,2021-01-27,1301,Température de l'Eau,9.2,°C,1.406575617,43.450964783
+05155100,La Garenne (Cédat) au Castéra,2021-01-27,1350,Phosphore total,0.07,mg(P)/L,1.134799933,43.651643675
+05165760,L'Aise à Issus,2021-01-27,1301,Température de l'Eau,8.5,°C,1.443832556,43.427030658
+05165890,La Jade au niveau de Cintegabelle,2021-01-27,1301,Température de l'Eau,9.0,°C,1.517125403,43.303170666
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-01-27,1303,Conductivité à 25°C,783.0,µS/cm,1.477223385,43.414637812
+05156950,L'Hers mort au niveau de St-Sauveur,2021-01-27,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.380556327,43.750443226
+05158000,Le Girou à Cépet,2021-01-27,1340,Nitrates,50.0,mg(NO3)/L,1.433921776,43.752663689
+05155100,La Garenne (Cédat) au Castéra,2021-01-27,1303,Conductivité à 25°C,757.0,µS/cm,1.134799933,43.651643675
+05165900,L'Ariège à Cintegabelle,2021-01-27,1303,Conductivité à 25°C,231.0,µS/cm,1.532947423,43.310764293
+05181200,Le Job au droit de Juzet d'Izaut,2021-01-27,1350,Phosphore total,0.04,mg/L,0.740996546,42.981999128
+05181100,Le Job au niveau d'Encausse les thermes,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.751587141,43.064366285
+05174000,La Garonne en amont de l'Ariège,2021-01-27,1301,Température de l'Eau,9.2,°C,1.387766337,43.512148118
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-01-27,1350,Phosphore total,0.082,mg/L,1.477223385,43.414637812
+05154600,Le Saint-Pierre à St Cézert,2021-01-27,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.186008879,43.784730775
+05157250,La Marcaissonne au niveau de Toulouse,2021-01-28,1350,Phosphore total,0.64,mg(P)/L,1.509655255,43.567434385
+05178000,Le Salat à Roquefort,2021-01-28,1301,Température de l'Eau,8.1,°C,0.968803704,43.157846306
+05157140,La Seillonne au niveau de Balma,2021-01-28,1303,Conductivité à 25°C,554.0,µS/cm,1.518210275,43.632525856
+05178000,Le Salat à Roquefort,2021-01-28,1303,Conductivité à 25°C,168.0,µS/cm,0.968803704,43.157846306
+05161000,La Garonne en aval de Toulouse,2021-01-28,1301,Température de l'Eau,10.0,°C,1.368139354,43.700396138
+05158700,L'Aussonnelle à Seilh,2021-01-28,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.358402052,43.696469609
+05157100,La Sausse à Toulouse,2021-01-28,1303,Conductivité à 25°C,520.0,µS/cm,1.483920545,43.646812257
+05180900,La Garonne à Boussens (Pont de la D13),2021-01-28,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.961848368,43.160954225
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-01-28,1301,Température de l'Eau,9.5,°C,0.974040196,43.17360075
+05157100,La Sausse à Toulouse,2021-01-28,1340,Nitrates,35.4,mg(NO3)/L,1.483920545,43.646812257
+05178100,Le Lens à Cassagne,2021-01-28,1340,Nitrates,4.59,mg/L,0.990667451,43.126404965
+05178800,L'Arbas à Mane,2021-01-28,1302,Potentiel en Hydrogène (pH),8.3,unité pH,0.950161837,43.07876646
+05178800,L'Arbas à Mane,2021-01-28,1350,Phosphore total,0.018,mg/L,0.950161837,43.07876646
+05157140,La Seillonne au niveau de Balma,2021-01-28,1340,Nitrates,41.5,mg(NO3)/L,1.518210275,43.632525856
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-01-28,1301,Température de l'Eau,10.0,°C,1.681189706,43.617347138
+05158150,Le Girou en amont de Verfeil,2021-01-28,1303,Conductivité à 25°C,589.0,µS/cm,1.652755251,43.641925945
+05157150,La Seillonne au niveau de Dremil Lafage,2021-01-28,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.616522682,43.584866574
+05157100,La Sausse à Toulouse,2021-01-28,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.483920545,43.646812257
+05157100,La Sausse à Toulouse,2021-01-28,1301,Température de l'Eau,10.0,°C,1.483920545,43.646812257
+05158150,Le Girou en amont de Verfeil,2021-01-28,1340,Nitrates,44.2,mg(NO3)/L,1.652755251,43.641925945
+05158150,Le Girou en amont de Verfeil,2021-01-28,1301,Température de l'Eau,11.0,°C,1.652755251,43.641925945
+05180900,La Garonne à Boussens (Pont de la D13),2021-01-28,1301,Température de l'Eau,8.9,°C,0.961848368,43.160954225
+05161500,La Garonne au Syndicat Centre et Nord,2021-01-28,1301,Température de l'Eau,11.0,°C,1.403577731,43.664021872
+05158150,Le Girou en amont de Verfeil,2021-01-28,1350,Phosphore total,0.41,mg(P)/L,1.652755251,43.641925945
+05178100,Le Lens à Cassagne,2021-01-28,1303,Conductivité à 25°C,372.0,µS/cm,0.990667451,43.126404965
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-01-28,1340,Nitrates,4.86,mg/L,0.974040196,43.17360075
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-01-28,1303,Conductivité à 25°C,361.0,µS/cm,0.974040196,43.17360075
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-01-28,1350,Phosphore total,0.44,mg(P)/L,1.681189706,43.617347138
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-01-28,1350,Phosphore total,0.127,mg/L,0.974040196,43.17360075
+05178000,Le Salat à Roquefort,2021-01-28,1340,Nitrates,2.38,mg/L,0.968803704,43.157846306
+05157140,La Seillonne au niveau de Balma,2021-01-28,1301,Température de l'Eau,10.0,°C,1.518210275,43.632525856
+05157150,La Seillonne au niveau de Dremil Lafage,2021-01-28,1301,Température de l'Eau,9.0,°C,1.616522682,43.584866574
+05161000,La Garonne en aval de Toulouse,2021-01-28,1350,Phosphore total,0.19,mg(P)/L,1.368139354,43.700396138
+05161500,La Garonne au Syndicat Centre et Nord,2021-01-28,1303,Conductivité à 25°C,275.0,µS/cm,1.403577731,43.664021872
+05158700,L'Aussonnelle à Seilh,2021-01-28,1301,Température de l'Eau,10.0,°C,1.358402052,43.696469609
+05157150,La Seillonne au niveau de Dremil Lafage,2021-01-28,1340,Nitrates,44.2,mg(NO3)/L,1.616522682,43.584866574
+05178100,Le Lens à Cassagne,2021-01-28,1301,Température de l'Eau,9.7,°C,0.990667451,43.126404965
+05180900,La Garonne à Boussens (Pont de la D13),2021-01-28,1303,Conductivité à 25°C,200.0,µS/cm,0.961848368,43.160954225
+05157250,La Marcaissonne au niveau de Toulouse,2021-01-28,1340,Nitrates,38.3,mg(NO3)/L,1.509655255,43.567434385
+05161000,La Garonne en aval de Toulouse,2021-01-28,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.368139354,43.700396138
+05158700,L'Aussonnelle à Seilh,2021-01-28,1340,Nitrates,13.7,mg(NO3)/L,1.358402052,43.696469609
+05178800,L'Arbas à Mane,2021-01-28,1301,Température de l'Eau,9.8,°C,0.950161837,43.07876646
+05158700,L'Aussonnelle à Seilh,2021-01-28,1303,Conductivité à 25°C,302.0,µS/cm,1.358402052,43.696469609
+05157250,La Marcaissonne au niveau de Toulouse,2021-01-28,1303,Conductivité à 25°C,508.0,µS/cm,1.509655255,43.567434385
+05178100,Le Lens à Cassagne,2021-01-28,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.990667451,43.126404965
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-01-28,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.681189706,43.617347138
+05157140,La Seillonne au niveau de Balma,2021-01-28,1350,Phosphore total,0.42,mg(P)/L,1.518210275,43.632525856
+05178800,L'Arbas à Mane,2021-01-28,1340,Nitrates,4.72,mg/L,0.950161837,43.07876646
+05158700,L'Aussonnelle à Seilh,2021-01-28,1350,Phosphore total,0.42,mg(P)/L,1.358402052,43.696469609
+05161500,La Garonne au Syndicat Centre et Nord,2021-01-28,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.403577731,43.664021872
+05180900,La Garonne à Boussens (Pont de la D13),2021-01-28,1340,Nitrates,2.93,mg/L,0.961848368,43.160954225
+05157250,La Marcaissonne au niveau de Toulouse,2021-01-28,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.509655255,43.567434385
+05178000,Le Salat à Roquefort,2021-01-28,1350,Phosphore total,0.066,mg/L,0.968803704,43.157846306
+05178800,L'Arbas à Mane,2021-01-28,1303,Conductivité à 25°C,304.0,µS/cm,0.950161837,43.07876646
+05161000,La Garonne en aval de Toulouse,2021-01-28,1303,Conductivité à 25°C,267.0,µS/cm,1.368139354,43.700396138
+05161500,La Garonne au Syndicat Centre et Nord,2021-01-28,1340,Nitrates,5.9,mg(NO3)/L,1.403577731,43.664021872
+05157250,La Marcaissonne au niveau de Toulouse,2021-01-28,1301,Température de l'Eau,10.0,°C,1.509655255,43.567434385
+05157140,La Seillonne au niveau de Balma,2021-01-28,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.518210275,43.632525856
+05180900,La Garonne à Boussens (Pont de la D13),2021-01-28,1350,Phosphore total,0.098,mg/L,0.961848368,43.160954225
+05157150,La Seillonne au niveau de Dremil Lafage,2021-01-28,1303,Conductivité à 25°C,580.0,µS/cm,1.616522682,43.584866574
+05178000,Le Salat à Roquefort,2021-01-28,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.968803704,43.157846306
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-01-28,1340,Nitrates,57.1,mg(NO3)/L,1.681189706,43.617347138
+05161000,La Garonne en aval de Toulouse,2021-01-28,1340,Nitrates,5.7,mg(NO3)/L,1.368139354,43.700396138
+05158150,Le Girou en amont de Verfeil,2021-01-28,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.652755251,43.641925945
+05178100,Le Lens à Cassagne,2021-01-28,1350,Phosphore total,0.029,mg/L,0.990667451,43.126404965
+05161500,La Garonne au Syndicat Centre et Nord,2021-01-28,1350,Phosphore total,0.25,mg(P)/L,1.403577731,43.664021872
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-01-28,1303,Conductivité à 25°C,666.0,µS/cm,1.681189706,43.617347138
+05157100,La Sausse à Toulouse,2021-01-28,1350,Phosphore total,0.47,mg(P)/L,1.483920545,43.646812257
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-01-28,1302,Potentiel en Hydrogène (pH),8.4,unité pH,0.974040196,43.17360075
+05157150,La Seillonne au niveau de Dremil Lafage,2021-01-28,1350,Phosphore total,0.26,mg(P)/L,1.616522682,43.584866574
+BF000350,BUZET PRISE TARN,2021-02-09,1303,Conductivité à 25°C,250.0,µS/cm,1.610481455,43.760774137
+BF000350,BUZET PRISE TARN,2021-02-09,1350,Phosphore total,0.0,mg(P2O5)/L,1.610481455,43.760774137
+BF000350,BUZET PRISE TARN,2021-02-09,1340,Nitrates,11.0,mg/L,1.610481455,43.760774137
+BF000003,CLAIRFONT,2021-02-15,1340,Nitrates,6.0,mg/L,1.401312906,43.530994507
+BF000003,CLAIRFONT,2021-02-15,1350,Phosphore total,0.0,mg(P2O5)/L,1.401312906,43.530994507
+BF000003,CLAIRFONT,2021-02-15,1303,Conductivité à 25°C,267.0,µS/cm,1.401312906,43.530994507
+05130100,Le Souet à Bondigoux,2021-02-22,1350,Phosphore total,0.022,mg(P)/L,1.552072489,43.850422136
+05162600,Le Touch à Bérat,2021-02-22,1303,Conductivité à 25°C,582.0,µS/cm,1.17363407,43.38402718
+05162500,Le Touch en aval de Fonsorbes,2021-02-22,1350,Phosphore total,0.08,mg(P)/L,1.260271198,43.524037222
+05154100,La Gimone à Boulogne sur Gesse,2021-02-22,1340,Nitrates,5.9,mg(NO3)/L,0.630919964,43.292238629
+05162600,Le Touch à Bérat,2021-02-22,1301,Température de l'Eau,10.0,°C,1.17363407,43.38402718
+BF000326,MARQUISAT  PRISE CANAL,2021-02-22,1303,Conductivité à 25°C,280.0,µS/cm,1.32825987,43.577005313
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-02-22,1301,Température de l'Eau,10.0,°C,1.195596911,43.405632365
+05130000,Le Tarn à Villemur,2021-02-22,1303,Conductivité à 25°C,59.0,µS/cm,1.499660287,43.867985532
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-02-22,1340,Nitrates,3.7,mg(NO3)/L,1.195596911,43.405632365
+05181700,Le Canal de la Gentille,2021-02-22,1340,Nitrates,3.08,mg/L,0.748417491,43.102630456
+05181000,La Garonne à Labarthe Inard,2021-02-22,1350,Phosphore total,0.02,mg/L,0.841394789,43.094456213
+05130000,Le Tarn à Villemur,2021-02-22,1340,Nitrates,11.6,mg(NO3)/L,1.499660287,43.867985532
+05130000,Le Tarn à Villemur,2021-02-22,1350,Phosphore total,0.041,mg(P)/L,1.499660287,43.867985532
+BF000062,LA NAVERRE PRISE GARONNE,2021-02-22,1350,Phosphore total,0.0,mg(P2O5)/L,1.311642857,43.446710717
+05162500,Le Touch en aval de Fonsorbes,2021-02-22,1340,Nitrates,13.5,mg(NO3)/L,1.260271198,43.524037222
+05130100,Le Souet à Bondigoux,2021-02-22,1301,Température de l'Eau,11.3,°C,1.552072489,43.850422136
+05155100,La Garenne (Cédat) au Castéra,2021-02-22,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.134799933,43.651643675
+05181800,La Garonne à Valentine,2021-02-22,1350,Phosphore total,0.011,mg/L,0.706309886,43.097693069
+BF000315,CESERET PRISE D'EAU GARONNE,2021-02-22,1340,Nitrates,4.0,mg/L,1.214071753,43.291921179
+BF000315,CESERET PRISE D'EAU GARONNE,2021-02-22,1303,Conductivité à 25°C,258.0,µS/cm,1.214071753,43.291921179
+05162600,Le Touch à Bérat,2021-02-22,1350,Phosphore total,0.03,mg(P)/L,1.17363407,43.38402718
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-02-22,1350,Phosphore total,0.02,mg(P)/L,1.195596911,43.405632365
+05162500,Le Touch en aval de Fonsorbes,2021-02-22,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.260271198,43.524037222
+05154100,La Gimone à Boulogne sur Gesse,2021-02-22,1302,Potentiel en Hydrogène (pH),8.2,unité pH,0.630919964,43.292238629
+05162520,La Saudrune à St Lys,2021-02-22,1350,Phosphore total,0.19,mg(P)/L,1.211280264,43.490752918
+05130000,Le Tarn à Villemur,2021-02-22,1301,Température de l'Eau,10.2,°C,1.499660287,43.867985532
+05181700,Le Canal de la Gentille,2021-02-22,1303,Conductivité à 25°C,209.0,µS/cm,0.748417491,43.102630456
+BF000002,PECH DAVID,2021-02-22,1350,Phosphore total,0.0,mg(P2O5)/L,1.419491118,43.60934733
+BF000062,LA NAVERRE PRISE GARONNE,2021-02-22,1303,Conductivité à 25°C,269.0,µS/cm,1.311642857,43.446710717
+05181000,La Garonne à Labarthe Inard,2021-02-22,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.841394789,43.094456213
+05155655,La Save au niveau de Montgaillard sur Save,2021-02-22,1350,Phosphore total,0.01,mg(P)/L,0.711917004,43.258616735
+05154100,La Gimone à Boulogne sur Gesse,2021-02-22,1350,Phosphore total,0.01,mg(P)/L,0.630919964,43.292238629
+05181000,La Garonne à Labarthe Inard,2021-02-22,1301,Température de l'Eau,9.1,°C,0.841394789,43.094456213
+05162520,La Saudrune à St Lys,2021-02-22,1303,Conductivité à 25°C,261.0,µS/cm,1.211280264,43.490752918
+05181700,Le Canal de la Gentille,2021-02-22,1350,Phosphore total,0.014,mg/L,0.748417491,43.102630456
+05155100,La Garenne (Cédat) au Castéra,2021-02-22,1340,Nitrates,48.6,mg(NO3)/L,1.134799933,43.651643675
+05162520,La Saudrune à St Lys,2021-02-22,1301,Température de l'Eau,10.0,°C,1.211280264,43.490752918
+BF000002,PECH DAVID,2021-02-22,1303,Conductivité à 25°C,776.0,µS/cm,1.419491118,43.60934733
+BF000002,PECH DAVID,2021-02-22,1340,Nitrates,6.0,mg/L,1.419491118,43.60934733
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-02-22,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.195596911,43.405632365
+05162800,Le Canal de St-Martory en amont du L'Herm,2021-02-22,1303,Conductivité à 25°C,273.0,µS/cm,1.195596911,43.405632365
+05181800,La Garonne à Valentine,2021-02-22,1301,Température de l'Eau,8.7,°C,0.706309886,43.097693069
+05162500,Le Touch en aval de Fonsorbes,2021-02-22,1301,Température de l'Eau,10.0,°C,1.260271198,43.524037222
+05181800,La Garonne à Valentine,2021-02-22,1303,Conductivité à 25°C,207.0,µS/cm,0.706309886,43.097693069
+05154100,La Gimone à Boulogne sur Gesse,2021-02-22,1303,Conductivité à 25°C,227.0,µS/cm,0.630919964,43.292238629
+05162520,La Saudrune à St Lys,2021-02-22,1340,Nitrates,13.8,mg(NO3)/L,1.211280264,43.490752918
+05155655,La Save au niveau de Montgaillard sur Save,2021-02-22,1302,Potentiel en Hydrogène (pH),8.4,unité pH,0.711917004,43.258616735
+05181700,Le Canal de la Gentille,2021-02-22,1301,Température de l'Eau,9.7,°C,0.748417491,43.102630456
+05181800,La Garonne à Valentine,2021-02-22,1340,Nitrates,2.53,mg/L,0.706309886,43.097693069
+BF000326,MARQUISAT  PRISE CANAL,2021-02-22,1340,Nitrates,4.0,mg/L,1.32825987,43.577005313
+BF000326,MARQUISAT  PRISE CANAL,2021-02-22,1350,Phosphore total,0.0,mg(P2O5)/L,1.32825987,43.577005313
+05155655,La Save au niveau de Montgaillard sur Save,2021-02-22,1340,Nitrates,8.3,mg(NO3)/L,0.711917004,43.258616735
+05162520,La Saudrune à St Lys,2021-02-22,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.211280264,43.490752918
+05130100,Le Souet à Bondigoux,2021-02-22,1303,Conductivité à 25°C,72.0,µS/cm,1.552072489,43.850422136
+05155655,La Save au niveau de Montgaillard sur Save,2021-02-22,1301,Température de l'Eau,10.0,°C,0.711917004,43.258616735
+05154100,La Gimone à Boulogne sur Gesse,2021-02-22,1301,Température de l'Eau,9.0,°C,0.630919964,43.292238629
+05130000,Le Tarn à Villemur,2021-02-22,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.499660287,43.867985532
+05162500,Le Touch en aval de Fonsorbes,2021-02-22,1303,Conductivité à 25°C,404.0,µS/cm,1.260271198,43.524037222
+05155100,La Garenne (Cédat) au Castéra,2021-02-22,1303,Conductivité à 25°C,779.0,µS/cm,1.134799933,43.651643675
+BF000315,CESERET PRISE D'EAU GARONNE,2021-02-22,1350,Phosphore total,0.0,mg(P2O5)/L,1.214071753,43.291921179
+05130100,Le Souet à Bondigoux,2021-02-22,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.552072489,43.850422136
+05155100,La Garenne (Cédat) au Castéra,2021-02-22,1301,Température de l'Eau,11.0,°C,1.134799933,43.651643675
+05181700,Le Canal de la Gentille,2021-02-22,1302,Potentiel en Hydrogène (pH),7.9,unité pH,0.748417491,43.102630456
+05181000,La Garonne à Labarthe Inard,2021-02-22,1303,Conductivité à 25°C,264.0,µS/cm,0.841394789,43.094456213
+05155655,La Save au niveau de Montgaillard sur Save,2021-02-22,1303,Conductivité à 25°C,222.0,µS/cm,0.711917004,43.258616735
+05155100,La Garenne (Cédat) au Castéra,2021-02-22,1350,Phosphore total,0.02,mg(P)/L,1.134799933,43.651643675
+05181800,La Garonne à Valentine,2021-02-22,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.706309886,43.097693069
+05162600,Le Touch à Bérat,2021-02-22,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.17363407,43.38402718
+05181000,La Garonne à Labarthe Inard,2021-02-22,1340,Nitrates,3.49,mg/L,0.841394789,43.094456213
+05162600,Le Touch à Bérat,2021-02-22,1340,Nitrates,16.4,mg(NO3)/L,1.17363407,43.38402718
+05130100,Le Souet à Bondigoux,2021-02-22,1340,Nitrates,29.5,mg(NO3)/L,1.552072489,43.850422136
+BF000062,LA NAVERRE PRISE GARONNE,2021-02-22,1340,Nitrates,4.0,mg/L,1.311642857,43.446710717
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-02-23,1301,Température de l'Eau,10.0,°C,1.608357511,43.682674019
+05157510,Le Tissier à Montlaur,2021-02-23,1350,Phosphore total,0.14,mg(P)/L,1.574851925,43.47472413
+05175100,La Louge à l'aval du Fousseret,2021-02-23,1302,Potentiel en Hydrogène (pH),8.7,unité pH,1.133384155,43.303074173
+05159000,L'Aussonnelle à Cornebarrieu,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.327303391,43.653155467
+05157600,Le Visenc à Baziège,2021-02-23,1340,Nitrates,37.3,mg(NO3)/L,1.626050795,43.449560442
+05160000,Le Canal Latéral au droit de Lespinasse,2021-02-23,1303,Conductivité à 25°C,293.0,µS/cm,1.386478721,43.709489755
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-02-23,1303,Conductivité à 25°C,474.0,µS/cm,1.247176815,43.104881447
+05160000,Le Canal Latéral au droit de Lespinasse,2021-02-23,1350,Phosphore total,0.03,mg(P)/L,1.386478721,43.709489755
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-02-23,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.974040196,43.17360075
+05161500,La Garonne au Syndicat Centre et Nord,2021-02-23,1340,Nitrates,6.5,mg(NO3)/L,1.403577731,43.664021872
+05154600,Le Saint-Pierre à St Cézert,2021-02-23,1303,Conductivité à 25°C,794.0,µS/cm,1.186008879,43.784730775
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-02-23,1301,Température de l'Eau,11.0,°C,1.774101034,43.379086096
+05134400,Le Sor en aval de Revel,2021-02-23,1301,Température de l'Eau,10.2,°C,1.992900902,43.47464446
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-02-23,1301,Température de l'Eau,11.3,°C,1.350520249,43.380478349
+05184000,La Garonne au Pont du Roi,2021-02-23,1302,Potentiel en Hydrogène (pH),7.7,unité pH,0.735863431,42.849282942
+05178000,Le Salat à Roquefort,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.968803704,43.157846306
+05159000,L'Aussonnelle à Cornebarrieu,2021-02-23,1301,Température de l'Eau,11.0,°C,1.327303391,43.653155467
+05157360,L'Hers Mort à l'aval de Castanet,2021-02-23,1340,Nitrates,39.8,mg(NO3)/L,1.501887793,43.545909907
+05158700,L'Aussonnelle à Seilh,2021-02-23,1303,Conductivité à 25°C,611.0,µS/cm,1.358402052,43.696469609
+05161900,La Garonne à Blagnac,2021-02-23,1350,Phosphore total,0.02,mg(P)/L,1.400961721,43.624924498
+05161000,La Garonne en aval de Toulouse,2021-02-23,1350,Phosphore total,0.03,mg(P)/L,1.368139354,43.700396138
+05158200,La Vendinelle à Loubens-Lauragais,2021-02-23,1303,Conductivité à 25°C,660.0,µS/cm,1.799080259,43.546455286
+05157100,La Sausse à Toulouse,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.483920545,43.646812257
+05180900,La Garonne à Boussens (Pont de la D13),2021-02-23,1301,Température de l'Eau,8.6,°C,0.961848368,43.160954225
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-02-23,1350,Phosphore total,0.016,mg/L,0.974040196,43.17360075
+05157750,L'Hers Mort à Renneville,2021-02-23,1340,Nitrates,35.6,mg(NO3)/L,1.714998187,43.377680817
+05161500,La Garonne au Syndicat Centre et Nord,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.403577731,43.664021872
+05181600,Le Ger à Boutx,2021-02-23,1302,Potentiel en Hydrogène (pH),7.8,unité pH,0.804923152,42.917018719
+05183900,La Garonne en aval de la Pique,2021-02-23,1303,Conductivité à 25°C,167.0,µS/cm,0.647410266,42.939145087
+05157550,La Rivel à Baziège,2021-02-23,1301,Température de l'Eau,12.0,°C,1.594926497,43.462748566
+05158150,Le Girou en amont de Verfeil,2021-02-23,1303,Conductivité à 25°C,672.0,µS/cm,1.652755251,43.641925945
+05157360,L'Hers Mort à l'aval de Castanet,2021-02-23,1350,Phosphore total,0.18,mg(P)/L,1.501887793,43.545909907
+05183930,La Pique à Cier de Luchon,2021-02-23,1301,Température de l'Eau,7.7,°C,0.602333509,42.852679219
+05184000,La Garonne au Pont du Roi,2021-02-23,1350,Phosphore total,0.018,mg/L,0.735863431,42.849282942
+05175100,La Louge à l'aval du Fousseret,2021-02-23,1301,Température de l'Eau,9.3,°C,1.133384155,43.303074173
+05161900,La Garonne à Blagnac,2021-02-23,1303,Conductivité à 25°C,282.0,µS/cm,1.400961721,43.624924498
+05183930,La Pique à Cier de Luchon,2021-02-23,1303,Conductivité à 25°C,145.0,µS/cm,0.602333509,42.852679219
+05157510,Le Tissier à Montlaur,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.574851925,43.47472413
+05176850,Le Volp au Plan,2021-02-23,1340,Nitrates,3.33,mg/L,1.11771413,43.17017534
+05180900,La Garonne à Boussens (Pont de la D13),2021-02-23,1350,Phosphore total,0.016,mg/L,0.961848368,43.160954225
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-02-23,1340,Nitrates,2.97,mg/L,0.974040196,43.17360075
+05163290,La Garonne à l'entrée dans Toulouse,2021-02-23,1350,Phosphore total,0.02,mg(P)/L,1.436897496,43.572350837
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-02-23,1301,Température de l'Eau,11.0,°C,1.685830535,43.390466949
+05158150,Le Girou en amont de Verfeil,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.652755251,43.641925945
+05175800,La Garonne à Marquefave,2021-02-23,1301,Température de l'Eau,9.7,°C,1.244433271,43.317081905
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-02-23,1340,Nitrates,42.8,mg(NO3)/L,1.681189706,43.617347138
+05163290,La Garonne à l'entrée dans Toulouse,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.436897496,43.572350837
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-02-23,1350,Phosphore total,0.02,mg(P)/L,1.681189706,43.617347138
+05158200,La Vendinelle à Loubens-Lauragais,2021-02-23,1301,Température de l'Eau,11.0,°C,1.799080259,43.546455286
+05184000,La Garonne au Pont du Roi,2021-02-23,1301,Température de l'Eau,6.1,°C,0.735863431,42.849282942
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-02-23,1350,Phosphore total,0.02,mg(P)/L,1.430186212,43.585122999
+05158700,L'Aussonnelle à Seilh,2021-02-23,1350,Phosphore total,0.08,mg(P)/L,1.358402052,43.696469609
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-02-23,1340,Nitrates,45.0,mg(NO3)/L,1.658733821,43.671877492
+05157600,Le Visenc à Baziège,2021-02-23,1303,Conductivité à 25°C,720.0,µS/cm,1.626050795,43.449560442
+05157150,La Seillonne au niveau de Dremil Lafage,2021-02-23,1303,Conductivité à 25°C,750.0,µS/cm,1.616522682,43.584866574
+05157150,La Seillonne au niveau de Dremil Lafage,2021-02-23,1301,Température de l'Eau,11.0,°C,1.616522682,43.584866574
+05159000,L'Aussonnelle à Cornebarrieu,2021-02-23,1350,Phosphore total,0.07,mg(P)/L,1.327303391,43.653155467
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.247176815,43.104881447
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-02-23,1303,Conductivité à 25°C,283.0,µS/cm,1.430782683,43.570552789
+05157100,La Sausse à Toulouse,2021-02-23,1301,Température de l'Eau,12.0,°C,1.483920545,43.646812257
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-02-23,1301,Température de l'Eau,11.0,°C,1.430782683,43.570552789
+05157550,La Rivel à Baziège,2021-02-23,1340,Nitrates,64.6,mg(NO3)/L,1.594926497,43.462748566
+05154600,Le Saint-Pierre à St Cézert,2021-02-23,1350,Phosphore total,0.04,mg(P)/L,1.186008879,43.784730775
+05157750,L'Hers Mort à Renneville,2021-02-23,1350,Phosphore total,0.2,mg(P)/L,1.714998187,43.377680817
+05161900,La Garonne à Blagnac,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.400961721,43.624924498
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-02-23,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.685830535,43.390466949
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-02-23,1303,Conductivité à 25°C,663.0,µS/cm,1.774101034,43.379086096
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.798080619,43.581808156
+05176850,Le Volp au Plan,2021-02-23,1301,Température de l'Eau,9.1,°C,1.11771413,43.17017534
+05157550,La Rivel à Baziège,2021-02-23,1350,Phosphore total,0.07,mg(P)/L,1.594926497,43.462748566
+05158150,Le Girou en amont de Verfeil,2021-02-23,1350,Phosphore total,0.06,mg(P)/L,1.652755251,43.641925945
+05177000,La Garonne à Cazères,2021-02-23,1303,Conductivité à 25°C,241.0,µS/cm,1.087623838,43.203926486
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-02-23,1340,Nitrates,5.2,mg(NO3)/L,1.430782683,43.570552789
+05160000,Le Canal Latéral au droit de Lespinasse,2021-02-23,1301,Température de l'Eau,11.0,°C,1.386478721,43.709489755
+05180900,La Garonne à Boussens (Pont de la D13),2021-02-23,1303,Conductivité à 25°C,241.0,µS/cm,0.961848368,43.160954225
+05157510,Le Tissier à Montlaur,2021-02-23,1301,Température de l'Eau,12.0,°C,1.574851925,43.47472413
+05183930,La Pique à Cier de Luchon,2021-02-23,1350,Phosphore total,0.015,mg/L,0.602333509,42.852679219
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.430186212,43.585122999
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-02-23,1303,Conductivité à 25°C,646.0,µS/cm,1.608357511,43.682674019
+05163700,La Saudrune à l'aval du Bois Vert,2021-02-23,1301,Température de l'Eau,13.0,°C,1.39332015,43.539047635
+05183900,La Garonne en aval de la Pique,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,0.647410266,42.939145087
+05161500,La Garonne au Syndicat Centre et Nord,2021-02-23,1303,Conductivité à 25°C,292.0,µS/cm,1.403577731,43.664021872
+05177000,La Garonne à Cazères,2021-02-23,1350,Phosphore total,0.014,mg/L,1.087623838,43.203926486
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-02-23,1301,Température de l'Eau,10.0,°C,1.658733821,43.671877492
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-02-23,1303,Conductivité à 25°C,746.0,µS/cm,1.681189706,43.617347138
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-02-23,1340,Nitrates,5.6,mg(NO3)/L,1.430186212,43.585122999
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-02-23,1340,Nitrates,33.8,mg(NO3)/L,1.685830535,43.390466949
+05157550,La Rivel à Baziège,2021-02-23,1303,Conductivité à 25°C,857.0,µS/cm,1.594926497,43.462748566
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.681189706,43.617347138
+05157600,Le Visenc à Baziège,2021-02-23,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.626050795,43.449560442
+05178000,Le Salat à Roquefort,2021-02-23,1301,Température de l'Eau,8.4,°C,0.968803704,43.157846306
+05163290,La Garonne à l'entrée dans Toulouse,2021-02-23,1340,Nitrates,5.6,mg(NO3)/L,1.436897496,43.572350837
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.658733821,43.671877492
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-02-23,1301,Température de l'Eau,11.0,°C,1.798080619,43.581808156
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-02-23,1350,Phosphore total,0.04,mg(P)/L,1.608357511,43.682674019
+05180900,La Garonne à Boussens (Pont de la D13),2021-02-23,1340,Nitrates,3.66,mg/L,0.961848368,43.160954225
+05177000,La Garonne à Cazères,2021-02-23,1301,Température de l'Eau,9.6,°C,1.087623838,43.203926486
+05181900,Le Lavet à Villeneuve de Rivière,2021-02-23,1350,Phosphore total,0.011,mg/L,0.648543937,43.115973775
+05163290,La Garonne à l'entrée dans Toulouse,2021-02-23,1303,Conductivité à 25°C,275.0,µS/cm,1.436897496,43.572350837
+05157750,L'Hers Mort à Renneville,2021-02-23,1301,Température de l'Eau,11.0,°C,1.714998187,43.377680817
+05181600,Le Ger à Boutx,2021-02-23,1301,Température de l'Eau,7.0,°C,0.804923152,42.917018719
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-02-23,1303,Conductivité à 25°C,260.0,µS/cm,0.974040196,43.17360075
+05161000,La Garonne en aval de Toulouse,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.368139354,43.700396138
+05158170,Le Dagour au niveau de Bourg-Saint-Bernard,2021-02-23,1301,Température de l'Eau,11.0,°C,1.681189706,43.617347138
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-02-23,1350,Phosphore total,0.05,mg(P)/L,1.798080619,43.581808156
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-02-23,1303,Conductivité à 25°C,279.0,µS/cm,1.430186212,43.585122999
+05158150,Le Girou en amont de Verfeil,2021-02-23,1301,Température de l'Eau,11.0,°C,1.652755251,43.641925945
+05160000,Le Canal Latéral au droit de Lespinasse,2021-02-23,1340,Nitrates,1.8,mg(NO3)/L,1.386478721,43.709489755
+05161500,La Garonne au Syndicat Centre et Nord,2021-02-23,1350,Phosphore total,0.03,mg(P)/L,1.403577731,43.664021872
+05134400,Le Sor en aval de Revel,2021-02-23,1302,Potentiel en Hydrogène (pH),7.6,unité pH,1.992900902,43.47464446
+05157510,Le Tissier à Montlaur,2021-02-23,1303,Conductivité à 25°C,831.0,µS/cm,1.574851925,43.47472413
+05161900,La Garonne à Blagnac,2021-02-23,1340,Nitrates,5.9,mg(NO3)/L,1.400961721,43.624924498
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-02-23,1350,Phosphore total,0.08,mg(P)/L,1.774101034,43.379086096
+05176850,Le Volp au Plan,2021-02-23,1350,Phosphore total,0.01,mg/L,1.11771413,43.17017534
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.350520249,43.380478349
+05161950,Le Touch à St-Michel du Touch,2021-02-23,1301,Température de l'Eau,10.0,°C,1.395626096,43.62079603
+05163100,Le Bras inférieur Garonne dans Toulouse (Coubertin),2021-02-23,1301,Température de l'Eau,10.0,°C,1.430186212,43.585122999
+05183900,La Garonne en aval de la Pique,2021-02-23,1350,Phosphore total,0.01,mg/L,0.647410266,42.939145087
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-02-23,1340,Nitrates,0.71,mg/L,1.247176815,43.104881447
+05161950,Le Touch à St-Michel du Touch,2021-02-23,1303,Conductivité à 25°C,382.0,µS/cm,1.395626096,43.62079603
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-02-23,1301,Température de l'Eau,10.0,°C,1.247176815,43.104881447
+05163700,La Saudrune à l'aval du Bois Vert,2021-02-23,1350,Phosphore total,0.12,mg(P)/L,1.39332015,43.539047635
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-02-23,1303,Conductivité à 25°C,690.0,µS/cm,1.685830535,43.390466949
+05177000,La Garonne à Cazères,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.087623838,43.203926486
+05158200,La Vendinelle à Loubens-Lauragais,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.799080259,43.546455286
+05184000,La Garonne au Pont du Roi,2021-02-23,1303,Conductivité à 25°C,157.0,µS/cm,0.735863431,42.849282942
+05181900,Le Lavet à Villeneuve de Rivière,2021-02-23,1302,Potentiel en Hydrogène (pH),7.8,unité pH,0.648543937,43.115973775
+05158160,Le Balerme à Teulat,2021-02-23,1302,Potentiel en Hydrogène (pH),8.1,unité pH,1.691168709,43.63708569
+05181900,Le Lavet à Villeneuve de Rivière,2021-02-23,1303,Conductivité à 25°C,124.0,µS/cm,0.648543937,43.115973775
+05161950,Le Touch à St-Michel du Touch,2021-02-23,1340,Nitrates,10.5,mg(NO3)/L,1.395626096,43.62079603
+05163440,La Saundrune en amont de la Garonne,2021-02-23,1301,Température de l'Eau,13.0,°C,1.423091162,43.543713847
+05163700,La Saudrune à l'aval du Bois Vert,2021-02-23,1302,Potentiel en Hydrogène (pH),7.7,unité pH,1.39332015,43.539047635
+05183900,La Garonne en aval de la Pique,2021-02-23,1340,Nitrates,1.63,mg/L,0.647410266,42.939145087
+05178000,Le Salat à Roquefort,2021-02-23,1340,Nitrates,2.1,mg/L,0.968803704,43.157846306
+05157150,La Seillonne au niveau de Dremil Lafage,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.616522682,43.584866574
+05161950,Le Touch à St-Michel du Touch,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.395626096,43.62079603
+05161000,La Garonne en aval de Toulouse,2021-02-23,1340,Nitrates,6.8,mg(NO3)/L,1.368139354,43.700396138
+05180900,La Garonne à Boussens (Pont de la D13),2021-02-23,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.961848368,43.160954225
+05181600,Le Ger à Boutx,2021-02-23,1303,Conductivité à 25°C,195.0,µS/cm,0.804923152,42.917018719
+05157150,La Seillonne au niveau de Dremil Lafage,2021-02-23,1340,Nitrates,46.3,mg(NO3)/L,1.616522682,43.584866574
+05183930,La Pique à Cier de Luchon,2021-02-23,1340,Nitrates,2.07,mg/L,0.602333509,42.852679219
+05154600,Le Saint-Pierre à St Cézert,2021-02-23,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.186008879,43.784730775
+05181900,Le Lavet à Villeneuve de Rivière,2021-02-23,1301,Température de l'Eau,9.7,°C,0.648543937,43.115973775
+05157100,La Sausse à Toulouse,2021-02-23,1340,Nitrates,30.7,mg(NO3)/L,1.483920545,43.646812257
+05158160,Le Balerme à Teulat,2021-02-23,1350,Phosphore total,0.04,mg(P)/L,1.691168709,43.63708569
+05160000,Le Canal Latéral au droit de Lespinasse,2021-02-23,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.386478721,43.709489755
+05157360,L'Hers Mort à l'aval de Castanet,2021-02-23,1303,Conductivité à 25°C,665.0,µS/cm,1.501887793,43.545909907
+05157100,La Sausse à Toulouse,2021-02-23,1350,Phosphore total,0.16,mg(P)/L,1.483920545,43.646812257
+05178000,Le Salat à Roquefort,2021-02-23,1350,Phosphore total,0.01,mg/L,0.968803704,43.157846306
+05163440,La Saundrune en amont de la Garonne,2021-02-23,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.423091162,43.543713847
+05158160,Le Balerme à Teulat,2021-02-23,1301,Température de l'Eau,10.0,°C,1.691168709,43.63708569
+05183930,La Pique à Cier de Luchon,2021-02-23,1302,Potentiel en Hydrogène (pH),8.0,unité pH,0.602333509,42.852679219
+05159000,L'Aussonnelle à Cornebarrieu,2021-02-23,1340,Nitrates,22.3,mg(NO3)/L,1.327303391,43.653155467
+05158700,L'Aussonnelle à Seilh,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.358402052,43.696469609
+05163700,La Saudrune à l'aval du Bois Vert,2021-02-23,1303,Conductivité à 25°C,545.0,µS/cm,1.39332015,43.539047635
+05175800,La Garonne à Marquefave,2021-02-23,1340,Nitrates,4.03,mg/L,1.244433271,43.317081905
+05163440,La Saundrune en amont de la Garonne,2021-02-23,1303,Conductivité à 25°C,575.0,µS/cm,1.423091162,43.543713847
+05175100,La Louge à l'aval du Fousseret,2021-02-23,1350,Phosphore total,0.022,mg/L,1.133384155,43.303074173
+05176850,Le Volp au Plan,2021-02-23,1303,Conductivité à 25°C,455.0,µS/cm,1.11771413,43.17017534
+05157600,Le Visenc à Baziège,2021-02-23,1301,Température de l'Eau,11.0,°C,1.626050795,43.449560442
+05157150,La Seillonne au niveau de Dremil Lafage,2021-02-23,1350,Phosphore total,0.14,mg(P)/L,1.616522682,43.584866574
+05157360,L'Hers Mort à l'aval de Castanet,2021-02-23,1301,Température de l'Eau,12.0,°C,1.501887793,43.545909907
+05181900,Le Lavet à Villeneuve de Rivière,2021-02-23,1340,Nitrates,6.55,mg/L,0.648543937,43.115973775
+05157360,L'Hers Mort à l'aval de Castanet,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.501887793,43.545909907
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-02-23,1303,Conductivité à 25°C,717.0,µS/cm,1.798080619,43.581808156
+05157750,L'Hers Mort à Renneville,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.714998187,43.377680817
+05161000,La Garonne en aval de Toulouse,2021-02-23,1303,Conductivité à 25°C,288.0,µS/cm,1.368139354,43.700396138
+05157750,L'Hers Mort à Renneville,2021-02-23,1303,Conductivité à 25°C,518.0,µS/cm,1.714998187,43.377680817
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-02-23,1340,Nitrates,57.0,mg(NO3)/L,1.774101034,43.379086096
+05177600,La Garonne à Boussens (Pont de la déviation de la N117),2021-02-23,1301,Température de l'Eau,8.8,°C,0.974040196,43.17360075
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-02-23,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.430782683,43.570552789
+05157670,Le Marès au niveau d'Avignonet Lauragais,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.774101034,43.379086096
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-02-23,1340,Nitrates,30.2,mg(NO3)/L,1.608357511,43.682674019
+05163700,La Saudrune à l'aval du Bois Vert,2021-02-23,1340,Nitrates,16.4,mg(NO3)/L,1.39332015,43.539047635
+05159000,L'Aussonnelle à Cornebarrieu,2021-02-23,1303,Conductivité à 25°C,628.0,µS/cm,1.327303391,43.653155467
+05161000,La Garonne en aval de Toulouse,2021-02-23,1301,Température de l'Eau,10.0,°C,1.368139354,43.700396138
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-02-23,1340,Nitrates,24.6,mg/L,1.350520249,43.380478349
+05158160,Le Balerme à Teulat,2021-02-23,1340,Nitrates,20.8,mg(NO3)/L,1.691168709,43.63708569
+05181600,Le Ger à Boutx,2021-02-23,1340,Nitrates,1.54,mg/L,0.804923152,42.917018719
+05175100,La Louge à l'aval du Fousseret,2021-02-23,1340,Nitrates,16.4,mg/L,1.133384155,43.303074173
+05175800,La Garonne à Marquefave,2021-02-23,1303,Conductivité à 25°C,262.0,µS/cm,1.244433271,43.317081905
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-02-23,1350,Phosphore total,0.03,mg(P)/L,1.658733821,43.671877492
+05157100,La Sausse à Toulouse,2021-02-23,1303,Conductivité à 25°C,722.0,µS/cm,1.483920545,43.646812257
+05184000,La Garonne au Pont du Roi,2021-02-23,1340,Nitrates,1.34,mg/L,0.735863431,42.849282942
+05176850,Le Volp au Plan,2021-02-23,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.11771413,43.17017534
+05161500,La Garonne au Syndicat Centre et Nord,2021-02-23,1301,Température de l'Eau,10.0,°C,1.403577731,43.664021872
+05163440,La Saundrune en amont de la Garonne,2021-02-23,1340,Nitrates,16.8,mg(NO3)/L,1.423091162,43.543713847
+05183900,La Garonne en aval de la Pique,2021-02-23,1301,Température de l'Eau,7.8,°C,0.647410266,42.939145087
+05158200,La Vendinelle à Loubens-Lauragais,2021-02-23,1340,Nitrates,47.3,mg(NO3)/L,1.799080259,43.546455286
+05158090,Le ruisseau de Laragou à Bonrepos-Riquet,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.608357511,43.682674019
+05154600,Le Saint-Pierre à St Cézert,2021-02-23,1301,Température de l'Eau,11.0,°C,1.186008879,43.784730775
+05163140,Le Bras inférieur Garonne dans Toulouse (rocade sud),2021-02-23,1350,Phosphore total,0.02,mg(P)/L,1.430782683,43.570552789
+05134400,Le Sor en aval de Revel,2021-02-23,1340,Nitrates,7.3,mg(NO3)/L,1.992900902,43.47464446
+05158160,Le Balerme à Teulat,2021-02-23,1303,Conductivité à 25°C,520.0,µS/cm,1.691168709,43.63708569
+05161900,La Garonne à Blagnac,2021-02-23,1301,Température de l'Eau,10.0,°C,1.400961721,43.624924498
+05158700,L'Aussonnelle à Seilh,2021-02-23,1301,Température de l'Eau,11.0,°C,1.358402052,43.696469609
+05158700,L'Aussonnelle à Seilh,2021-02-23,1340,Nitrates,23.6,mg(NO3)/L,1.358402052,43.696469609
+05157510,Le Tissier à Montlaur,2021-02-23,1340,Nitrates,45.7,mg(NO3)/L,1.574851925,43.47472413
+05175800,La Garonne à Marquefave,2021-02-23,1350,Phosphore total,0.015,mg/L,1.244433271,43.317081905
+05157600,Le Visenc à Baziège,2021-02-23,1350,Phosphore total,0.11,mg(P)/L,1.626050795,43.449560442
+05178000,Le Salat à Roquefort,2021-02-23,1303,Conductivité à 25°C,183.0,µS/cm,0.968803704,43.157846306
+05161950,Le Touch à St-Michel du Touch,2021-02-23,1350,Phosphore total,0.06,mg(P)/L,1.395626096,43.62079603
+05163440,La Saundrune en amont de la Garonne,2021-02-23,1350,Phosphore total,0.25,mg(P)/L,1.423091162,43.543713847
+05157645,Le Ruisseau de Gardijol à Gardouch,2021-02-23,1350,Phosphore total,0.11,mg(P)/L,1.685830535,43.390466949
+05181600,Le Ger à Boutx,2021-02-23,1350,Phosphore total,0.01,mg/L,0.804923152,42.917018719
+05175800,La Garonne à Marquefave,2021-02-23,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.244433271,43.317081905
+05177000,La Garonne à Cazères,2021-02-23,1340,Nitrates,3.02,mg/L,1.087623838,43.203926486
+05158141,Le ruisseau de Conné en amont de Verfeil,2021-02-23,1303,Conductivité à 25°C,770.0,µS/cm,1.658733821,43.671877492
+05134400,Le Sor en aval de Revel,2021-02-23,1350,Phosphore total,0.04,mg(P)/L,1.992900902,43.47464446
+05134400,Le Sor en aval de Revel,2021-02-23,1303,Conductivité à 25°C,167.0,µS/cm,1.992900902,43.47464446
+05158200,La Vendinelle à Loubens-Lauragais,2021-02-23,1350,Phosphore total,0.06,mg(P)/L,1.799080259,43.546455286
+05163290,La Garonne à l'entrée dans Toulouse,2021-02-23,1301,Température de l'Eau,10.0,°C,1.436897496,43.572350837
+05157550,La Rivel à Baziège,2021-02-23,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.594926497,43.462748566
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-02-23,1350,Phosphore total,0.029,mg/L,1.350520249,43.380478349
+05158150,Le Girou en amont de Verfeil,2021-02-23,1340,Nitrates,44.1,mg(NO3)/L,1.652755251,43.641925945
+05165150,La lèze au niveau de Beaumont sur Lèze,2021-02-23,1303,Conductivité à 25°C,648.0,µS/cm,1.350520249,43.380478349
+05175100,La Louge à l'aval du Fousseret,2021-02-23,1303,Conductivité à 25°C,443.0,µS/cm,1.133384155,43.303074173
+05176100,Le Montbrun en amont de Montbrun Bocage,2021-02-23,1350,Phosphore total,0.01,mg/L,1.247176815,43.104881447
+05158280,Le Peyrencou au niveau de Loubens-Lauragais,2021-02-23,1340,Nitrates,49.2,mg(NO3)/L,1.798080619,43.581808156
+05154600,Le Saint-Pierre à St Cézert,2021-02-23,1340,Nitrates,34.2,mg(NO3)/L,1.186008879,43.784730775
+05174000,La Garonne en amont de l'Ariège,2021-02-24,1301,Température de l'Eau,10.7,°C,1.387766337,43.512148118
+05175400,La Garonne au Pont vieux de Muret,2021-02-24,1302,Potentiel en Hydrogène (pH),8.0,unité pH,1.327566713,43.45805307
+05164000,L'Ariège à Lacroix - Falgarde,2021-02-24,1350,Phosphore total,0.03,mg/L,1.406872377,43.499561998
+05158000,Le Girou à Cépet,2021-02-24,1303,Conductivité à 25°C,689.0,µS/cm,1.433921776,43.752663689
+05156700,La Garonne à Ondes,2021-02-24,1301,Température de l'Eau,12.0,°C,1.307128121,43.777678805
+05165900,L'Ariège à Cintegabelle,2021-02-24,1340,Nitrates,4.85,mg/L,1.532947423,43.310764293
+05165000,La Lèze à Labarthe-sur-Lèze,2021-02-24,1350,Phosphore total,0.028,mg/L,1.406575617,43.450964783
+05166000,Le Grand Hers à Calmont,2021-02-24,1301,Température de l'Eau,11.3,°C,1.632038784,43.286062063
+05175400,La Garonne au Pont vieux de Muret,2021-02-24,1301,Température de l'Eau,12.2,°C,1.327566713,43.45805307
+05165850,L'Ariège à Clermont-le-Fort,2021-02-24,1301,Température de l'Eau,10.5,°C,1.420603568,43.460528595
+05165900,L'Ariège à Cintegabelle,2021-02-24,1302,Potentiel en Hydrogène (pH),8.2,unité pH,1.532947423,43.310764293
+05165760,L'Aise à Issus,2021-02-24,1350,Phosphore total,0.073,mg/L,1.443832556,43.427030658
+05155000,La Save à Grenade,2021-02-24,1301,Température de l'Eau,11.0,°C,1.275836646,43.783848791
+05166000,Le Grand Hers à Calmont,2021-02-24,1350,Phosphore total,0.03,mg/L,1.632038784,43.286062063
+05165000,La Lèze à Labarthe-sur-Lèze,2021-02-24,1302,Potentiel en Hydrogène (pH),7.6,unité pH,1.406575617,43.450964783
+05158000,Le Girou à Cépet,2021-02-24,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.433921776,43.752663689
+05156950,L'Hers mort au niveau de St-Sauveur,2021-02-24,1340,Nitrates,37.0,mg(NO3)/L,1.380556327,43.750443226
+05164000,L'Ariège à Lacroix - Falgarde,2021-02-24,1301,Température de l'Eau,10.6,°C,1.406872377,43.499561998
+05165850,L'Ariège à Clermont-le-Fort,2021-02-24,1350,Phosphore total,0.029,mg/L,1.420603568,43.460528595
+05164000,L'Ariège à Lacroix - Falgarde,2021-02-24,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.406872377,43.499561998
+05156950,L'Hers mort au niveau de St-Sauveur,2021-02-24,1303,Conductivité à 25°C,676.0,µS/cm,1.380556327,43.750443226
+05165760,L'Aise à Issus,2021-02-24,1301,Température de l'Eau,11.6,°C,1.443832556,43.427030658
+05156700,La Garonne à Ondes,2021-02-24,1303,Conductivité à 25°C,378.0,µS/cm,1.307128121,43.777678805
+05165850,L'Ariège à Clermont-le-Fort,2021-02-24,1303,Conductivité à 25°C,233.0,µS/cm,1.420603568,43.460528595
+05174000,La Garonne en amont de l'Ariège,2021-02-24,1350,Phosphore total,0.015,mg/L,1.387766337,43.512148118
+05165850,L'Ariège à Clermont-le-Fort,2021-02-24,1302,Potentiel en Hydrogène (pH),8.4,unité pH,1.420603568,43.460528595
+05155000,La Save à Grenade,2021-02-24,1340,Nitrates,28.1,mg(NO3)/L,1.275836646,43.783848791
+05158000,Le Girou à Cépet,2021-02-24,1350,Phosphore total,0.07,mg(P)/L,1.433921776,43.752663689
+05166000,Le Grand Hers à Calmont,2021-02-24,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.632038784,43.286062063
+05175000,La Louge à St-Hilaire,2021-02-24,1350,Phosphore total,0.028,mg/L,1.283828555,43.41939468
+05165760,L'Aise à Issus,2021-02-24,1303,Conductivité à 25°C,787.0,µS/cm,1.443832556,43.427030658
+05155000,La Save à Grenade,2021-02-24,1350,Phosphore total,0.07,mg(P)/L,1.275836646,43.783848791
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-02-24,1301,Température de l'Eau,11.7,°C,1.477223385,43.414637812
+05175000,La Louge à St-Hilaire,2021-02-24,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.283828555,43.41939468
+05165000,La Lèze à Labarthe-sur-Lèze,2021-02-24,1303,Conductivité à 25°C,657.0,µS/cm,1.406575617,43.450964783
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-02-24,1303,Conductivité à 25°C,821.0,µS/cm,1.477223385,43.414637812
+05164000,L'Ariège à Lacroix - Falgarde,2021-02-24,1340,Nitrates,7.6,mg/L,1.406872377,43.499561998
+05165900,L'Ariège à Cintegabelle,2021-02-24,1350,Phosphore total,0.019,mg/L,1.532947423,43.310764293
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-02-24,1350,Phosphore total,0.041,mg/L,1.477223385,43.414637812
+05158000,Le Girou à Cépet,2021-02-24,1340,Nitrates,40.8,mg(NO3)/L,1.433921776,43.752663689
+05165770,Le ruisseau de Tédèlou au niveau de Grepiac,2021-02-24,1302,Potentiel en Hydrogène (pH),7.8,unité pH,1.477223385,43.414637812
+05156950,L'Hers mort au niveau de St-Sauveur,2021-02-24,1301,Température de l'Eau,13.0,°C,1.380556327,43.750443226
+05174000,La Garonne en amont de l'Ariège,2021-02-24,1340,Nitrates,4.59,mg/L,1.387766337,43.512148118
+05164000,L'Ariège à Lacroix - Falgarde,2021-02-24,1303,Conductivité à 25°C,244.0,µS/cm,1.406872377,43.499561998
+05175400,La Garonne au Pont vieux de Muret,2021-02-24,1303,Conductivité à 25°C,258.0,µS/cm,1.327566713,43.45805307
+05175000,La Louge à St-Hilaire,2021-02-24,1303,Conductivité à 25°C,452.0,µS/cm,1.283828555,43.41939468
+05175400,La Garonne au Pont vieux de Muret,2021-02-24,1340,Nitrates,3.59,mg/L,1.327566713,43.45805307
+05155000,La Save à Grenade,2021-02-24,1303,Conductivité à 25°C,624.0,µS/cm,1.275836646,43.783848791
+05165850,L'Ariège à Clermont-le-Fort,2021-02-24,1340,Nitrates,7.16,mg/L,1.420603568,43.460528595
+05156700,La Garonne à Ondes,2021-02-24,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.307128121,43.777678805
+05175000,La Louge à St-Hilaire,2021-02-24,1340,Nitrates,19.8,mg/L,1.283828555,43.41939468
+05165900,L'Ariège à Cintegabelle,2021-02-24,1303,Conductivité à 25°C,183.0,µS/cm,1.532947423,43.310764293
+05175000,La Louge à St-Hilaire,2021-02-24,1301,Température de l'Eau,12.2,°C,1.283828555,43.41939468
+05156700,La Garonne à Ondes,2021-02-24,1340,Nitrates,14.2,mg(NO3)/L,1.307128121,43.777678805
+05165760,L'Aise à Issus,2021-02-24,1302,Potentiel en Hydrogène (pH),7.9,unité pH,1.443832556,43.427030658
+05165760,L'Aise à Issus,2021-02-24,1340,Nitrates,29.8,mg/L,1.443832556,43.427030658
+05166000,Le Grand Hers à Calmont,2021-02-24,1340,Nitrates,14.9,mg/L,1.632038784,43.286062063
+05156950,L'Hers mort au niveau de St-Sauveur,2021-02-24,1302,Potentiel en Hydrogène (pH),8.3,unité pH,1.380556327,43.750443226
+05174000,La Garonne en amont de l'Ariège,2021-02-24,1303,Conductivité à 25°C,261.0,µS/cm,1.387766337,43.512148118
+05166000,Le Grand Hers à Calmont,2021-02-24,1303,Conductivité à 25°C,451.0,µS/cm,1.632038784,43.286062063
