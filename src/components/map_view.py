@@ -21,17 +21,15 @@ def render_map_view(city_data, segments, sensors_df, reports_df):
     )
 
     if api_key:
-        # CartoDB dark tile layer with valid API Key
+        # Exact CARTO Raster dark tile layer using ?key= query parameter
         folium.TileLayer(
-            tiles=f"https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png?api_key={api_key}",
+            tiles=f"https://basemaps.cartocdn.com/rastertiles/dark_all/{{z}}/{{x}}/{{y}}.png?key={api_key}",
             attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             name="Dark Canvas",
-            subdomains="abcd",
             max_zoom=19,
             control=True
         ).add_to(m)
     else:
-        # High quality fallback (CartoDB Positron / OpenStreetMap)
         folium.TileLayer(
             tiles="CartoDB dark_matter",
             name="Dark Canvas",
