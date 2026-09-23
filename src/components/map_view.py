@@ -10,11 +10,22 @@ def render_map_view(city_data, segments, sensors_df, reports_df):
     coords = city_data["coords"]
     zoom = city_data["zoom"]
     
+    # Retrieve map API key from Streamlit secrets if present
+    api_key = st.secrets.get("MAP_API_KEY", "")
+    
+    if api_key:
+        tiles_url = f"https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{{z}}/{{x}}/{{y}}{{r}}.png?api_key={api_key}"
+        attr_text = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    else:
+        tiles_url = "CartoDB dark_matter"
+        attr_text = "&copy; OpenStreetMap contributors &copy; CARTO"
+
     # Initialize Folium Map with clean dark tile layer
     m = folium.Map(
         location=coords,
         zoom_start=zoom,
-        tiles="CartoDB dark_matter",
+        tiles=tiles_url,
+        attr=attr_text
     )
     
     # Feature Groups for Layer Control
