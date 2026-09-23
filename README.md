@@ -87,7 +87,6 @@ If you have a free CARTO basemaps API key, add it to `.streamlit/secrets.toml`:
 ```toml
 MAP_API_KEY = "your_carto_key_here"
 ```
-*(If omitted, the app will fall back to default dark basemaps.)*
 
 ### 3. Run the app
 ```bash
