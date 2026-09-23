@@ -47,7 +47,7 @@ def render_analytics_view(df):
             plot_bgcolor="rgba(18, 23, 33, 0.5)",
             font=dict(family="Plus Jakarta Sans", color="#F0F6FC"),
             yaxis=dict(title="Dissolved Oxygen (mg/L)", gridcolor="rgba(255,255,255,0.06)"),
-            yaxis2=dict(title="Water Temp (°C)", overlaying="y", side="right", showgrid=False),
+            yaxis2=dict(title="Water Temp (°C)", overlaying="y", side="right", gridcolor="rgba(0,0,0,0)"),
             margin=dict(l=20, r=20, t=30, b=20),
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
         )
@@ -91,7 +91,7 @@ def render_analytics_view(df):
             plot_bgcolor="rgba(18, 23, 33, 0.5)",
             font=dict(family="Plus Jakarta Sans", color="#F0F6FC"),
             yaxis=dict(title="Microbial / Vector Count", gridcolor="rgba(255,255,255,0.06)"),
-            yaxis2=dict(title="Precipitation (mm)", overlaying="y", side="right", gridcolor="transparent"),
+            yaxis2=dict(title="Precipitation (mm)", overlaying="y", side="right", gridcolor="rgba(0,0,0,0)"),
             margin=dict(l=20, r=20, t=30, b=20),
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
         )
