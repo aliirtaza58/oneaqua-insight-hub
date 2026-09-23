@@ -1,0 +1,301 @@
+eventDate,scientificName,family,order,decimalLatitude,decimalLongitude,waterBody
+2023-01-17,Oligochaeta,,,51.10507,4.32275,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-01-17,Corophiidae,Corophiidae,Amphipoda,51.10507,4.32275,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-20,Oligochaeta,,,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Hydropsychidae,Hydropsychidae,Trichoptera,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Hydropsychidae,Hydropsychidae,Trichoptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Planorbarius Duméril, 1805",Planorbidae,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Oligochaeta,,,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Gyrinidae,Gyrinidae,Coleoptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,"Orthetrum Newman, 1833",Libellulidae,Odonata,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-29,Anthuridae,Anthuridae,Isopoda,51.14311,4.33057,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-20,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Asellidae,Asellidae,Isopoda,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Hydropsychidae,Hydropsychidae,Trichoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Psychomyiidae,Psychomyiidae,Trichoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Empididae,Empididae,Diptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Caenis Stephens, 1835",Caenidae,Ephemeroptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Potamopyrgus W.Stimpson, 1865",Tateidae,Littorinimorpha,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,Asellidae,Asellidae,Isopoda,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Animalia,,,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Asellidae,Asellidae,Isopoda,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Hydropsychidae,Hydropsychidae,Trichoptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Oligochaeta,,,51.19552,4.76791,Scheldt river basin;BEVL_L217_4721
+2023-03-20,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Oligochaeta,,,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,"Theromyzon Philippi, 1867",Glossiphoniidae,Rhynchobdellida,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Planorbis O.F.Müller, 1773",Planorbidae,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Ceratopogonidae,Ceratopogonidae,Diptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Asellidae,Asellidae,Isopoda,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,"Platycnemis Burmeister, 1839",Platycnemididae,Odonata,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-29,Corophiidae,Corophiidae,Amphipoda,51.14311,4.33057,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-20,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Gammaridae,Gammaridae,Amphipoda,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Limnephilidae,Limnephilidae,Trichoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Dryopidae,Dryopidae,Coleoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Leptoceridae,Leptoceridae,Trichoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Gammaridae,Gammaridae,Amphipoda,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-29,"Dreissena Van Beneden, 1835",Dreissenidae,Myida,51.10507,4.32275,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Gammaridae,Gammaridae,Amphipoda,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Psychomyiidae,Psychomyiidae,Trichoptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.19552,4.76791,Scheldt river basin;BEVL_L217_4721
+2023-03-20,Asellidae,Asellidae,Isopoda,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Ceratopogonidae,Ceratopogonidae,Diptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Simuliidae,Simuliidae,Diptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,Asellidae,Asellidae,Isopoda,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Animalia,,,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Hydropsychidae,Hydropsychidae,Trichoptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-29,Gammaridae,Gammaridae,Amphipoda,51.14311,4.33057,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-20,Oligochaeta,,,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Acroloxus H.Beck, 1838",Acroloxidae,,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Bithynia Leach, 1818",Bithyniidae,Littorinimorpha,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Nemoura Latreille, 1796",Nemouridae,Plecoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,Oligochaeta,,,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Simuliidae,Simuliidae,Diptera,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,"Acroloxus H.Beck, 1838",Acroloxidae,,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Hydropsychidae,Hydropsychidae,Trichoptera,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Ephydridae,Ephydridae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Acroloxus H.Beck, 1838",Acroloxidae,,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Ischnura Charpentier, 1840",Coenagrionidae,Odonata,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-20,Gammaridae,Gammaridae,Amphipoda,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Stratiomyidae,Stratiomyidae,Diptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,"Acroloxus H.Beck, 1838",Acroloxidae,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Limoniidae,Limoniidae,Diptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Sericostomatidae,Sericostomatidae,Trichoptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Athericidae,Athericidae,Diptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Corbicula Megerle von Mühlfeld, 1811",Cyrenidae,Venerida,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Ferrissia B.Walker, 1903",Planorbidae,,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Nematoda,,,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Limoniidae,Limoniidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Platycnemis Burmeister, 1839",Platycnemididae,Odonata,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-20,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,Oligochaeta,,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Bithynia Leach, 1818",Bithyniidae,Littorinimorpha,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Simuliidae,Simuliidae,Diptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Chironomidae,Chironomidae,Diptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Calopteryx Leach, 1815",Calopterygidae,Odonata,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Animalia,,,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Oligochaeta,,,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Psychodidae,Psychodidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Elminthidae,Elmidae,Coleoptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Caenis Stephens, 1835",Caenidae,Ephemeroptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-20,Animalia,,,51.26784,5.42832,Meuse river basin;DOMMEL;BEVL05_136
+2023-03-20,Haliplidae,Haliplidae,Coleoptera,51.23454,5.41966,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-21,Chironomidae,Chironomidae,Diptera,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,"Gyraulus Charpentier, 1837",Planorbidae,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-21,Animalia,,,51.23196,4.87464,Scheldt river basin;GROTE CALIE;BEVL_L107_638
+2023-03-20,Tabanidae,Tabanidae,Diptera,51.20409,5.18201,Scheldt river basin;SCHEPPELIJKE NETE;BEVL_L107_705
+2023-03-29,Oligochaeta,,,51.14311,4.33057,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-03-20,Oligochaeta,,,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.23645,5.38156,Meuse river basin;EINDERGATLOOP;BEVL_L107_857
+2023-03-20,Limoniidae,Limoniidae,Diptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Elminthidae,Elmidae,Coleoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,"Ephemera Linnaeus, 1758",Ephemeridae,Ephemeroptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Polycentropodidae,Polycentropodidae,Trichoptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Ceratopogonidae,Ceratopogonidae,Diptera,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-20,Animalia,,,51.2106,5.21504,Scheldt river basin;BEVL_L217_4591
+2023-03-21,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,51.29088,4.91094,Scheldt river basin;AA I;BEVL11_120
+2023-03-21,Ceratopogonidae,Ceratopogonidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Simuliidae,Simuliidae,Diptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,Animalia,,,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-03-21,"Cloeon Leach, 1815",Baetidae,Ephemeroptera,51.20618,4.81964,Scheldt river basin;AA II;BEVL05_121
+2023-04-17,Lumbricidae,Lumbricidae,Crassiclitellata,51.38693,4.79044,Meuse river basin;BEVL_L217_5231
+2023-04-17,Ephydridae,Ephydridae,Diptera,51.38693,4.79044,Meuse river basin;BEVL_L217_5231
+2023-04-17,Dytiscidae,Dytiscidae,Coleoptera,51.38693,4.79044,Meuse river basin;BEVL_L217_5231
+2023-04-17,Stratiomyidae,Stratiomyidae,Diptera,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-17,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-17,"Sigara Fabricius, 1775",Corixidae,Hemiptera,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-17,"Aplexa J.Fleming, 1820",Physidae,,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-17,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-17,"Ischnura Charpentier, 1840",Coenagrionidae,Odonata,51.42034,4.64944,Meuse river basin;SLUISKENSVIJVER;BEVL_L107_613
+2023-04-11,Simuliidae,Simuliidae,Diptera,51.34319,4.62103,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.34319,4.62103,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,Tubificidae,Naididae,Tubificida,51.38305,4.61869,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,Gammaridae,Gammaridae,Amphipoda,51.38305,4.61869,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,"Hippeutis Charpentier, 1837",Planorbidae,,51.38305,4.61869,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,"Baetis Leach, 1815",Baetidae,Ephemeroptera,51.38305,4.61869,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-11,Limnephilidae,Limnephilidae,Trichoptera,51.38305,4.61869,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-07,Chironomidae,Chironomidae,Diptera,51.36352,5.00242,Scheldt river basin;BEVL_L217_4711
+2023-04-07,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.36352,5.00242,Scheldt river basin;BEVL_L217_4711
+2023-04-13,Tubificidae,Naididae,Tubificida,51.06571,4.75892,Scheldt river basin;BERGEBEEK;BEVL_L107_740
+2023-04-13,Ephydridae,Ephydridae,Diptera,51.06571,4.75892,Scheldt river basin;BERGEBEEK;BEVL_L107_740
+2023-04-13,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.06571,4.75892,Scheldt river basin;BERGEBEEK;BEVL_L107_740
+2023-04-13,Animalia,,,51.06571,4.75892,Scheldt river basin;BERGEBEEK;BEVL_L107_740
+2023-04-19,Varunidae,Varunidae,Decapoda,51.04081,4.12334,Scheldt river basin;ZEESCHELDE II;BEVL08_41
+2023-04-13,Lumbricidae,Lumbricidae,Crassiclitellata,51.08282,4.93213,Scheldt river basin;VARENDONKSE BEEK;BEVL_L107_695
+2023-04-13,Culicidae,Culicidae,Diptera,51.08282,4.93213,Scheldt river basin;VARENDONKSE BEEK;BEVL_L107_695
+2023-04-13,"Menetus H.Adams & A.Adams, 1855",Planorbidae,,51.08282,4.93213,Scheldt river basin;VARENDONKSE BEEK;BEVL_L107_695
+2023-04-13,Animalia,,,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,Animalia,,,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,"Gyraulus Charpentier, 1837",Planorbidae,,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,"Planorbis O.F.Müller, 1773",Planorbidae,,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,"Pyrrhosoma Charpentier, 1840",Coenagrionidae,Odonata,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-13,Animalia,,,51.19656,4.91862,Scheldt river basin;LARUMSE LOOP;BEVL_L107_654
+2023-04-19,Animalia,,,51.14311,4.33057,Scheldt river basin;ZEESCHELDE III + RUPEL;BEVL17_42
+2023-04-13,Ceratopogonidae,Ceratopogonidae,Diptera,51.08252,4.98657,Scheldt river basin;KLEINE LAAK;BEVL_L111_1095
+2023-04-13,Hydrophilidae,Hydrophilidae,Coleoptera,51.08252,4.98657,Scheldt river basin;KLEINE LAAK;BEVL_L111_1095
+2023-04-13,Asellidae,Asellidae,Isopoda,51.08252,4.98657,Scheldt river basin;KLEINE LAAK;BEVL_L111_1095
+2023-04-13,"Cloeon Leach, 1815",Baetidae,Ephemeroptera,51.08252,4.98657,Scheldt river basin;KLEINE LAAK;BEVL_L111_1095
+2023-04-13,Copepoda,,,51.08252,4.98657,Scheldt river basin;KLEINE LAAK;BEVL_L111_1095
+2023-04-11,Tubificidae,Naididae,Tubificida,51.46276,4.42493,Meuse river basin;SPILLEBEEK;BEVL_L107_741
+2023-04-11,Dytiscidae,Dytiscidae,Coleoptera,51.46276,4.42493,Meuse river basin;SPILLEBEEK;BEVL_L107_741
+2023-04-11,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.46276,4.42493,Meuse river basin;SPILLEBEEK;BEVL_L107_741
+2023-04-13,Lumbriculidae,Lumbriculidae,Lumbriculida,51.10905,4.74525,Scheldt river basin;GOORLOOP;BEVL_L111_1071
+2023-04-13,Psychodidae,Psychodidae,Diptera,51.10905,4.74525,Scheldt river basin;GOORLOOP;BEVL_L111_1071
+2023-04-07,Naididae,Naididae,Tubificida,51.3603,4.99547,Scheldt river basin;BEVL_L217_4711
+2023-04-07,Chironomidae,Chironomidae,Diptera,51.3603,4.99547,Scheldt river basin;BEVL_L217_4711
+2023-04-07,Dytiscidae,Dytiscidae,Coleoptera,51.3603,4.99547,Scheldt river basin;BEVL_L217_4711
+2023-04-07,Asellidae,Asellidae,Isopoda,51.3603,4.99547,Scheldt river basin;BEVL_L217_4711
+2023-04-07,Limnephilidae,Limnephilidae,Trichoptera,51.3603,4.99547,Scheldt river basin;BEVL_L217_4711
+2023-04-14,Naididae,Naididae,Tubificida,51.17043,4.66932,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,Limoniidae,Limoniidae,Diptera,51.17043,4.66932,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,"Menetus H.Adams & A.Adams, 1855",Planorbidae,,51.17043,4.66932,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,Animalia,,,51.17043,4.66932,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-20,Chironomidae,Chironomidae,Diptera,51.41685,4.64253,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,Gammaridae,Gammaridae,Amphipoda,51.41685,4.64253,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,"Anax Leach, 1815",Aeshnidae,Odonata,51.41685,4.64253,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-14,Ceratopogonidae,Ceratopogonidae,Diptera,51.1761,4.66957,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,"Sigara Fabricius, 1775",Corixidae,Hemiptera,51.1761,4.66957,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.1761,4.66957,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-14,Ostracoda,,,51.1761,4.66957,Scheldt river basin;KREKELBEEK;BEVL_L117_659
+2023-04-17,Lumbriculidae,Lumbriculidae,Lumbriculida,51.34843,4.61431,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-17,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.34843,4.61431,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-17,"Nepa Linnaeus, 1758",Nepidae,Hemiptera,51.34843,4.61431,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-17,"Planorbis O.F.Müller, 1773",Planorbidae,,51.34843,4.61431,Meuse river basin;WEERIJSEBEEK L1;BEVL_L107_614
+2023-04-07,Chironomidae,Chironomidae,Diptera,51.2932,4.91077,Scheldt river basin;VISBEEK;BEVL_L111_639
+2023-04-07,"Theromyzon Philippi, 1867",Glossiphoniidae,Rhynchobdellida,51.2932,4.91077,Scheldt river basin;VISBEEK;BEVL_L111_639
+2023-04-07,"Lymnaea Lamarck, 1799",Lymnaeidae,,51.2932,4.91077,Scheldt river basin;VISBEEK;BEVL_L111_639
+2023-04-07,"Nemoura Latreille, 1796",Nemouridae,Plecoptera,51.2932,4.91077,Scheldt river basin;VISBEEK;BEVL_L111_639
+2023-04-20,Chironomidae,Chironomidae,Diptera,51.40329,4.65117,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,Haliplidae,Haliplidae,Coleoptera,51.40329,4.65117,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,Simuliidae,Simuliidae,Diptera,51.38293,4.65139,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,51.38293,4.65139,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,"Sigara Fabricius, 1775",Corixidae,Hemiptera,51.38293,4.65139,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,"Hippeutis Charpentier, 1837",Planorbidae,,51.38293,4.65139,Meuse river basin;WEHAGENBEEK;BEVL_L111_1050
+2023-04-20,"Polycelis Ehrenberg, 1831",Planariidae,Tricladida,51.36639,4.95927,Scheldt river basin;BEVL_L217_4711
+2023-04-20,Tubificidae,Naididae,Tubificida,51.36639,4.95927,Scheldt river basin;BEVL_L217_4711
+2023-04-20,Psychodidae,Psychodidae,Diptera,51.36639,4.95927,Scheldt river basin;BEVL_L217_4711
+2023-04-20,"Plea Leach, 1818",Pleidae,Hemiptera,51.36639,4.95927,Scheldt river basin;BEVL_L217_4711
+2023-04-20,Limnephilidae,Limnephilidae,Trichoptera,51.36639,4.95927,Scheldt river basin;BEVL_L217_4711
+2023-04-20,Naididae,Naididae,Tubificida,51.3576,4.67075,Meuse river basin;BEVL_L217_5273
+2023-04-20,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,51.3576,4.67075,Meuse river basin;BEVL_L217_5273
+2023-04-20,"Velia Latreille, 1804",Veliidae,Hemiptera,51.3576,4.67075,Meuse river basin;BEVL_L217_5273
+2023-04-26,Animalia,,,51.07111,4.37734,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Bithynia Leach, 1818",Bithyniidae,Littorinimorpha,51.07111,4.37734,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Potamopyrgus W.Stimpson, 1865",Tateidae,Littorinimorpha,51.07111,4.37734,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Animalia,,,51.07111,4.37734,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Animalia,,,51.06163,4.40441,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Sigara Fabricius, 1775",Corixidae,Hemiptera,51.06163,4.40441,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Gammaridae,Gammaridae,Amphipoda,51.06163,4.40441,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Platycnemis Burmeister, 1839",Platycnemididae,Odonata,51.06163,4.40441,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Animalia,,,51.06398,4.39419,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.06398,4.39419,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Erpobdella Lamarck, 1818",Erpobdellidae,Arhynchobdellida,51.06665,4.39531,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Crangonyctidae,Crangonyctidae,Amphipoda,51.06665,4.39531,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,"Ischnura Charpentier, 1840",Coenagrionidae,Odonata,51.06665,4.39531,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-26,Animalia,,,51.06665,4.39531,Scheldt river basin;HAZEWINKEL;BEVL05_198
+2023-04-14,Tubificidae,Naididae,Tubificida,51.15485,4.59151,Scheldt river basin;BEGGELBEEK;BEVL_L107_656
+2023-04-14,Chironomidae,Chironomidae,Diptera,51.15485,4.59151,Scheldt river basin;BEGGELBEEK;BEVL_L107_656
+2023-04-14,Dryopidae,Dryopidae,Coleoptera,51.15485,4.59151,Scheldt river basin;BEGGELBEEK;BEVL_L107_656
+2023-04-14,"Hesperocorixa Kirkaldy, 1908",Corixidae,Hemiptera,51.15485,4.59151,Scheldt river basin;BEGGELBEEK;BEVL_L107_656
+2023-04-14,"Physella Haldeman, 1842",Physidae,,51.15485,4.59151,Scheldt river basin;BEGGELBEEK;BEVL_L107_656
+2023-04-28,Gammaridae,Gammaridae,Amphipoda,51.23223,5.16548,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Ischnura Charpentier, 1840",Coenagrionidae,Odonata,51.23223,5.16548,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Limoniidae,Limoniidae,Diptera,51.23069,5.18291,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Hydrophilidae,Hydrophilidae,Coleoptera,51.23069,5.18291,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Acroloxus H.Beck, 1838",Acroloxidae,,51.23069,5.18291,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Ferrissia B.Walker, 1903",Planorbidae,,51.23069,5.18291,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Ecnomidae,Ecnomidae,Trichoptera,51.23069,5.18291,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Chironomidae,Chironomidae,Diptera,51.22424,5.1657,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Potamopyrgus W.Stimpson, 1865",Tateidae,Littorinimorpha,51.22424,5.1657,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Ceratopogonidae,Ceratopogonidae,Diptera,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Animalia,,,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Acroloxus H.Beck, 1838",Acroloxidae,,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,"Physella Haldeman, 1842",Physidae,,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Limnephilidae,Limnephilidae,Trichoptera,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-28,Animalia,,,51.23408,5.17188,Scheldt river basin;DESSELSE ZANDPUTTEN;BEVL05_191
+2023-04-17,Ceratopogonidae,Ceratopogonidae,Diptera,51.38722,4.7901,Meuse river basin;KLEINE MARK;BEVL_L107_609
+2023-04-17,Hydrophilidae,Hydrophilidae,Coleoptera,51.38722,4.7901,Meuse river basin;KLEINE MARK;BEVL_L107_609
+2023-04-17,"Physella Haldeman, 1842",Physidae,,51.38722,4.7901,Meuse river basin;KLEINE MARK;BEVL_L107_609
+2023-04-17,Animalia,,,51.38722,4.7901,Meuse river basin;KLEINE MARK;BEVL_L107_609
+2023-04-20,Ceratopogonidae,Ceratopogonidae,Diptera,51.36459,4.94756,Scheldt river basin;BEVL_L217_4711
+2023-04-20,"Nemoura Latreille, 1796",Nemouridae,Plecoptera,51.36459,4.94756,Scheldt river basin;BEVL_L217_4711
+2023-04-14,Chironomidae,Chironomidae,Diptera,51.07667,3.37355,Scheldt river basin;BEVL_L217_1031
+2023-04-14,Crangonyctidae,Crangonyctidae,Amphipoda,51.07667,3.37355,Scheldt river basin;BEVL_L217_1031
+2023-04-14,Polycentropodidae,Polycentropodidae,Trichoptera,51.07667,3.37355,Scheldt river basin;BEVL_L217_1031
+2023-04-25,Corophiidae,Corophiidae,Amphipoda,51.06586,4.3651,Scheldt river basin;ZEEKANAAL BRUSSEL-SCHELDE - Benedenscheldebekken;BEVL22_216
+2023-04-14,Naididae,Naididae,Tubificida,51.02156,3.46437,Scheldt river basin;REIGERBEEK;BEVL_L107_235
+2023-04-14,"Notonecta Linnaeus, 1758",Notonectidae,Hemiptera,51.02156,3.46437,Scheldt river basin;REIGERBEEK;BEVL_L107_235
+2023-04-14,"Bathyomphalus Charpentier, 1837",Planorbidae,,51.02156,3.46437,Scheldt river basin;REIGERBEEK;BEVL_L107_235
+2023-04-14,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,51.02156,3.46437,Scheldt river basin;REIGERBEEK;BEVL_L107_235
+2023-04-25,Chironomidae,Chironomidae,Diptera,51.06586,4.3651,Scheldt river basin;ZEEKANAAL BRUSSEL-SCHELDE - Benedenscheldebekken;BEVL22_216
+2023-04-21,Mysidae,Mysidae,Mysida,51.05799,4.44694,Scheldt river basin;GROTE VIJVER MECHELEN;BEVL05_197
+2023-04-21,Hydroptilidae,Hydroptilidae,Trichoptera,51.05799,4.44694,Scheldt river basin;GROTE VIJVER MECHELEN;BEVL05_197
+2023-04-12,Tubificidae,Naididae,Tubificida,50.71094,4.31149,Scheldt river basin
+2023-04-12,"Velia Latreille, 1804",Veliidae,Hemiptera,50.71094,4.31149,Scheldt river basin
+2023-04-12,Polycentropodidae,Polycentropodidae,Trichoptera,50.71094,4.31149,Scheldt river basin
+2023-04-27,Chironomidae,Chironomidae,Diptera,50.84057,5.12554,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,Haliplidae,Haliplidae,Coleoptera,50.84057,5.12554,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,"Callicorixa White, 1873",Corixidae,Hemiptera,50.84057,5.12554,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,"Baetis Leach, 1815",Baetidae,Ephemeroptera,50.84057,5.12554,Scheldt river basin;VINNE;BEVL05_119
+2023-04-12,Limoniidae,Limoniidae,Diptera,50.71189,4.3038,Scheldt river basin;BEVL_L217_3832
+2023-04-12,"Cordulegaster Leach, 1815",Cordulegastridae,Odonata,50.71189,4.3038,Scheldt river basin;BEVL_L217_3832
+2023-04-27,Animalia,,,50.83804,5.1213,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,"Lymnaea Lamarck, 1799",Lymnaeidae,,50.83804,5.1213,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,Stratiomyidae,Stratiomyidae,Diptera,50.8438,5.1272,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,"Sigara Fabricius, 1775",Corixidae,Hemiptera,50.8438,5.1272,Scheldt river basin;VINNE;BEVL05_119
+2023-04-27,"Lymnaea Lamarck, 1799",Lymnaeidae,,50.8438,5.1272,Scheldt river basin;VINNE;BEVL05_119
+2023-04-18,Ceratopogonidae,Ceratopogonidae,Diptera,51.2507,3.54462,Scheldt river basin;LEOPOLDKANAAL I;BEVL08_172
+2023-04-18,"Dreissena Van Beneden, 1835",Dreissenidae,Myida,51.2507,3.54462,Scheldt river basin;LEOPOLDKANAAL I;BEVL08_172
+2023-04-17,Gammaridae,Gammaridae,Amphipoda,50.74824,3.6366,Scheldt river basin;BEVL_L217_2952
+2023-04-24,Simuliidae,Simuliidae,Diptera,50.83785,4.64316,Scheldt river basin;DIJLE II;BEVL09_78
+2023-04-24,"Calopteryx Leach, 1815",Calopterygidae,Odonata,50.83785,4.64316,Scheldt river basin;DIJLE II;BEVL09_78
+2023-04-24,Hydropsychidae,Hydropsychidae,Trichoptera,50.83785,4.64316,Scheldt river basin;DIJLE II;BEVL09_78
+2023-04-12,Animalia,,,51.00261,5.6817,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,"Erythromma Charpentier, 1840",Coenagrionidae,Odonata,51.00261,5.6817,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-25,Rhagionidae,Rhagionidae,Diptera,51.05163,4.4402,Scheldt river basin;GETIJDEDIJLE & GETIJDEZENNE;BEVL08_95
+2023-04-12,Ceratopogonidae,Ceratopogonidae,Diptera,50.99569,5.6715,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,"Potamopyrgus W.Stimpson, 1865",Tateidae,Littorinimorpha,50.99569,5.6715,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,Ceratopogonidae,Ceratopogonidae,Diptera,51.0004,5.66628,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,"Cymatia Flor, 1860",Corixidae,Hemiptera,51.0004,5.66628,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,Crangonyctidae,Crangonyctidae,Amphipoda,51.0004,5.66628,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-12,"Caenis Stephens, 1835",Caenidae,Ephemeroptera,51.0004,5.66628,Meuse river basin;EISDEN MIJN;BEVL05_193
+2023-04-21,Tabanidae,Tabanidae,Diptera,51.06726,4.44219,Scheldt river basin;GROTE VIJVER MECHELEN;BEVL05_197
+2023-04-21,"Caenis Stephens, 1835",Caenidae,Ephemeroptera,51.06726,4.44219,Scheldt river basin;GROTE VIJVER MECHELEN;BEVL05_197
+2023-04-17,Oligochaeta,,,50.8327,3.59386,Scheldt river basin;MOLENBEEK - MAARKEBEEK;BEVL17_60
+2023-04-04,"Pisidium C.Pfeiffer, 1821",Sphaeriidae,Sphaeriida,50.90996,3.47798,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-04,"Helobdella Blanchard, 1896",Glossiphoniidae,Rhynchobdellida,50.91425,3.4782,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-04,"Gyraulus Charpentier, 1837",Planorbidae,,50.91425,3.4782,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-04,Oligochaeta,,,50.90979,3.47772,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-04,"Glossiphonia Johnson, 1816",Glossiphoniidae,Rhynchobdellida,50.90979,3.47772,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-04,"Dendrocoelum Ørsted, 1844",Dendrocoelidae,Tricladida,50.90979,3.47772,Scheldt river basin;ZOUBEEK;BEVL_L107_240
+2023-04-03,Chironomidae,Chironomidae,Diptera,50.97318,3.52135,Scheldt river basin;KATTEBEEK;BEVL_L107_241
+2023-04-12,Naididae,Naididae,Tubificida,50.71729,4.22779,Scheldt river basin;ZENNE I;BEVL08_92
+2023-04-12,Chironomidae,Chironomidae,Diptera,50.71729,4.22779,Scheldt river basin;ZENNE I;BEVL08_92
+2023-04-12,"Sigara Fabricius, 1775",Corixidae,Hemiptera,50.71729,4.22779,Scheldt river basin;ZENNE I;BEVL08_92
+2023-04-12,Animalia,,,50.71729,4.22779,Scheldt river basin;ZENNE I;BEVL08_92

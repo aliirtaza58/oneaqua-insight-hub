@@ -1,0 +1,64 @@
+_id,eqb,Corpo idrico,Cod. Stazione,Lat.N,Long.E,RQE corpo idrico,Stato EQB nel corpo idrico,Anno di Campionamento
+1,Fitoplancton,ITF_015_CW-Piana Volturno1,IT15-MD005,41.113508,13.861111,0.82,Buono,2019.0
+2,Fitoplancton,ITF_015_CW-Piana Volturno3,IT15-VR001,40.995662,13.941193,0.65,Buono,2019.0
+3,Fitoplancton,ITF_015_CW-Piana Volturno,IT15-LP001,40.924601,14.004626,0.63,Buono,2019.0
+4,Fitoplancton,ITF_015_CW-ISCHIA 3,IT15-CS023,40.755097,13.929821,0.5,Buono,2019.0
+5,Fitoplancton,ITF_015_CW-ISCHIA4,IT15-CA001,40.739529,13.963688,0.51,Buono,2019.0
+6,Fitoplancton,ITF_015_CW-Litorale Flegreo,IT15-CM014,40.853605,14.035927,1.33,Sufficiente,2019.0
+7,Fitoplancton,ITF_015_CW-Litorale Flegreo1,IT15-ML029,40.79591,14.033661,0.77,Buono,2019.0
+8,Fitoplancton,ITF_015_CW-Litorale Flegreo2,IT15-MI001,40.780423,14.069722,0.63,Buono,2019.0
+9,Fitoplancton,ITF_015_CW-Litorale Flegreo3,IT15-MS032,40.8026,14.092554,0.74,Buono,2019.0
+10,Fitoplancton,ITF_015_CW-Litorale Flegreo4,IT15-LC035,40.824633,14.088878,0.72,Buono,2019.0
+11,Fitoplancton,ITF_015_CW-Litorale Flegreo6,IT15-PZ001,40.813651,14.129723,0.74,Buono,2019.0
+12,Fitoplancton,ITF_015_CW-Litorale Flegreo7,IT15-BG038,40.808893,14.155769,0.76,Buono,2019.0
+13,Fitoplancton,ITF_015_CW-Golfo di Napoli,IT15-NA005,40.822526,14.253334,1.5,Sufficiente,2019.0
+14,Fitoplancton,ITF_015_CW-Piana Sarno,IT15-FS011,40.721723,14.460974,0.86,Buono,2019.0
+15,Fitoplancton,ITF_015_CW-Posillipo,IT15-RV038,40.79711,14.213082,0.62,Buono,2019.0
+16,Fitoplancton,ITF_015_CW-Vesuvio,IT15-TG050,40.765435,14.378727,0.75,Buono,2019.0
+17,Fitoplancton,ITF_015_CW-Penisola Sorrentina,IT15-PG060,40.673633,14.427017,0.98,Buono,2019.0
+18,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno1,IT15-MD004,41.116216,13.869436,0.64,Buono,2019.0
+19,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno1,IT15-MD006,41.103715,13.843268,,,
+20,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno2,IT15-FV001,41.0212333301,13.9197383367,0.53,Sufficiente,2019.0
+21,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno2,IT15-FV003,41.007052,13.895167,,,
+22,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno,IT15-LP002,40.926839,14.008989,0.69,Buono,2019.0
+23,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno,IT15-LP003,40.9197,13.995398,,,
+24,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo,IT15-CM013,40.853874657,14.0429463444,0.5,Sufficiente,2019.0
+25,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo,IT15-CM015,40.850708,14.012433,,,
+26,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo2,IT15-MI002,40.783672,14.070352,0.52,Sufficiente,2019.0
+27,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo2,IT15-MI003,40.772993,14.067325,,,
+28,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo4,IT15-LC034,40.8273739154,14.0832819576,455.0,Sufficiente,2019.0
+29,Macroinvertebrati bentonici,,IT15-LC036,40.8173736332,14.0912824135,,,
+30,Macroinvertebrati bentonici,ITF_015_CW-Litorale Flegreo7,IT15-BG037,40.8123735207,14.1616196994,515.0,Sufficiente,2019.0
+31,Macroinvertebrati bentonici,,IT15-BG039,40.804173,14.150833,,,
+32,Macroinvertebrati bentonici,ITF_015_CW-Golfo di Napoli,IT15-NA004,40.8298733317,14.2362783335,615.0,Buono,2019.0
+33,Macroinvertebrati bentonici,,IT15-NA006,40.8163333305,14.2445000049,,,
+34,Macroinvertebrati bentonici,ITF_015_CW-Piana Sarno,IT15-FS010,40.7263333321,14.4696666628,0.3,Scarso,2019.0
+35,Macroinvertebrati bentonici,,IT15-FS012,40.715832,14.440333,,,
+36,Posidonia oceanica,ITF_015_CW-ISCHIA4,IT15-CA_POS,40.72914,13.96808,0.55,Buono,2019.0
+37,Posidonia oceanica,ITF_015_CW-ISCHIA 3,IT15-CS1_POS,40.757655,13.905681,638.0,Buono,2019.0
+38,Posidonia oceanica,ITF_015_CW-Litorale Flegreo1,IT15-ML_POS,40.787673,14.031998,0.48,Sufficiente,2019.0
+39,Fitoplancton,ITF_015_CW-Piana Volturno1,IT15-MD005,41.113508,13.861111,0.79,Buono,2020.0
+40,Fitoplancton,ITF_015_CW-Piana Volturno3,IT15-VR001,40.995662,13.941193,0.69,Buono,2020.0
+41,Fitoplancton,ITF_015_CW-ISCHIA 3,IT15-CS023,40.755097,13.929821,0.41,Buono,2020.0
+42,Fitoplancton,ITF_015_CW-Litorale Flegreo,IT15-CM014,40.853605,14.035927,1.66,Sufficiente,2020.0
+43,Fitoplancton,ITF_015_CW-Litorale Flegreo1,IT15-ML029,40.79591,14.033661,0.92,Buono,2020.0
+44,Fitoplancton,ITF_015_CW-Litorale Flegreo3,IT15-MS032,40.8026,14.092554,0.41,Buono,2020.0
+45,Fitoplancton,ITF_015_CW-Litorale Flegreo4,IT15-LC035,40.824633,14.088878,0.63,Buono,2020.0
+46,Fitoplancton,ITF_015_CW-Litorale Flegreo6,IT15-PZ001,40.813651,14.129723,0.89,Buono,2020.0
+47,Fitoplancton,ITF_015_CW-Litorale Flegreo7,IT15-BG038,40.808893,14.155769,1.03,Buono,2020.0
+48,Fitoplancton,ITF_015_CW-Golfo di Napoli,IT15-NA005,40.822526,14.253334,1.95,Sufficiente,2020.0
+49,Fitoplancton,ITF_015_CW-Piana Sarno,IT15-FS011,40.721723,14.460974,0.67,Buono,2020.0
+50,Fitoplancton,ITF_015_CW-Posillipo,IT15-RV038,40.79711,14.213082,1.16,Buono,2020.0
+51,Fitoplancton,ITF_015_CW-Vesuvio,IT15-TG050,40.765435,14.378727,0.6,Sufficiente,2020.0
+52,Fitoplancton,ITF_015_CW-Penisola Sorrentina,IT15-PG060,40.673633,14.427017,0.74,Buono,2020.0
+53,Fitoplancton,ITF_015_CW-Penisola Sorrentina1,IT15-SA001,40.641916,14.385189,0.48,Buono,2020.0
+54,Fitoplancton,ITF_015_CW-Monti di Salerno,IT15-SM070,40.653941,14.792916,1.11,Elevato,2020.0
+55,Fitoplancton,ITF_015_CW-Penisola Sorrentina6,IT15-AM047,40.62791,14.60733,0.24,Buono,2020.0
+56,Fitoplancton,ITF_015_CW-Piana Volturno4,IT15-PM001,40.962024,13.987331,0.73,Buono,2020.0
+57,Fitoplancton,ITF_015_CW-Penisola Sorrentina3,IT15-PU001,40.632422,14.346957,0.41,Buono,2020.0
+58,Macroinvertebrati bentonici,ITF_015_CW-Monti di Salerno,IT15-SM069,40.6572025769,14.7949885457,0.81,Elevato,2020.0
+59,Macroinvertebrati bentonici,ITF_015_CW-Monti di Salerno,IT15-SM071,40.639368,14.778317,,,
+60,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno4,IT15-PM001,40.962024,13.987331,0.58,Sufficiente,2020.0
+61,Macroinvertebrati bentonici,ITF_015_CW-Piana Volturno4,IT15-PM003,40.9434,13.8995,,,
+62,Posidonia oceanica,ITF_015_CW-Penisola Sorrentina6,IT15-AM_POS,40.6275807,14.5918794,505.0,Sufficiente,2020.0
+63,Posidonia oceanica,ITF_015_CW-Penisola Sorrentina4,IT15-MaLu_Pos,40.61283,14.33427,685.0,Buono,2020.0

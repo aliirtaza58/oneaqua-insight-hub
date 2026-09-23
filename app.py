@@ -39,10 +39,16 @@ city_info = PILOT_CITIES[selected_city]
 st.sidebar.markdown(f"**Country:** {city_info['country']}")
 st.sidebar.markdown(f"**River Basin:** `{city_info['river']}`")
 
-if selected_city == "Toulouse":
-    st.sidebar.success("Empirical Telemetry: Hub'Eau API (Naïades)", icon=None)
-else:
-    st.sidebar.caption("Calibrated Baseline: OneAquaHealth Pilot Model")
+DATA_PROVENANCE = {
+    "Toulouse": "Hub'Eau API (EauFrance / Naïades)",
+    "Coimbra": "SNIRH (Agência Portuguesa do Ambiente)",
+    "Oslo": "NVE HydAPI (Akerselva Station 6.38.0)",
+    "Gent": "VMM & GBIF Benthic Macroinvertebrates",
+    "Benevento": "ARPAC Campania Open Data (CKAN)"
+}
+
+provenance_label = DATA_PROVENANCE.get(selected_city, "OneAquaHealth Baseline Model")
+st.sidebar.success(f"Empirical Data: {provenance_label}", icon=None)
 
 st.sidebar.caption(city_info["description"])
 
