@@ -13,20 +13,30 @@ def render_map_view(city_data, segments, sensors_df, reports_df):
     # Retrieve map API key from Streamlit secrets if present
     api_key = st.secrets.get("MAP_API_KEY", "")
     
-    if api_key:
-        tiles_url = f"https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{{z}}/{{x}}/{{y}}{{r}}.png?api_key={api_key}"
-        attr_text = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-    else:
-        tiles_url = "CartoDB dark_matter"
-        attr_text = "&copy; OpenStreetMap contributors &copy; CARTO"
-
-    # Initialize Folium Map with clean dark tile layer
+    # Initialize Folium Map
     m = folium.Map(
         location=coords,
         zoom_start=zoom,
-        tiles=tiles_url,
-        attr=attr_text
+        tiles=None  # We add custom TileLayer explicitly
     )
+
+    if api_key:
+        # CartoDB dark tile layer with valid API Key
+        folium.TileLayer(
+            tiles=f"https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png?api_key={api_key}",
+            attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            name="Dark Canvas",
+            subdomains="abcd",
+            max_zoom=19,
+            control=True
+        ).add_to(m)
+    else:
+        # High quality fallback (CartoDB Positron / OpenStreetMap)
+        folium.TileLayer(
+            tiles="CartoDB dark_matter",
+            name="Dark Canvas",
+            control=True
+        ).add_to(m)
     
     # Feature Groups for Layer Control
     fg_streams = folium.FeatureGroup(name="Stream Health Segments", show=True)
