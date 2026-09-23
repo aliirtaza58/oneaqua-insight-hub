@@ -20,20 +20,20 @@ def render_matrix_view(indices):
     <div class="hero-lead-card">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
             <div>
-                <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94A3B8; margin-bottom: 6px;">
-                    🎯 Lead Indicator • Overall Freshwater Ecosystem Vitality
+                <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94A3B8; margin-bottom: 6px;">
+                    Lead Indicator • Overall Freshwater Ecosystem Vitality
                 </div>
                 <div style="display: flex; align-items: baseline; gap: 16px;">
                     <div class="hero-score-badge">{v}</div>
                     <div style="font-size: 1.2rem; color: #64748B; font-weight: 600;">/ 100</div>
                     <span class="{v_chip_class}">● {v_status}</span>
                 </div>
-                <div style="color: #94A3B8; font-size: 0.9rem; margin-top: 8px;">
-                    Baseline Delta: <span style="color: {delta_color}; font-weight: 700; font-family: 'JetBrains Mono', monospace;">{delta_sign}{v_delta} pts</span> vs. European Seasonal Norm
+                <div style="color: #94A3B8; font-size: 0.88rem; margin-top: 8px;">
+                    Baseline Delta: <span style="color: {delta_color}; font-weight: 700; font-family: 'JetBrains Mono', monospace;">{delta_sign}{v_delta} pts</span> vs. European Seasonal Baseline
                 </div>
             </div>
             <div style="text-align: right; background: rgba(11, 14, 20, 0.6); padding: 12px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
-                <div style="color: #64748B; font-size: 0.75rem; text-transform: uppercase; font-weight: 600;">Data Reliability</div>
+                <div style="color: #64748B; font-size: 0.72rem; text-transform: uppercase; font-weight: 600;">Telemetry Reliability</div>
                 <div style="font-family: 'JetBrains Mono', monospace; font-size: 1.3rem; font-weight: 700; color: #00F2FE;">
                     {indices['metrics']['sampling_confidence']}% Conf.
                 </div>
@@ -53,7 +53,7 @@ def render_matrix_view(indices):
         st.markdown(f"""
         <div class="pillar-card">
             <div class="pillar-header">
-                <span>🌱 Ecological Health (EHI)</span>
+                <span>Ecological Health Index (EHI)</span>
                 <span class="{ehi_chip_class}">{indices['EHI_status']}</span>
             </div>
             <div class="pillar-value">{ehi} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
@@ -61,7 +61,7 @@ def render_matrix_view(indices):
                 <div class="{ehi_fill_class}" style="width: {ehi}%;"></div>
             </div>
             <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
-                Oxygenation, benthic macroinvertebrates, & shoreline buffer.
+                Dissolved oxygenation, macroinvertebrate diversity & buffer integrity.
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -73,7 +73,7 @@ def render_matrix_view(indices):
         st.markdown(f"""
         <div class="pillar-card">
             <div class="pillar-header">
-                <span>🦠 Human Health Risk (HHRI)</span>
+                <span>Human Health Risk Index (HHRI)</span>
                 <span class="{hhri_chip_class}">{indices['HHRI_status']}</span>
             </div>
             <div class="pillar-value">{hhri} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
@@ -81,7 +81,7 @@ def render_matrix_view(indices):
                 <div class="{hhri_fill_class}" style="width: {hhri}%;"></div>
             </div>
             <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
-                Pathogen loads, microbial runoff, & mosquito vector density.
+                Microbial pathogen concentration & mosquito vector density.
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -93,7 +93,7 @@ def render_matrix_view(indices):
         st.markdown(f"""
         <div class="pillar-card">
             <div class="pillar-header">
-                <span>🌡️ Climate & Urban Stress (UCSI)</span>
+                <span>Urban Climate Stress Index (UCSI)</span>
                 <span class="{ucsi_chip_class}">{indices['UCSI_status']}</span>
             </div>
             <div class="pillar-value">{ucsi} <span style="font-size: 1rem; color: #64748B;">/ 100</span></div>
@@ -101,7 +101,7 @@ def render_matrix_view(indices):
                 <div class="{ucsi_fill_class}" style="width: {ucsi}%;"></div>
             </div>
             <div style="color: #94A3B8; font-size: 0.8rem; margin-top: 6px;">
-                Urban heat island delta & stormwater absorption capacity.
+                Thermal anomaly delta & urban stormwater retention vulnerability.
             </div>
         </div>
         """, unsafe_allow_html=True)

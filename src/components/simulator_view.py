@@ -7,35 +7,35 @@ def render_simulator_sidebar():
     Returns (temp_delta, rain_delta, riparian_delta).
     """
     st.sidebar.markdown("---")
-    st.sidebar.markdown("### ⚡ Scenario Simulator")
-    st.sidebar.caption("Model climate extremes or interventions against live stream metrics.")
+    st.sidebar.markdown("### Scenario Sandbox")
+    st.sidebar.caption("Stress-test urban freshwater indicators against simulated climate shocks & nature-based solutions.")
 
     selected_preset = st.sidebar.selectbox(
-        "Quick Scenario Preset:",
+        "Simulation Preset:",
         options=list(SCENARIO_PRESETS.keys()),
         index=0,
         key="scenario_preset"
     )
 
     preset_data = SCENARIO_PRESETS[selected_preset]
-    st.sidebar.info(f"{preset_data['desc']}", icon="💡")
+    st.sidebar.info(f"{preset_data['desc']}")
 
     temp_delta = st.sidebar.slider(
-        "☀️ Heatwave Spike (°C)",
+        "Temperature Anomaly (°C)",
         min_value=-2.0, max_value=6.0,
         value=float(preset_data["temp_delta"]),
         step=0.5,
         key="temp_delta"
     )
     rain_delta = st.sidebar.slider(
-        "🌧️ Storm Runoff (mm/hr)",
+        "Storm Runoff Intensity (mm/hr)",
         min_value=0.0, max_value=60.0,
         value=float(preset_data["rain_delta"]),
         step=5.0,
         key="rain_delta"
     )
     riparian_delta = st.sidebar.slider(
-        "🌿 Buffer Restoration (%)",
+        "Riparian Buffer Enhancement (%)",
         min_value=0.0, max_value=40.0,
         value=float(preset_data["riparian_delta"]),
         step=5.0,
@@ -43,3 +43,4 @@ def render_simulator_sidebar():
     )
 
     return temp_delta, rain_delta, riparian_delta
+

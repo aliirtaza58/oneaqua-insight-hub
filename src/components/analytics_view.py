@@ -7,12 +7,12 @@ def render_analytics_view(df):
     Renders dynamic multi-axis time series charts, threshold danger zones,
     and an environmental correlation matrix.
     """
-    st.markdown("<div class='ui-section-title'>📈 Telemetry Trends & Environmental Correlations</div>", unsafe_allow_html=True)
+    st.markdown("<div class='ui-section-title'>Telemetry Trends & Environmental Correlations</div>", unsafe_allow_html=True)
     
     tab1, tab2, tab3 = st.tabs([
-        "🌊 Oxygenation & Temperature",
-        "🦠 Pathogen & Runoff Spikes",
-        "🔍 Parameter Correlation Matrix"
+        "Oxygenation & Water Temperature",
+        "Pathogen Loads & Runoff Dynamics",
+        "Multi-Parameter Correlation Matrix"
     ])
     
     with tab1:

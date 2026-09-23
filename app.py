@@ -28,9 +28,9 @@ st.set_page_config(
 apply_custom_styles()
 
 # ── Sidebar ──────────────────────────────────────────────────────────────────
-st.sidebar.markdown("### 🏙️ EU Pilot Site")
+st.sidebar.markdown("### EU Pilot Site Selection")
 selected_city = st.sidebar.selectbox(
-    "Select Pilot City:",
+    "Pilot City:",
     options=list(PILOT_CITIES.keys()),
     index=0
 )
@@ -44,11 +44,11 @@ st.sidebar.caption(city_info["description"])
 temp_delta, rain_delta, riparian_delta = render_simulator_sidebar()
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("### 🎯 Track Alignment")
+st.sidebar.markdown("### Track Alignment")
 st.sidebar.info(
     "**Track 2: Data-to-Insight**\n\n"
-    "Bridging citizen observations, IoT stream sensors, and climate stress "
-    "indicators into actionable decision matrices for public health & resilience."
+    "Harmonizing crowd-sourced citizen observations, in-situ IoT telemetry, "
+    "and climate stress indicators into actionable decision support for urban freshwater health."
 )
 
 # ── Data ─────────────────────────────────────────────────────────────────────
@@ -68,12 +68,12 @@ indices = calculate_one_health_indices(
 st.markdown("""
 <div class="brand-header">
     <div class="brand-title-group">
-        <h1>🌊 OneAqua Insight Hub</h1>
+        <h1>OneAqua Insight Hub</h1>
         <p>IEEE OneAquaHealth Global Hackathon 2026 — Track 2: Data-to-Insight<br>
         Harmonizing Telemetry &amp; Citizen Science into One Health Intelligence</p>
     </div>
     <div class="live-beacon">
-        <span class="pulse-dot"></span> Live Telemetry Active
+        <span class="pulse-dot"></span> Telemetry Stream Active
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -85,20 +85,20 @@ st.write("")
 
 # ── Band 3: Main Workspace Tabs ───────────────────────────────────────────────
 tab_map, tab_analytics, tab_citizen, tab_policy = st.tabs([
-    "🗺️ Geospatial Intelligence Map",
-    "📈 Temporal Analytics & Correlation",
-    "👥 Citizen Science Stream Watch",
-    "📄 Executive One Health Policy Brief"
+    "Geospatial Intelligence Map",
+    "Temporal Analytics & Correlation",
+    "Citizen Science Stream Watch",
+    "Executive Policy Brief"
 ])
 
 with tab_map:
     st.markdown(
-        "<div class='ui-section-title'>🗺️ Multi-Layer Stream Topology & Telemetry Network</div>",
+        "<div class='ui-section-title'>Multi-Layer Stream Topology & Telemetry Network</div>",
         unsafe_allow_html=True
     )
     st.markdown(
-        "Interactive GIS map showing stream reach health, automated IoT monitoring nodes, "
-        "and crowd-sourced citizen alerts."
+        "Interactive GIS map displaying stream reach health, automated IoT monitoring stations, "
+        "and crowd-sourced citizen observations."
     )
     render_map_view(city_info, segments, sensors_df, reports_df)
 
@@ -107,17 +107,17 @@ with tab_analytics:
 
 with tab_citizen:
     st.markdown(
-        "<div class='ui-section-title'>👥 Citizen Science Stream Watch Feed</div>",
+        "<div class='ui-section-title'>Citizen Science Stream Watch Feed</div>",
         unsafe_allow_html=True
     )
     st.markdown(
         "Empowering local communities to validate stream water quality, report algae "
-        "blooms, and track biodiversity."
+        "blooms, and track macroinvertebrate biodiversity."
     )
 
     col_c1, col_c2 = st.columns([3, 2])
     with col_c1:
-        st.markdown("##### 📋 Verified Field Reports")
+        st.markdown("##### Verified Field Observations")
         st.dataframe(
             reports_df[[
                 "report_id", "reporter", "category", "severity",
@@ -127,7 +127,7 @@ with tab_citizen:
             hide_index=True
         )
     with col_c2:
-        st.markdown("##### ➕ Submit New Field Observation")
+        st.markdown("##### Log Field Observation")
         with st.form("citizen_report_form"):
             rep_category = st.selectbox(
                 "Observation Category:",
@@ -143,11 +143,11 @@ with tab_citizen:
                 "Sensory Description:",
                 "Observed cloudy water with slight sulfur odor near footbridge."
             )
-            submit_report = st.form_submit_button("🚀 Submit Citizen Report")
+            submit_report = st.form_submit_button("Submit Observation")
             if submit_report:
                 st.success(
-                    "✅ Observation logged! Automated AI validation confidence: 91% "
-                    "(Flagged for municipal eco-patrol)."
+                    "Observation recorded. AI validation score: 91% "
+                    "(Queued for municipal eco-patrol review)."
                 )
 
 with tab_policy:
@@ -158,7 +158,7 @@ st.markdown("---")
 st.markdown("""
 <div style="display:flex; justify-content:space-between; align-items:center;
             color:#64748B; font-size:0.82rem; flex-wrap:wrap; gap:8px;">
-    <div>🌊 <b>OneAqua Insight Hub</b> | IEEE OneAquaHealth Global Hackathon 2026</div>
+    <div><b>OneAqua Insight Hub</b> | IEEE OneAquaHealth Global Hackathon 2026</div>
     <div>EU Horizon Europe • Coimbra · Toulouse · Benevento · Gent · Oslo</div>
 </div>
 """, unsafe_allow_html=True)

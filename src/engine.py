@@ -5,25 +5,25 @@ SCENARIO_PRESETS = {
         "temp_delta": 0.0,
         "rain_delta": 0.0,
         "riparian_delta": 0.0,
-        "desc": "Normal seasonal conditions with standard urban stormwater buffer capacity."
+        "desc": "Standard seasonal baseline under typical urban drainage conditions."
     },
-    "☀️ Summer Heatwave Event": {
+    "Summer Heatwave Anomaly": {
         "temp_delta": 3.5,
         "rain_delta": 0.0,
         "riparian_delta": 0.0,
-        "desc": "Simulates elevated water temperatures, reduced dissolved oxygen, and heightened vector breeding."
+        "desc": "Elevated thermal stress driving dissolved oxygen depletion and accelerated vector breeding cycles."
     },
-    "🌧️ Flash Storm Runoff Surge": {
+    "Storm Runoff Surge": {
         "temp_delta": -0.5,
         "rain_delta": 40.0,
         "riparian_delta": 0.0,
-        "desc": "Simulates high urban runoff, stormwater overflow, and acute microbial pathogen spikes."
+        "desc": "Intense precipitation causing sewer overflow and high microbial pathogen influx."
     },
-    "🌿 25% Riparian Eco-Restoration": {
+    "Riparian Eco-Restoration (25%)": {
         "temp_delta": 0.0,
         "rain_delta": 0.0,
         "riparian_delta": 25.0,
-        "desc": "Simulates restored urban vegetation buffer zones mitigating heat and filtering runoff."
+        "desc": "Restored vegetated buffer zones buffering thermal gain and naturally filtering stormwater runoff."
     }
 }
 
@@ -107,26 +107,26 @@ def generate_ai_executive_summary(city_name, indices):
     hhri = indices["HHRI"]
     ucsi = indices["UCSI"]
 
-    summary = f"### 📑 One Health Executive Advisory: {city_name}\n\n"
+    summary = f"### One Health Executive Advisory: {city_name}\n\n"
     summary += f"**Overall Ecosystem Vitality:** `{v}/100` ({indices['vitality_status']})  \n"
-    summary += f"**Monitoring Confidence:** `{indices['metrics']['sampling_confidence']}%` via continuous telemetry & citizen observations.\n\n"
+    summary += f"**Monitoring Confidence:** `{indices['metrics']['sampling_confidence']}%` (Integrated IoT sensor telemetry & validated citizen observation stream).\n\n"
     summary += "---\n\n"
 
     if ehi < 50:
-        summary += f"⚠️ **Aquatic Ecosystem Alert (EHI: {ehi}/100)**: Stream segment telemetry shows dissolved oxygen levels dropped to **{indices['metrics']['eff_do']} mg/L** with benthic macroinvertebrate diversity rated at **{indices['metrics']['eff_macro']}/10**, indicating chronic organic pollution.\n\n"
+        summary += f"**Aquatic Ecosystem Alert (EHI: {ehi}/100)**: Stream segment telemetry indicates dissolved oxygen levels dropped to **{indices['metrics']['eff_do']} mg/L** with benthic macroinvertebrate diversity score of **{indices['metrics']['eff_macro']}/10**, reflecting persistent ecological stress.\n\n"
     else:
-        summary += f"✅ **Aquatic Ecosystem Vitality (EHI: {ehi}/100)**: Stream oxygenation (**{indices['metrics']['eff_do']} mg/L**) and macroinvertebrate bio-indicators remain stable within European Water Framework Directive standards.\n\n"
+        summary += f"**Aquatic Ecosystem Vitality (EHI: {ehi}/100)**: Stream oxygenation (**{indices['metrics']['eff_do']} mg/L**) and macroinvertebrate bio-indicators meet standard European Water Framework Directive ecological thresholds.\n\n"
 
     if hhri >= 50:
-        summary += f"🚨 **Public Health Precaution (HHRI: {hhri}/100)**: Microbial pathogen indicators (E. coli load: **{indices['metrics']['eff_e_coli']} CFU/100mL**) and adult Diptera vector breeding (**{indices['metrics']['eff_vector']}/100**) exceed safe recreational thresholds. Municipal advisories recommended for public water contact.\n\n"
+        summary += f"**Public Health Advisory (HHRI: {hhri}/100)**: Microbial pathogen indicators (E. coli: **{indices['metrics']['eff_e_coli']} CFU/100mL**) and vector breeding index (**{indices['metrics']['eff_vector']}/100**) exceed safe recreational thresholds. Municipal advisories recommended for public contact zones.\n\n"
     else:
-        summary += f"🟢 **Public Health Safety (HHRI: {hhri}/100)**: Microbial loads and mosquito vector densities are within safe public recreational margins.\n\n"
+        summary += f"**Public Health Status (HHRI: {hhri}/100)**: Microbial loads and disease vector densities remain within standard public safety baselines.\n\n"
 
-    summary += "#### 🛠️ High-Priority Mitigation Interventions:\n"
+    summary += "#### High-Priority Mitigation Interventions:\n"
     if indices['metrics']['eff_riparian'] < 55:
-        summary += "1. **Riparian Buffer Zone Expansion**: Plant native shoreline vegetation along central urban corridors to lower water temperatures by up to 1.8°C.\n"
+        summary += "1. **Riparian Buffer Expansion**: Plant native shoreline vegetation along central stream reaches to reduce ambient water temperatures and trap diffuse nutrient runoff.\n"
     if indices['metrics']['eff_e_coli'] > 350:
-        summary += "2. **Targeted Outfall Bio-filtration**: Install permeable gravel wetland filters at urban stormwater discharge points.\n"
-    summary += "3. **Citizen Science Deployment**: Mobilize community water sentinels for bi-weekly benthic macroinvertebrate index validation."
+        summary += "2. **Targeted Outfall Bio-filtration**: Deploy permeable gravel wetland filters at urban stormwater discharge points to minimize pathogen loading.\n"
+    summary += "3. **Community Sentinel Monitoring**: Coordinate scheduled citizen macroinvertebrate surveys to maintain dense ground-truth validation."
 
     return summary
