@@ -12,10 +12,14 @@ def update_sliders_from_preset():
     st.session_state["rain_delta"] = float(preset_data["rain_delta"])
     st.session_state["riparian_delta"] = float(preset_data["riparian_delta"])
 
-def render_simulator_sidebar():
+def render_simulator_sidebar(city_name=None):
     """
     Renders the scenario sandbox controls inside the sidebar as a compact control panel.
     Returns (temp_delta, rain_delta, riparian_delta).
+
+    Note: Scenario slider state is intentionally city-agnostic — this lets users apply
+    the same climate shock (e.g. +3.5°C heatwave) across pilot cities for comparative
+    analysis without resetting the scenario on every city switch.
     """
     st.sidebar.markdown("---")
     st.sidebar.markdown("### Scenario Sandbox")

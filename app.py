@@ -109,12 +109,10 @@ with tab_map:
         "Interactive GIS map displaying stream reach health, automated IoT monitoring stations, "
         "and crowd-sourced citizen observations."
     )
-    # Active reports from session state
-    if f"reports_{selected_city}" not in st.session_state:
-        st.session_state[f"reports_{selected_city}"] = reports_df.copy()
-    active_reports = st.session_state[f"reports_{selected_city}"]
+    # Read active reports from session state (initialized once in tab_citizen)
+    active_reports = st.session_state.get(f"reports_{selected_city}", reports_df.copy())
 
-    render_map_view(city_info, segments, sensors_df, active_reports)
+    render_map_view(city_info, indices.get("simulated_segments", segments), sensors_df, active_reports)
 
 with tab_analytics:
     render_analytics_view(time_series_df)

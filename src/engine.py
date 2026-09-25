@@ -95,7 +95,17 @@ def calculate_one_health_indices(segments_data, sim_temp_delta=0.0, sim_rain_del
             "eff_riparian": round(eff_riparian, 1),
             "sensor_nodes_online": 3,
             "sampling_confidence": 94
-        }
+        },
+        "simulated_segments": [
+            {
+                **seg,
+                "do_mg_l": round(max(2.0, seg["do_mg_l"] - (0.25 * sim_temp_delta) + (0.12 * (sim_riparian_delta / 10.0))), 2),
+                "e_coli": int(max(40.0, seg["e_coli"] + (18.0 * sim_rain_delta) - (6.0 * (sim_riparian_delta / 10.0)))),
+                "vector_density": round(float(np.clip(seg["vector_density"] + (3.8 * sim_temp_delta) - (1.8 * (sim_riparian_delta / 10.0)), 5.0, 100.0)), 1),
+                "status": "Good" if max(2.0, seg["do_mg_l"] - (0.25 * sim_temp_delta)) >= 6.5 and (seg["e_coli"] + 18.0 * sim_rain_delta) < 350 else ("Moderate" if max(2.0, seg["do_mg_l"] - (0.25 * sim_temp_delta)) >= 4.5 else "Critical")
+            }
+            for seg in segments_data
+        ]
     }
 
 def detect_environmental_anomalies(time_series_df):
