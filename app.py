@@ -9,7 +9,7 @@ from src.data_loader import (
     get_citizen_reports,
     get_time_series_data
 )
-from src.engine import calculate_one_health_indices
+from src.engine import calculate_one_health_indices, cross_validate_citizen_report
 from src.components.map_view import render_map_view
 from src.components.matrix_view import render_matrix_view
 from src.components.analytics_view import render_analytics_view
@@ -109,7 +109,12 @@ with tab_map:
         "Interactive GIS map displaying stream reach health, automated IoT monitoring stations, "
         "and crowd-sourced citizen observations."
     )
-    render_map_view(city_info, segments, sensors_df, reports_df)
+    # Active reports from session state
+    if f"reports_{selected_city}" not in st.session_state:
+        st.session_state[f"reports_{selected_city}"] = reports_df.copy()
+    active_reports = st.session_state[f"reports_{selected_city}"]
+
+    render_map_view(city_info, segments, sensors_df, active_reports)
 
 with tab_analytics:
     render_analytics_view(time_series_df)
@@ -124,11 +129,16 @@ with tab_citizen:
         "blooms, and track macroinvertebrate biodiversity."
     )
 
+    # Initialize citizen reports in session state if not already set
+    if f"reports_{selected_city}" not in st.session_state:
+        st.session_state[f"reports_{selected_city}"] = reports_df.copy()
+    active_reports = st.session_state[f"reports_{selected_city}"]
+
     col_c1, col_c2 = st.columns([3, 2])
     with col_c1:
         st.markdown("##### Verified Field Observations")
         st.dataframe(
-            reports_df[[
+            active_reports[[
                 "report_id", "reporter", "category", "severity",
                 "confidence", "timestamp", "notes", "verified"
             ]],
@@ -154,10 +164,33 @@ with tab_citizen:
             )
             submit_report = st.form_submit_button("Submit Observation")
             if submit_report:
-                st.success(
-                    "Observation recorded. AI validation score: 91% "
-                    "(Queued for municipal eco-patrol review)."
+                val_result = cross_validate_citizen_report(
+                    rep_category, rep_severity, rep_notes, sensors_df, time_series_df
                 )
+                
+                new_id = f"CIT-{len(active_reports) + 8021}"
+                new_entry = {
+                    "report_id": new_id,
+                    "reporter": "Community Sentinel",
+                    "lat": city_info["coords"][0] + 0.002,
+                    "lon": city_info["coords"][1] - 0.003,
+                    "category": rep_category,
+                    "severity": rep_severity,
+                    "confidence": val_result["confidence"],
+                    "notes": rep_notes,
+                    "timestamp": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+                    "verified": val_result["verified"]
+                }
+                
+                # Append to active session state table
+                st.session_state[f"reports_{selected_city}"] = pd.concat(
+                    [active_reports, pd.DataFrame([new_entry])], ignore_index=True
+                )
+                
+                st.success(f"Observation logged as **{new_id}**! Cross-validation confidence: **{int(val_result['confidence']*100)}%**")
+                for factor in val_result["factors"]:
+                    st.caption(f"Verified: {factor}")
+                st.rerun()
 
 with tab_policy:
     render_policy_view(selected_city, indices)

@@ -1,13 +1,25 @@
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from src.engine import detect_environmental_anomalies
 
 def render_analytics_view(df):
     """
     Renders dynamic multi-axis time series charts, threshold danger zones,
-    and an environmental correlation matrix.
+    early warning alerts, and an environmental correlation matrix.
     """
     st.markdown("<div class='ui-section-title'>Telemetry Trends & Environmental Correlations</div>", unsafe_allow_html=True)
+    
+    # ── Early Warning Anomaly Radar ──────────────────────────────────────────
+    anomalies = detect_environmental_anomalies(df)
+    if anomalies:
+        for alert in anomalies:
+            if alert["level"] == "danger":
+                st.error(f"**{alert['title']}**: {alert['detail']}")
+            elif alert["level"] == "warning":
+                st.warning(f"**{alert['title']}**: {alert['detail']}")
+            else:
+                st.info(f"**{alert['title']}**: {alert['detail']}")
     
     tab1, tab2, tab3 = st.tabs([
         "Oxygenation & Water Temperature",

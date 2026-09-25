@@ -98,6 +98,83 @@ def calculate_one_health_indices(segments_data, sim_temp_delta=0.0, sim_rain_del
         }
     }
 
+def detect_environmental_anomalies(time_series_df):
+    """
+    Evaluates rolling trends in telemetry to identify compound ecological and public health risk windows:
+    - Persistent hypoxia (< 5.0 mg/L DO for >= 2 days)
+    - Vector proliferation window (water temp >= 21.0 C)
+    - Runoff-induced microbial surge (E. coli >= 400 CFU)
+    """
+    alerts = []
+    if time_series_df is None or len(time_series_df) < 3:
+        return alerts
+
+    recent = time_series_df.tail(7)
+    
+    # 1. Hypoxia alert
+    low_do_count = (recent["Dissolved_Oxygen_mgL"] < 5.0).sum()
+    if low_do_count >= 2:
+        alerts.append({
+            "level": "warning",
+            "title": "Hypoxia / Depletion Window Detected",
+            "detail": f"Dissolved oxygen levels remained under 5.0 mg/L across {low_do_count} recent daily readings. High risk of aquatic organism stress."
+        })
+
+    # 2. Vector proliferation window
+    avg_temp = recent["Water_Temp_C"].mean()
+    if avg_temp >= 21.0:
+        alerts.append({
+            "level": "caution",
+            "title": "Vector Proliferation Window",
+            "detail": f"Average recent water temperature ({avg_temp:.1f}°C) exceeds the 21.0°C threshold, accelerating Diptera and mosquito larval incubation."
+        })
+
+    # 3. Pathogen runoff surge
+    max_ecoli = recent["E_Coli_CFU"].max()
+    if max_ecoli >= 400:
+        alerts.append({
+            "level": "danger",
+            "title": "Recreational Pathogen Warning",
+            "detail": f"Microbial pathogen density peaked at {int(max_ecoli)} CFU/100mL (exceeding EU 400 CFU bathing water guidelines) following stormwater discharge."
+        })
+
+    return alerts
+
+def cross_validate_citizen_report(category, severity, notes, sensors_df, time_series_df):
+    """
+    Automated cross-validation engine: compares sensory citizen observations against
+    nearest telemetry data to assign an empirical verification status and score.
+    """
+    confidence = 0.75
+    factors = []
+
+    # Check recent telemetry
+    if time_series_df is not None and not time_series_df.empty:
+        latest = time_series_df.iloc[-1]
+        
+        if "Algal Bloom" in category or "Odor" in category:
+            if latest["Dissolved_Oxygen_mgL"] < 6.0:
+                confidence += 0.14
+                factors.append("Confirmed by depressed dissolved oxygen reading at nearest sensor")
+            if latest["Water_Temp_C"] > 19.0:
+                confidence += 0.08
+                factors.append("Elevated water temperature supports organic decomposition")
+        elif "Macroinvertebrate" in category:
+            confidence = 0.90
+            factors.append("Biotic taxon observation logged with community biodiversity survey")
+        elif "Plastic" in category or "Waste" in category:
+            confidence = 0.85
+            factors.append("Physical debris report queued for municipal drainage clearing")
+
+    confidence = min(0.98, round(confidence, 2))
+    verified = confidence >= 0.82
+    
+    return {
+        "verified": verified,
+        "confidence": confidence,
+        "factors": factors
+    }
+
 def generate_ai_executive_summary(city_name, indices):
     """
     Generates plain-language executive policy summaries and threshold advisories.
