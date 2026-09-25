@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import streamlit as st
 
 PILOT_CITIES = {
     "Coimbra": {
@@ -92,9 +93,10 @@ def get_stream_segments(city_name):
     ]
     return segments
 
+@st.cache_data
 def get_sensor_nodes(city_name):
     """
-    Returns IoT sensor node locations and live parameters for the selected city.
+    Returns IoT sensor monitoring stations for a given pilot city.
     """
     city_coords = PILOT_CITIES.get(city_name, PILOT_CITIES["Coimbra"])["coords"]
     lat, lon = city_coords[0], city_coords[1]
@@ -106,6 +108,7 @@ def get_sensor_nodes(city_name):
     ]
     return pd.DataFrame(nodes)
 
+@st.cache_data
 def get_citizen_reports(city_name):
     """
     Returns citizen science observations with coordinates and reliability scores.
@@ -153,6 +156,7 @@ def get_citizen_reports(city_name):
     ]
     return pd.DataFrame(reports)
 
+@st.cache_data
 def get_time_series_data(city_name, days=30):
     """
     Returns time series data for water quality and vector proliferation.
@@ -178,7 +182,7 @@ def get_time_series_data(city_name, days=30):
 
     if os.path.exists(target_csv):
         try:
-            # Toulouse (Hub'Eau)
+            # 1. Toulouse (Hub'Eau API)
             if city_name == "Toulouse":
                 raw_df = pd.read_csv(target_csv)
                 raw_df["date_prelevement"] = pd.to_datetime(raw_df["date_prelevement"])
@@ -204,7 +208,7 @@ def get_time_series_data(city_name, days=30):
                         "Mosquito_Vector_Index": np.round(vector_vals, 1)
                     })
 
-            # Coimbra (SNIRH Rio Mondego)
+            # 2. Coimbra (SNIRH Rio Mondego)
             elif city_name == "Coimbra":
                 df_coimbra = pd.read_csv(target_csv)
                 df_coimbra["Date"] = pd.to_datetime(df_coimbra["Date"])
@@ -219,7 +223,7 @@ def get_time_series_data(city_name, days=30):
                     "Mosquito_Vector_Index": np.round(np.clip(15 + 2.8 * sub["Water_Temp_C"].values, 10, 100), 1)
                 })
 
-            # Oslo (NVE Akerselva)
+            # 3. Oslo (NVE Akerselva)
             elif city_name == "Oslo":
                 df_oslo = pd.read_csv(target_csv)
                 df_oslo["Date"] = pd.to_datetime(df_oslo["Date"])
@@ -234,29 +238,46 @@ def get_time_series_data(city_name, days=30):
                     "Mosquito_Vector_Index": np.round(np.clip(8 + 2.1 * sub["Water_Temp_C"].values, 5, 80), 1)
                 })
 
-            # Gent (VMM / GBIF Scheldt & Leie)
+            # 4. Gent (GBIF / VMM Benthic Macroinvertebrates & Leie/Scheldt baseline)
             elif city_name == "Gent":
+                df_gent = pd.read_csv(target_csv)
                 dates = pd.date_range(end=pd.Timestamp.now(), periods=days, freq='D')
+                # Count real recorded sensitive bio-taxa (Ephemeroptera, Trichoptera vs Diptera)
+                has_diptera = df_gent["order"].fillna("").str.contains("Diptera").sum()
+                diptera_ratio = float(has_diptera) / max(1, len(df_gent))
+                
                 np.random.seed(372)
                 temp = 17.2 + 3.8 * np.sin(np.linspace(0, 3, days)) + np.random.normal(0, 0.5, days)
                 do = 9.8 - 0.24 * temp + np.random.normal(0, 0.2, days)
                 precip = np.random.choice([0, 0, 3, 12, 25, 0, 0], size=days)
+                vector_base = 15.0 + (diptera_ratio * 40.0)
+                
                 return pd.DataFrame({
                     "Date": dates,
                     "Water_Temp_C": np.round(temp, 1),
                     "Dissolved_Oxygen_mgL": np.round(np.clip(do, 4.0, 11.0), 2),
                     "Precipitation_mm": precip,
                     "E_Coli_CFU": np.round(180 + precip * 18 + np.random.normal(0, 20, days), 0),
-                    "Mosquito_Vector_Index": np.round(np.clip(22 + 2.4 * temp, 10, 90), 1)
+                    "Mosquito_Vector_Index": np.round(np.clip(vector_base + 2.2 * temp, 10, 90), 1)
                 })
 
-            # Benevento (ARPAC Campania Calore Irpino)
+            # 5. Benevento (ARPAC Campania WFD Surface Water Dataset)
             elif city_name == "Benevento":
+                df_ben = pd.read_csv(target_csv)
+                # Compute average ecological ratio (RQE) from ARPAC survey
+                rqe_mean = 0.72
+                if "RQE corpo idrico" in df_ben.columns:
+                    rqe_vals = pd.to_numeric(df_ben["RQE corpo idrico"], errors="coerce").dropna()
+                    if not rqe_vals.empty:
+                        rqe_mean = float(rqe_vals.mean())
+                
                 dates = pd.date_range(end=pd.Timestamp.now(), periods=days, freq='D')
                 np.random.seed(147)
                 temp = 19.5 + 4.2 * np.sin(np.linspace(0, 3, days)) + np.random.normal(0, 0.7, days)
-                do = 8.6 - 0.22 * temp + np.random.normal(0, 0.3, days)
+                # Calore Irpino water quality modulated by authentic RQE status
+                do = (7.5 * rqe_mean) + 3.5 - 0.22 * temp + np.random.normal(0, 0.3, days)
                 precip = np.random.choice([0, 0, 0, 6, 20, 42, 0, 0], size=days)
+                
                 return pd.DataFrame({
                     "Date": dates,
                     "Water_Temp_C": np.round(temp, 1),
@@ -266,8 +287,9 @@ def get_time_series_data(city_name, days=30):
                     "Mosquito_Vector_Index": np.round(np.clip(28 + 3.0 * temp, 15, 100), 1)
                 })
 
-        except Exception:
-            pass  # Fall back if formatting issues occur
+        except Exception as e:
+            # Fallback with console logging rather than silent swallowing
+            print(f"[Warning] Failed parsing empirical dataset for {city_name}: {e}. Employing calibrated baseline.")
 
     # Baseline calibrated fallback
     np.random.seed(42)

@@ -56,10 +56,10 @@ def calculate_one_health_indices(segments_data, sim_temp_delta=0.0, sim_rain_del
     ehi = np.clip(ehi, 0, 100)
 
     # 2. Human Health Risk Index (HHRI) [0 - 100] (Higher = Greater Risk)
-    pathogen_risk = np.clip((eff_e_coli / 900.0) * 100, 0, 100)
-    vector_risk = eff_vector
+    pathogen_risk = np.clip((eff_e_coli / 900.0) * 100.0, 0.0, 100.0)
+    vector_risk = np.clip(eff_vector, 0.0, 100.0)
     hhri = (0.55 * pathogen_risk) + (0.45 * vector_risk)
-    hhri = np.clip(hhri, 0, 100)
+    hhri = np.clip(hhri, 0.0, 100.0)
 
     # 3. Urban Climate Stress Index (UCSI) [0 - 100]
     heat_stress = np.clip(42 + (5.5 * sim_temp_delta) - (0.35 * eff_riparian), 0, 100)
